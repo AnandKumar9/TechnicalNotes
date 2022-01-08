@@ -21,6 +21,8 @@ Skipped - <br>
 5.8: WeakMap, WeakSet <br>
 6.9: func.call, func.apply <br>
 6.10: Function Binding <br>
+8.3: Native prototypes <br>
+9.5: Extending built-in classes <br>
 
 12/25 - 11 chapters left. 11*10 = 110 hrs, so 10 days? That is Jan 4th. Is that worth it. Well if I really have learnt an important language by the end of it, I think yes.
 
