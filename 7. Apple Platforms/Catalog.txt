@@ -1,0 +1,34 @@
+Apple Developer Videos -
+https://docs.google.com/spreadsheets/d/1b5_i0HhzGC7TM0O_Yzb4Vb5qwlwgrtTf1HsrycFThGE/edit#gid=409775223
+
+last updated - Apr 2022 (before WWDC)
+
+How to update -
+Visit each of the topics in https://developer.apple.com/videos/topics/ and insert entries for videos since the time my list was last updated.
+For easily copying, copy all the HTML contents and try to use bash scripts (there in UNIX notes) which pick every nth line.
+
+Study plan -
+
+A. CONCURRENCY:
+Modernizing Grand Central Dispatch Usage	 		WWDC 2017
+Concurrent Programming With GCD in Swift 3			WWDC 2016
+
+Meet async/await in Swift					WWDC 2021
+Protect mutable state with Swift actors			WWDC 2021
+Explore structured concurrency in Swift			WWDC 2021
+Meet AsyncSequence					WWDC 2021
+Swift concurrency: Update a sample app			WWDC 2021
+Swift concurrency: Behind the scenes			WWDC 2021
+
+B: SWIFT PACKAGE MANAGER, XCFRAMEWORK:
+Distribute binary frameworks as Swift packages		WWDC 2020
+Explore Packages and Projects with Xcode Playgrounds	WWDC 2020
+Swift packages: Resources and localization			WWDC 2020
+Adopting Swift Packages in Xcode				WWDC 2019
+Binary Frameworks in Swift				WWDC 2019
+Creating Swift Packages					WWDC 2019
+Getting to Know Swift Package Manager			WWDC 2018
+
+C: SAFARI ENHANCEMENTTS
+D: JAVASCRIPT.INFO BROWSER SECTION
+
