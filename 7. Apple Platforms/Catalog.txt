@@ -13,7 +13,7 @@ A. CONCURRENCY:
 Modernizing Grand Central Dispatch Usage	 		WWDC 2017
 Concurrent Programming With GCD in Swift 3			WWDC 2016
 
-Meet async/await in Swift					WWDC 2021
+Meet async/await in Swift					WWDC 2021	k
 Protect mutable state with Swift actors			WWDC 2021
 Explore structured concurrency in Swift			WWDC 2021
 Meet AsyncSequence					WWDC 2021
@@ -29,6 +29,6 @@ Binary Frameworks in Swift				WWDC 2019
 Creating Swift Packages					WWDC 2019
 Getting to Know Swift Package Manager			WWDC 2018
 
-C: SAFARI ENHANCEMENTTS
+C: SAFARI ENHANCEMENTS
 D: JAVASCRIPT.INFO BROWSER SECTION
 
