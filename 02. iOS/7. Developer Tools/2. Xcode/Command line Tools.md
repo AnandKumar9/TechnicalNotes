@@ -1,0 +1,30 @@
+#### Building a project (`xcodebuild`)
+
+For building a workspace (which will be the case with projects built using Cocoapods)
+```
+xcodebuild -workspace "Enterprise.xcworkspace" -scheme Enterprise build
+```
+
+Outputting the logs to a file or to clipboard (these are just UNIX things)
+```
+xcodebuild -workspace "Enterprise.xcworkspace" -scheme Enterprise build >> Log.txt
+xcodebuild -workspace "Enterprise.xcworkspace" -scheme Enterprise build | pbcopy
+```
+
+###### Various options
+
+`sdk` Specifies which SDK to use for building.
+```
+xcodebuild -sdk "iphonesimulator" -scheme Sandbox build
+```
+> But shouldn't sdk also include the iOS version somewhere
+
+`showBuildTimingSummary` shows the time taken for each of the build phases (but not the time it takes to build each of the files).
+```
+xcodebuild -showBuildTimingSummary -sdk "iphonesimulator" -scheme Sandbox build
+```
+
+`destination` specifies the run destination.
+```
+xcodebuild -scheme Sandbox -destination "platform=iOS Simulator,name=iPhone 11 Pro Max" build
+```

@@ -1,0 +1,29 @@
+So for an existing library that already had an macOS target, I had to do the following to support iOS as well.
+
+	1. Add a new iOS target of type 'Cocoa Touch Framework'. Then change its name to reflect its an iOS target.
+
+![](assets/framework-f7547466.png)
+
+
+	2. So that both macOS and iOS targets share the same info.plist, have the info.plist in a common location and specify that location in each target's settings.
+
+![](assets/framework-7285ce48.png)
+
+
+
+3. Also specify the same name in each target's settings' product name.
+
+![](assets/framework-d04eddfe.png)
+
+
+4. Finally so that these libraries can be used with Carthage mark the scheme as Shared.
+
+![](assets/framework-21659e09.png)
+
+*********
+
+Framework has the extension .framework and static library has the extension .a. they have different icons too in Xcode.
+
+Also keep in mind that in the consumer project, you may still need to include these frameworks explicitly in 'Linked Frameworks and Libraries' section of its concerned target's Build phases by manually adding them. But why was this needed, shouldn't it happen automatically if the consumer app is using Carthage, Cocoapods, etc.
+
+A utility to quickly create framework - Framework [Cookiecutter](https://github.com/RahulKatariya/FrameworkTemplate)
