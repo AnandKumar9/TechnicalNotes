@@ -3,9 +3,10 @@ https://docs.google.com/spreadsheets/d/1b5_i0HhzGC7TM0O_Yzb4Vb5qwlwgrtTf1HsrycFT
 
 last updated - Apr 2022 (before WWDC)
 
-How to update -
-Visit each of the topics in https://developer.apple.com/videos/topics/ and insert entries for videos since the time my list was last updated.
-For easily copying, copy all the HTML contents and try to use bash scripts (there in UNIX notes) which pick every nth line.
+How to update - <br>
+1. Visit each of the topics in https://developer.apple.com/videos/topics/ and insert entries for videos since the time my list was last updated.
+2. For easily copying, copy all the HTML contents
+3. And try to use bash scripts (there in UNIX notes) which pick every nth line.
 
 Study plan -
 
@@ -31,4 +32,3 @@ Getting to Know Swift Package Manager			WWDC 2018
 
 C: SAFARI ENHANCEMENTS
 D: JAVASCRIPT.INFO BROWSER SECTION
-
