@@ -41,6 +41,8 @@ Main queue when idle | Main queue when active
 
 ###### WWDC videos
 
+[(Google Sheets list)](https://docs.google.com/spreadsheets/d/1b5_i0HhzGC7TM0O_Yzb4Vb5qwlwgrtTf1HsrycFThGE/edit#gid=409775223)
+
 async await -
 2021: Meet async/await in Swift
 2021: Explore structured concurrency in Swift
