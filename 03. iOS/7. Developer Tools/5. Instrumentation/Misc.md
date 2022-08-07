@@ -8,17 +8,16 @@ WWDC 2019: Modeling in Custom Instruments <br>
 WWDC 2018: Creating Custom Instruments k <br>
 WWDC 2018: Measuring Performance Using Logging k <br>
 
-WWDC 2015: Profiling in Depth <br>
-WWDC 2015: Debugging Energy Issues
+WWDC 2015: Profiling in Depth k <br>
+WWDC 2015: Debugging Energy Issues <br>
 
 WWDC 2020: Diagnose performance issues with Xcode organizer <br>
-WWDC 2018: Advanced Debugging with Xcode and LLDB <br>
 WWDC 2018: iOS Memory Deep Dive <br>
 WWDC 2015: Performance on iOS and watchOS <br>
 
 --------
 
-#### Tail Call elimination
+#### Tail Call Elimination
 
 > Explained in 'WWDC 2015: Profiling in Depth' 10:30 - 15:47. Also, in [a Medium article](https://medium.com/the-traveled-ios-developers-guide/tail-call-elimination-in-ios-7a5f491e4273), and [another GH page](https://suelan.github.io/2020/08/05/20200805-tail-call-elimination/).
 
@@ -35,6 +34,8 @@ Tail call optimization is also identifable by looking at assembly code, by traci
 `bl` and `b` codes | Disassembly in Instruments
 --- | ---
 ![](assets/Misc-3.06.31-1.png) | ![](assets/Misc-3.06.31-2.png)
+
+[Stack frames and Frame pointers (Rutgers link)](https://people.cs.rutgers.edu/~pxk/419/notes/frames.html)
 
 #### Do not turn on `fomit-frame-pointer`
 
@@ -62,14 +63,3 @@ Server side Swift/Xcode cloud
 ML basics, CoreML, UI frameworks
 
 --------
-
- I mentioned that the service and kernel we use samples the active CPUs but if you have threads sitting around, blocked on a lock or waiting for I/O, you check this checkbox, and the service will sample the idle threads as well. If you have code that's contending over a lock you see the hot pods show up when you enable record waiting threads.
-
- ![](assets/Misc-3.35.43-1.png)
-
-  Instead of seeing the leafs at the bottom nodes of the tree, that's functions that don't call into anything, they appear at the top. 'Invert Call Tree'
-
-  ![](assets/Misc-3.35.43-2.png)
-
-  charge to caller, so what you can do, you can charge a function on method to the caller. You can charge an entire Library of Framework to the caller.
-  ![](assets/Misc-3.35.43-3.png)
