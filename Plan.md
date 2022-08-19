@@ -10,17 +10,18 @@ Essentials <br>
 (2022 08 07) Total ~ 120 [5 months] <br>
 
 6 - Debugging <br>
-2 WWDC 2021: Symbolication: Beyond the basics <br>
 1 WWDC 2018: Understanding Crashes and Crash Logs k <br>
+2 WWDC 2021: Symbolication: Beyond the basics <br>
 
-WWDC 2022: Debug Swift debugging with LLDB <br>
-7 WWDC 2021: Discover breakpoint improvements <br>
-6 WWDC 2019: Debugging in Xcode 11 <br>
 5 WWDC 2019: LLDB: Beyond "po" <br>
-4 WWDC 2018: Advanced Debugging with Xcode and LLDB <br>
 3 WWDC 2017: Debugging with Xcode 9 <br>
-8 WWDC 2016: Advanced Debugging and the Address Sanitizer <br>
+6 WWDC 2019: Debugging in Xcode 11 <br>
+7 WWDC 2021: Discover breakpoint improvements <br>
+
 WWDC 2015: What's New in LLDB <br>
+WWDC 2022: Debug Swift debugging with LLDB <br>
+8 WWDC 2016: Advanced Debugging and the Address Sanitizer <br>
+4 WWDC 2018: Advanced Debugging with Xcode and LLDB <br>
 
 9 - UI frameworks <br>
 WWDC 2020: Modern cell configuration <br>
