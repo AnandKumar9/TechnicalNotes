@@ -1,21 +1,12 @@
-Developer Tools ~30 <br>
-Swift ~ 20 <br>
-SwiftUI and UI Frameworks ~40 <br>
-Safari & Web ~15 <br>
-Privacy & Security ~5 <br>
-System Services ~5 <br>
-App Services ~5 <br>
-
 (2022 08 07) Total ~ 120 [5 months] <br>
 
 1a - Crash logs and Symbolication <br>
 WWDC 2018: Understanding Crashes and Crash Logs k <br>
-WWDC 2021: Symbolication: Beyond the basics <br>
+WWDC 2021: Symbolication: Beyond the basics k <br>
 
 1b - Breakpoints <br>
-WWDC 2017: Debugging with Xcode 9 <br>
 WWDC 2019: Debugging in Xcode 11 <br>
-WWDC 2021: Discover breakpoint improvements <br>
+WWDC 2021: Discover breakpoint improvements k <br>
 
 1c - LLDB <br>
 WWDC 2019: LLDB: Beyond "po" <br>
@@ -44,6 +35,7 @@ WWDC 2020: Why is my app getting killed <br>
 WWDC 2021: Understand and eliminate hangs from your app <br>
 WWDC 2019: Optimizing App Launch <br>
 WWDC 2017: App Startup Time: Past, Present, and Future <br>
+WWDC 2016: Optimizing App Startup Time k <br>
 WWDC 2015: App Thinning in Xcode <br>
 WWDC 2015: Introducing On Demand Resources <br>
 WWDC 2020: Advancements in the Objective-C runtime <br>
@@ -120,12 +112,3 @@ T14 - Server side development <br>
 WWDC 2022: Use Xcode for server-side development <br>
 WWDC 2020: Use Swift on AWS Lambda with Xcode <br>
 WWDC 2017: What's New in Signing for Xcode and Xcode Server <br>
-
-Core Data: Sundries and maxims
-Advancements in the Objective-C runtime
-Designing for Adverse Network and Temperature Conditions
-Optimizing Storage in Your App
-Optimizing App Assets
-Core Data Best Practices
-
-UI Testing in Xcode

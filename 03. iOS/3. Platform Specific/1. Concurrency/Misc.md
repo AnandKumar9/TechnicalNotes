@@ -43,22 +43,22 @@ Main queue when idle | Main queue when active
 
 [(Google Sheets list)](https://docs.google.com/spreadsheets/d/1b5_i0HhzGC7TM0O_Yzb4Vb5qwlwgrtTf1HsrycFThGE/edit#gid=409775223)
 
-async await -
-2021: Meet async/await in Swift k
-2021: Explore structured concurrency in Swift k
-2021: Protect mutable state with Swift actors k
-2021: Swift concurrency: Behind the scenes k
-2021: Swift concurrency: Update a sample app
-2021: Meet AsyncSequence
+async await - <br>
+2021: Meet async/await in Swift k <br>
+2021: Explore structured concurrency in Swift k <br>
+2021: Protect mutable state with Swift actors k <br>
+2021: Swift concurrency: Behind the scenes k <br>
+2021: Swift concurrency: Update a sample app <br>
+2021: Meet AsyncSequence <br>
 
-GCD -
-2017: Modernizing Grand Central Dispatch usage
-2016: Concurrent Programming With GCD in Swift 3 k
-2015: Building responsive and efficient apps with GCD k
-2014: Power, performance and diagnostics: What's New in GCD and XPC
+GCD - <br>
+2017: Modernizing Grand Central Dispatch usage <br>
+2016: Concurrent Programming With GCD in Swift 3 k <br>
+2015: Building responsive and efficient apps with GCD k <br>
+2014: Power, performance and diagnostics: What's New in GCD and XPC <br>
 
-OperationQueues -
-2015: Advanced NSOperations
+OperationQueues - <br>
+2015: Advanced NSOperations <br>
 
 ---------
 
