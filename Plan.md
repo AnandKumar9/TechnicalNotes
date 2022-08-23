@@ -18,11 +18,13 @@ WWDC 2018: Advanced Debugging with Xcode and LLDB <br>
 WWDC 2022: What's new in Xcode <br>
 WWDC 2021: Explore advanced project configuration in Xcode <br>
 WWDC 2019: What's New in Xcode 11 <br>
-WWDC 2019: Getting the Most Out of Simulator <br>
-WWDC 2020: Become a Simulator expert <br>
-WWDC 2021: Detect bugs early with the static analyzer <br>
+WWDC 2019: Getting Started with Xcode k <br>
 WWDC 2019: Great Developer Habits <br>
-WWDC 2019: Getting Started with Xcode <br>
+
+WWDC 2019: Getting the Most Out of Simulator k <br>
+WWDC 2020: Become a Simulator expert k <br>
+
+WWDC 2021: Detect bugs early with the static analyzer <br>
 WWDC 2016: Advanced Debugging and the Address Sanitizer <br>
 
 3 - App Size and Launch <br>
