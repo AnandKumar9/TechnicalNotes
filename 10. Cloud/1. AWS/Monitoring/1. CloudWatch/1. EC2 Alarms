@@ -1,0 +1,30 @@
+`CloudWatch` is a monitoring service for AWS resources as well as applications run on AWS.
+
+> Keep in mind that `CloudTrail` is something very different from `CloudWatch`.
+
+#### CloudWatch and EC2
+
+When it comes to EC2 instances, CloudWatch can monitor host level metrics such as CPU, network, disk and also things such as if underlying hypervisor is running or not.
+
+The default monitoring rate is every 5 minutes. This can be reduced to 1 sec though by turning on `Enable Cloud Watch Detailed Monitoring` in `Configure Instance Details`. This monitors instances at 1 min intervals (this is probably charged though).
+
+Steps to creating an EC2 instance alarm -
+1. Management and Governance > CloudWatch
+2. Alarms > Create Alarm
+3. Select Metric > EC2 > Per-Instance Metrics
+4. Locate the instance with InstanceID then.
+5. And the metric name can (i.e. CPUUtilization, NetworkPacketsIn, etc.) then be selected.
+
+![](assets/Misc-bd984d34.png)
+
+Dashboards too can be set up in Alarms section. They can be both global as well as regional. Logs allows to do performance logging, all logs can be sen to it.
+
+`CloudWatch Events` sends a real time stream of system events that describes changes in AWS resources.
+
+###### Creating a billing alarm
+
+<span style="font-weight:normal"> CloudWatch > Billing Alarm </span>| <span style="font-weight:normal"> Create alarm (will take some time to turn 'ok') </span>
+--- | ---
+![](assets/Misc-e9f9ae16.png) | ![](assets/Misc-76868a68.png)
+
+> Be careful about tapping the right 'Create Alarm' button in CloudWatch's alarm creation page. The top button takes you to a general alarm creation screen, the bottom button takes you to billing alarm creation screen.

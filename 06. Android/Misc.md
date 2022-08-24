@@ -1,0 +1,7 @@
+##### Ecosystem
+
+Here are the Android versions. As of Sep 5, 2022 the latest available version is Android 13/Tiramisu.
+
+2008 - 2011 | 2012 - Now
+--- | ---
+![](assets/Misc-3bd431af.png) | ![](assets/Misc-16aaad94.png)

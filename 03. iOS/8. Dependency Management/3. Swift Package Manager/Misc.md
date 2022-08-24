@@ -10,6 +10,7 @@ WWDC 2020: Swift packages: Resources and localization <br>
 WWDC 2019: Adopting Swift Packages in Xcode <br>
 WWDC 2019: Creating Swift Packages <br>
 WWDC 2018: Getting to Know Swift Package Manager <br>
+WWDC 2019: What's New in Xcode 11 (12:40 onwards) <br>
 
 WWDC 2020: Distribute binary frameworks as Swift packages <br>
 
