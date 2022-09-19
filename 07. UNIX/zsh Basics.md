@@ -18,7 +18,12 @@ There are five separate profile scripts that get executed (in the order given be
 
 (5) `.zlogout` --> This is executed when we logout of the zsh shell it would be advisable to put your stuff in .zshenv or in .zshrc
 
+##### aliases
+
 For adding an alias, just put it in an appriopriate file (typically `zshrc`).
 ```
 alias thinkandpush="git add *;git commit --amend --no-edit;git push origin master --force"
 ```
+If the list of aliases becomes too long, the cleaner thing to do is to put them in a separate file of their own (say `/.zsh_aliases`) and then just have `. ~/.zsh_aliases` or `source ~/.zsh_aliases` in `zshrc` file.
+
+Escaping certain characters in `zsh` scripts is slightly different than escaping in `bash` scripts. Its not just `"` and `\` that need to be escaped, but even `$` has to be escaped. ([Link](https://superuser.com/a/874764/150401))

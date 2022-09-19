@@ -8,6 +8,10 @@ There might be multiple shells (`bash`, `zsh`, etc.) installed and while the she
 
 One way to know that the desired shell is not active, is if any of the alias, variable, etc. being set in that shell's configuration files (like bashrc, zsrc, etc.) do not work.
 
+However, reliably knowing the current shell is pretty complicated. Almost any way can have loopholes. [This](https://stackoverflow.com/a/3327022/1135417) stackoverflow link mentions various ways and also explains the shortcomings.
+
+The most practical way may be to just print a variable that is usually supposed to exist only in the specific shell type and see if it prints anything at all. So something like `echo $BASH` for bash and `echo $ZSH_NAME` for zsh.
+
 ##### tree command
 
 A custom commmand used to get a tree like listing of a folder's contents. It can be installed via Homebrew as well as MacPorts ([link](https://superuser.com/a/359727)).
