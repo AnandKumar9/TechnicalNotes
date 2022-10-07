@@ -20,6 +20,8 @@ Once a Minimum SDK is select, there is information shown underneath regarding wh
 
 > There is also a checkbox for 'Use legacy Android support libraries'. What does that give?
 
+![](assets/Misc-fca8f646.png)
+
 ##### Keyboard shortcuts
 
 Run (i.e. Play button) - `Control R` <br>
