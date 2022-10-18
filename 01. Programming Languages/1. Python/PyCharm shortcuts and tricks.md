@@ -11,3 +11,9 @@ Toggle Case - `Cmd + Shift + U` <br>
 
 Check short documentation - `Press Cmd and hover cursor over the symbol` <br>
 Check longer documentation - `Option Space` (even shows function definition) <br>
+
+##### Some of the gotchas
+
+If debugging the code is not working or code does not seem to be running, check the configuration. It should be `main`.
+
+![](assets/PyCharm-76efd722.png)
