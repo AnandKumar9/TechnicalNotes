@@ -1,8 +1,6 @@
 Kotlin bootcamp - [developer.android.com](https://developer.android.com/codelabs/kotlin-bootcamp-welcome#1) <br>
 Kotlin reference - [kotlinlang.org](https://kotlinlang.org/docs/home.html) <br>
 
-Android with Kotlin bootcamp - [developer.android.com ](https://developer.android.com/courses/android-basics-kotlin/course) <br>
-
 ---------
 
 #### Package and Module
@@ -73,4 +71,20 @@ fun labels() {
 }
 ```
 
----------
+#### Some standard functions
+
+`repeat` executes the given function action (i.e. lambda?) specified number of times. A zero-based index of current iteration is passed as a parameter.
+
+```
+// greets three times
+repeat(3) {
+    println("Hello")
+}
+
+// greets with an index
+repeat(3) { index ->
+    println("Hello with index $index")
+}
+```
+
+> in the second example above the lambda has a parameter but in the first example it does not. How is that done, are there multiple implementations of `repeat` internally.
