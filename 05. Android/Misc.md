@@ -6,4 +6,6 @@ Android API reference - https://developer.android.com/reference <br>
 
 -----
 
-initially says 'gradle project sync in progress'
+[App manifest](https://developer.android.com/guide/topics/manifest/manifest-intro) <br>
+
+In Kotlin, all classes have a common superclass `kotlin.Any`.
