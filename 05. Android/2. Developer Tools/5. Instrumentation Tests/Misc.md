@@ -13,3 +13,12 @@ They are run using this button.
 ![](assets/Misc-4b379e54.png)
 
 A StackOverflow [link](https://stackoverflow.com/questions/73323852/unknown-platform-error-occurred-when-running-the-utp-test-suite) for the error I see.
+
+##### Testing `RecycleView`
+
+`mockito` needs to be used. Here is the entry to make in `build.gradle` file.
+```
+org.mockito:mockito-core:3.12.4
+```
+
+([Tutorial](https://developer.android.com/codelabs/android-basics-kotlin-affirmations-test-lists-and-adapters?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-kotlin-unit-2-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fandroid-basics-kotlin-affirmations-test-lists-and-adapters#3))
