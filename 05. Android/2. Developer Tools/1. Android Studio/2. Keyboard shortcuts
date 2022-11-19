@@ -3,3 +3,4 @@ Run (i.e. Play button) - `Control R` <br>
 Show current editor file in project window, etc. - `Option F1` <br>
 Open current editor tab in new window - `Shift F4` <br>
 Search for file - `Double shift` <br>
+See file structure (i.e. list of functions, etc.) - `Cmd + 7` <br>
