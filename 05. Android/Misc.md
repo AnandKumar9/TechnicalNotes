@@ -9,3 +9,5 @@ Android API reference - https://developer.android.com/reference <br>
 [App manifest](https://developer.android.com/guide/topics/manifest/manifest-intro) <br>
 
 In Kotlin, all classes have a common superclass `kotlin.Any`.
+
+`SimpleDateFormat` is the class for formatting and parsing dates in a locale-sensitive manner.
