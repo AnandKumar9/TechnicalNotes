@@ -54,22 +54,7 @@ Annotations can target getters or setters. When they do, you can apply them with
 
 There are also annotations that are available through the Kotlin standard library that control the way code is compiled. They're really useful if you're exporting Kotlin to Java code, but otherwise you don't need them that often.
 
-#### Labeled breaks
 
-A `break` qualified with a label jumps to the execution point right after the loop marked with that label. This is particularly useful when dealing with nested loops.
-
-Any expression in Kotlin may be marked with a label. Labels have the form of an identifier followed by the `@` sign.
-
-```
-fun labels() {
-    outerLoop@ for (i in 1..100) {
-         print("$i ")
-         for (j in 1..100) {
-             if (i > 10) break@outerLoop  // breaks to outer loop
-        }
-    }
-}
-```
 
 #### Some standard functions
 
