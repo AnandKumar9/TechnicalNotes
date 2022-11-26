@@ -73,3 +73,32 @@ repeat(3) { index ->
 ```
 
 > in the second example above the lambda has a parameter but in the first example it does not. How is that done, are there multiple implementations of `repeat` internally.
+
+####  Exception Handling
+
+A sample snippet for exception handling.
+
+```
+try {
+    val listResult = MarsApi.retrofitService.getPhotos()
+    _status.value = listResult
+} catch (e: Exception) {
+    _status.value = "Failure: ${e.message}"
+}
+```
+
+##### Scope functions﻿
+
+The Kotlin standard library contains several functions whose sole purpose is to execute a block of code within the context of an object. When you call such a function on an object with a lambda expression provided, it forms a temporary scope. In this scope, you can access the object without its name. Such functions are called scope functions. There are five of them - `let`, `run`, `with`, `apply`, and `also`.
+
+`let` is one of Kotlin's Scope functions which lets you execute a code block within the context of an object. ([Reference](https://kotlinlang.org/docs/scope-functions.html))
+
+```
+imgUrl?.let {
+    val imgUri = imgUrl.toUri().buildUpon().scheme("https").build()
+    imgView.load(imgUri) {
+        placeholder(R.drawable.loading_animation)
+        error(R.drawable.ic_broken_image)
+    }
+}
+```
