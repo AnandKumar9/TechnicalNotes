@@ -1,0 +1,3 @@
+There are some packages that EASE needs for itself to operate, i.e. things like Cocoapods, XcodeGen, Fastlane, etc. The things that these packages do, its cumbersome to do those things without them. Now, these packages are invariably written in Ruby. In other words, these packages are available as Ruby libraries (i.e. gems). To install these gems, you need to work with the Ruby ecosystem. 
+
+Now the typical way to install

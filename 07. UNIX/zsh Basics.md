@@ -27,3 +27,12 @@ alias thinkandpush="git add *;git commit --amend --no-edit;git push origin maste
 If the list of aliases becomes too long, the cleaner thing to do is to put them in a separate file of their own (say `/.zsh_aliases`) and then just have `. ~/.zsh_aliases` or `source ~/.zsh_aliases` in `zshrc` file.
 
 Escaping certain characters in `zsh` scripts is slightly different than escaping in `bash` scripts. Its not just `"` and `\` that need to be escaped, but even `$` has to be escaped. ([Link](https://superuser.com/a/874764/150401))
+
+##### Misc.
+
+zsh color codes ([Link](https://github.com/zsh-users/zsh/blob/master/Functions/Misc/colors))
+
+A sample alias which uses different font colors in output.
+```
+alias shortlog="git log --pretty=format:\"%Cred%h : %Cgreen%as : %s\" -n 10"
+```

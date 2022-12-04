@@ -1,3 +1,6 @@
+List of all supported deep links (URL schemas) to iOS apps and Settings sub-screens - [Link](https://github.com/FifiTheBulldog/ios-settings-urls/blob/master/settings-urls.md) (~Oct 2022)
+
+
 ******************
 
 There is framework called Compression that can be used to compress/uncompress NSData. There are 4 different compression formats which vary in speed and size. [This](https://www.raywenderlich.com/148569/unsafe-swift) article shows how to do some basic work with them in one of the examples.

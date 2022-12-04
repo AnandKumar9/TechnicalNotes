@@ -1,13 +1,17 @@
-Android
+Android (Revise Android, Use Android phone more, Run Android codebase)<br>
+Xcodegen/Bazel <br>
+UI frameworks <br>
 
 Instrumentation <br>
 
 LLDB/LLVM <br>
 App Size and Launch/Building and Linking <br>
-Modules/Packaging/Xcodegen/Bezel <br>
+Modules/Packaging <br>
 
+UI automation <br>
 Swift <br>
-UI frameworks <br>
+Safari and Web <br>
+Flutter <br>
 
 ----------
 
