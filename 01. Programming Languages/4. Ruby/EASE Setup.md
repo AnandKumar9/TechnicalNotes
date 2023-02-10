@@ -2,6 +2,12 @@
 
 There are some packages that EASE needs for itself to operate, i.e. things like Cocoapods, XcodeGen, Fastlane, etc. The things that these packages do, its cumbersome to do those things without them. Now, these packages are invariably written in Ruby. In other words, these packages are available as Ruby libraries (i.e. gems). And to install these gems, you need to work with the Ruby ecosystem. 
 
+TLDR -
+
+```
+RVM > Ruby > Bundler > All gems > Pod update > XcodeGen > MiniTestHarness
+```
+
 ##### 1. Install RVM
 
 Now the typical way to install a gem is through RubyGems which gets installed automatically with Ruby. But then you would also want to ensure that the gems get installed using the specific Ruby version you want so that everyone in the team is working with the same gem versions. Now for all the gems to have the same version, the first step is to have a single Ruby version to be used by all the devs. This is done using a RVM (i.e. Ruby Version Manager).
@@ -42,7 +48,7 @@ Now Bundler can be used to install the precise versions of all the required gems
 bundle install
 ```
 
-![](assets/IMG_5992-1.png)
+![](assets/IMG_5992-2.png)
 
 ##### 5. Download and link all Cocoapods pods
 
