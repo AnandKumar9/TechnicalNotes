@@ -42,7 +42,7 @@ Now Bundler can be used to install the precise versions of all the required gems
 bundle install
 ```
 
-![](assets/IMG_5992.png)
+![](assets/IMG_5992-1.png)
 
 ##### 5. Download and link all Cocoapods pods
 
