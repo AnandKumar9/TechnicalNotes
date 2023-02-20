@@ -1,3 +1,5 @@
+[toc]
+
 ##### Default shell
 
 There might be multiple shells (`bash`, `zsh`, etc.) installed and while the shell used for current session can be changed, there exists a default shell too.
