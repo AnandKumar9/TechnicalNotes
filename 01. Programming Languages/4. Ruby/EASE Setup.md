@@ -40,6 +40,14 @@ So this makes sure that all developers are working with the same Ruby version. T
 gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
 ```
 
+> On M1, this can give an error which says '.... cannot load such file -- openSSL'. 
+>
+> To fix this, rvm needs to be reinstalled with a custom openssl directory and the the bundler install done after that.
+>
+> ```
+> rvm reinstall $(head -n 1 .ruby-version) --with-openssl-dir=/opt/homebrew/opt/openssl@1.1
+> ```
+
 ##### 4. Install all the gems
 
 Now Bundler can be used to install the precise versions of all the required gems. The required gem versions are mentioned in the `gemfile`, also the `gemfile.lock` file spcifies which precise version to use for a given gem if multiple versions satisy `gemfile` specs.
