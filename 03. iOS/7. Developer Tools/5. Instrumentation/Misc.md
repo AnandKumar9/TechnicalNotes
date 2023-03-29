@@ -1,4 +1,6 @@
-##### WWDC videos
+[toc]
+
+#### WWDC videos
 
 WWDC 2021: Analyze HTTP traffic in Instruments <br>
 WWDC 2019: Getting Started with Instruments k <br>
