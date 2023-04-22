@@ -10,7 +10,13 @@ https://www.reddit.com/r/cscareerquestions/comments/6pjixk/what_it_takes_to_beco
 
 
 
-###### macOS trick
+###### macOS tricks
 
 Cmd Ctrl and swipe anywhere (not just the title bar) in the window to drag it. Does not work in some apps such as Chrome. <br>
 `defaults write -g NSWindowShouldDragOnGesture YES`
+
+###### Understanding JWT
+
+https://supertokens.com/blog/what-is-jwt
+
+https://en.wikipedia.org/wiki/JSON_Web_Token

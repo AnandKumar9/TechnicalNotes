@@ -136,9 +136,6 @@ Universal Links (https://developer.apple.com/library/ios/documentation/General/C
 https://stackoverflow.com/a/32382761/1135417
 https://stackoverflow.com/questions/18992840/how-to-check-if-a-static-library-is-built-for-64-bit
 
-Understanding OAuth -
-https://github.com/Mashape/mashape-oauth/blob/master/FLOWS.md
-
 How to make navigation bar not translucent
 edgesForExtendedLayout, understand even though it has been deprectaed in favor of safe area since iOS 11
 

@@ -94,3 +94,23 @@ Working directory / index / tree <br>
 
 http://git-memo.readthedocs.io/en/latest/filter-branch.html
 https://manishearth.github.io/blog/2017/03/05/understanding-git-filter-branch/
+
+#### GitHub apps
+
+[Link](https://docs.github.com/en/apps/creating-github-apps/creating-github-apps/about-apps#about-github-apps)
+
+A GitHub App acts on its own behalf, taking actions via the API directly using its own identity, thereby not requiring a bot. (But isn't a bot a similar thing anyway.) They can be installed for any GH account and come with built-in web hooks and specific permissions (say restrict app's access to only certain repos, etc.).
+
+| Step 1                        | Step 2                        |
+| ----------------------------- | ----------------------------- |
+| ![](assets/Misc-10.52.51.png) | ![](assets/Misc-10.53.35.png) |
+
+Various kinds of permissions that can be granted.
+
+![](assets/Misc-10.54.07.png)
+
+
+
+It generates an AppID and a Client ID. New client secrets can then be generated.
+
+![](assets/Misc-11.06.36.png)

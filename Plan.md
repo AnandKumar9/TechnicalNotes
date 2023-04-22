@@ -1,3 +1,7 @@
+
+
+
+
 Android (Revise Android, Use Android phone more, Run Android codebase)<br>
 Xcodegen/Bazel <br>
 UI frameworks <br>
@@ -125,10 +129,15 @@ WWDC 2018: Source Control Workflows in Xcode <br>
 WWDC 2017: GitHub and the New Source Control Workflows in Xcode 9 <br>
 
 T13 - Swift Package plugins <br>
-WWDC 2022: Meet Swift Package plugins <br>
-WWDC 2022: Create Swift Package plugins <br>
+WWDC 2022: Meet Swift Package plugins k<br>
+WWDC 2022: Create Swift Package plugins k<br>
 
 T14 - Server side development <br>
 WWDC 2022: Use Xcode for server-side development <br>
 WWDC 2020: Use Swift on AWS Lambda with Xcode <br>
 WWDC 2017: What's New in Signing for Xcode and Xcode Server <br>
+
+Safari and Web <br>
+
+WWDC 2019: What's New in Authentication k <br>
+WWDC 2018: Automatic Strong Passwords and Security Code AutoFill <br>
