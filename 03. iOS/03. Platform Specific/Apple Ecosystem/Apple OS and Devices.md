@@ -1,24 +1,24 @@
 [toc]
 
-| Year | macOS         | iOS        | iPhone                                            |
-| ---- | ------------- | ---------- | ------------------------------------------------- |
-| 2023 | Sonoma        | iOS 17     |                                                   |
-| 2022 | Ventura       | iOS 16     | iPhone 14Pro Max, 14 Pro, 14 Plus, 14, SE 3rd Gen |
-| 2021 | Monterey      | iOS 15     | iPhone 13 Pro Max, 13 Pro, 13, 13 Mini            |
-| 2020 | Big Sur       | iOS 14     | iPhone 12Pro Max, 12 Pro, 12, 12 Mini, 2nd Gen    |
-| 2019 | Catalina      | iOS 13     | iPhone 11Pro Max, 11 Pro, 11                      |
-| 2018 | Mojave        | iOS 12     | iPhone XSMax, XS, XR                              |
-| 2017 | High Sierra   | iOS 11     | iPhone X, 8Plus, 8                                |
-| 2016 | Sierra        | iOS 10     | iPhone 7Plus, 7, SE 1st Gen                       |
-| 2015 | El Capitan    | iOS 9      | iPhone 6SPlus, 6S                                 |
-| 2014 | Yosemite      | iOS 8      | iPhone 6Plus, 6                                   |
-| 2013 | Mavericks     | iOS 7      | iPhone 5S, 5C                                     |
-| 2012 | Mountain Lion | iOS 6      | iPhone 5                                          |
-| 2011 | Lion          | iOS 5      | iPhone 4S                                         |
-| 2010 | Snow Leopard  | iOS 4      | iPhone 4                                          |
-| 2009 |               | iPhoneOS 3 | iPhone 3GS                                        |
-| 2008 |               |            |                                                   |
-| 2007 | Leopard       |            |                                                   |
+| Year | macOS                       | iOS        | iPhone                                            |
+| ---- | --------------------------- | ---------- | ------------------------------------------------- |
+| 2023 | Sonoma (macOS 14)           | iOS 17     |                                                   |
+| 2022 | Ventura (macOS 13)          | iOS 16     | iPhone 14Pro Max, 14 Pro, 14 Plus, 14, SE 3rd Gen |
+| 2021 | Monterey (macOS 12)         | iOS 15     | iPhone 13 Pro Max, 13 Pro, 13, 13 Mini            |
+| 2020 | Big Sur (macOS 11)          | iOS 14     | iPhone 12Pro Max, 12 Pro, 12, 12 Mini, 2nd Gen    |
+| 2019 | Catalina (macOS 10.15)      | iOS 13     | iPhone 11Pro Max, 11 Pro, 11                      |
+| 2018 | Mojave (macOS 10.14)        | iOS 12     | iPhone XSMax, XS, XR                              |
+| 2017 | High Sierra (macOS 10.13)   | iOS 11     | iPhone X, 8Plus, 8                                |
+| 2016 | Sierra (macOS 10.12)        | iOS 10     | iPhone 7Plus, 7, SE 1st Gen                       |
+| 2015 | El Capitan (OS X 10.11)     | iOS 9      | iPhone 6SPlus, 6S                                 |
+| 2014 | Yosemite (OS X 10.10)       | iOS 8      | iPhone 6Plus, 6                                   |
+| 2013 | Mavericks (OS X 10.9)       | iOS 7      | iPhone 5S, 5C                                     |
+| 2012 | Mountain Lion (OS X 10.8)   | iOS 6      | iPhone 5                                          |
+| 2011 | Lion (OS X 10.7)            | iOS 5      | iPhone 4S                                         |
+| 2010 | Snow Leopard (MacOS X 10.6) | iOS 4      | iPhone 4                                          |
+| 2009 |                             | iPhoneOS 3 | iPhone 3GS                                        |
+| 2008 |                             |            |                                                   |
+| 2007 | Leopard (MacOS X 10.5)      |            |                                                   |
 
 
 
@@ -60,7 +60,7 @@
 `iOS 4` - 2010. iPhone OS renamed to iOS. Had multitasking for all apps. iBooks. <br>
 `iPhoneOS 3` - 2009. Push notifications. Copy and paste. MMS. <br>
 
-###### watchOS versions
+##### watchOS versions
 
 `watchOS 10` - 2023 <br>
 `watchOS 9` - 2022 <br>
@@ -72,6 +72,10 @@
 `watchOS 3` - 2016 <br>
 `watchOS 2` - 2015 <br>
 `watchOS 1` - 2015 <br>
+
+##### visionOS versions
+
+`visionOS 1 (Beta)` - 2023
 
 ### Devices
 
@@ -90,7 +94,7 @@ Here is the conversion between points and rendered pixels. There is something ca
 
 ##### iPhone
 
-##### Resolution
+###### Resolution
 
 iPhone 14ProMax, iPhone 14Pro, iPhone 14Plus, iPhone 14, iPhone SE 3rd Gen ?
 
@@ -103,7 +107,7 @@ iPhone 14ProMax, iPhone 14Pro, iPhone 14Plus, iPhone 14, iPhone SE 3rd Gen ?
 `320, 568` - iPhone SE 1st Gen, 5S, 5C, 5 <br>
 `320, 480` - iPhone 4S, 4, iPhone 3GS, 3G, iPhone <br>
 
-##### Release Year
+###### Release Year
 
 `iPhone 14 Pro Max` - 2022 <br>
 `iPhone 14 Pro` - 2022 <br>
@@ -142,7 +146,7 @@ iPhone 14ProMax, iPhone 14Pro, iPhone 14Plus, iPhone 14, iPhone SE 3rd Gen ?
 `iPhone 4` - 2010. New sharp edges. Retina display. Had antenna issues. <br>
 `iPhone 3GS` - 2009. Rested brilliantly on the palm. Ergonomically still the best. <br>
 
-##### Screen sizes
+###### Screen sizes
 
 `6.6 in` - iPhone 13ProMax, iPhone 12ProMax <br>
 `6.5 in` - iPhone 11ProMax, iPhone XSMax<br>
@@ -155,7 +159,7 @@ iPhone 14ProMax, iPhone 14Pro, iPhone 14Plus, iPhone 14, iPhone SE 3rd Gen ?
 
 ##### iPad
 
-##### Screen resolutions (width, height in points)
+###### Screen resolutions (width, height in points)
 
 iPad Pro 12.9" - 1024, 1366  <br>
 iPad Pro 9.7", iPad Air 2, iPad Air, iPad 4th gen, iPad 3rd gen, iPad 2, iPad - 768, 1024  <br>
