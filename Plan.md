@@ -1,6 +1,8 @@
+Web - Basics, Run EASE, iOS frameworks<br>iOS - 2023 Keynote, Xcodegen, Bazel, EASE UI tests, EASE setup<br>Android - Revise, Run EASE<br>ML - Basics (try a course)<br>Hybrid mobile - Flutter
 
 
 
+---------
 
 Android (Revise Android, Use Android phone more, Run Android codebase)<br>
 Xcodegen/Bazel <br>
