@@ -1,6 +1,6 @@
 [toc]
 
-([WWDC link](https://developer.apple.com/videos/play/wwdc2021/102/))
+([WWDC link](https://developer.apple.com/videos/play/wwdc2023/102/))
 
 ##### Swift macros (4:00 - 8:00)
 
@@ -55,7 +55,7 @@ They are more than just interactivity in widgets. They elevate your app's functi
 
 ##### TipKit (25:45)
 
-Educating users about the right features at the right time. templates to match what users are accustomed to seeing in system apps.
+Educating users about the right features at the right time. Templates to match what users are accustomed to seeing in system apps.
 
 ![image-20230608040620389](assets/image-20230608040620389.png)
 
@@ -101,7 +101,7 @@ It can be hard to know the code you've downloaded was written by the developer y
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![Misc-2023-06-08-1.59.50](assets/Misc-2023-06-08-1.59.50.png) | ![Misc-2023-06-08-2.00.42](assets/Misc-2023-06-08-2.00.42.png) |
 
-`Communication Safety`  uses privacy-preserving technology to protect children on our platforms. `SensitiveContentAnalysis `framework will let you know if a user has enabled Communication Safety or Sensitive Content Warning, so you can tailor your app experiences based on which feature is enabled.
+`Communication Safety`  uses privacy-preserving technology to protect children on our platforms. `SensitiveContentAnalysis ` framework will let you know if a user has enabled Communication Safety or Sensitive Content Warning, so you can tailor your app experiences based on which feature is enabled.
 
 ![Misc-2023-06-08-1.57.41](assets/Misc-2023-06-08-1.57.41.png)
 
@@ -120,6 +120,8 @@ The `ProductView` enables you to display your products using data you defined in
 ##### Testing (55:38)
 
 Test report improvements
+
+![image-20230621155038603](assets/image-20230621155038603.png)
 
 ##### Xcode Cloud (57:54)
 
@@ -150,7 +152,7 @@ Existing iPad and iPhone apps are supported, each as a single scalable 2D window
 
 You use SwiftUI and UIKit to build your user interface, `RealityKit` to present 3D content, animations, and visual effects, and ARKit to understand the space around the user. These are all part of the visionOS SDK. So what does it take to bring your app to Vision Pro? First, in Xcode, add the visionOS destination to your project. 
 
-you can add visionOS-specific code to expand your app into a collection of windows, volumes, or spaces. From here, you can begin to take advantage of the extended capabilities of SwiftUI, RealityKit, and `ARKit`. 
+You can add visionOS-specific code to expand your app into a collection of windows, volumes, or spaces. From here, you can begin to take advantage of the extended capabilities of SwiftUI, RealityKit, and `ARKit`. 
 
 On visionOS, many of our frameworks have been extended to support spatial experiences. With SwiftUI, you can now add depth or add a 3D object inside a window. On iOS and MacOS, a ZStack is typically used for layering views. visionOS goes further, and you can separate them with depth. And with additional view modifiers, you can have more control over width, height, and depth.
 

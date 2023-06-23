@@ -51,7 +51,7 @@ Food order (on UberEats), Travel plans (Flighty), Sports scores (MLB) can be tra
 
 Better detecion of fields in pdfs for auto-fill
 
-##### macOS 14 Sonoma)
+##### macOS 14 (Sonoma)
 
 Continuity. iPhone widgets can show up on macOS, need not install the widgets on Mac
 

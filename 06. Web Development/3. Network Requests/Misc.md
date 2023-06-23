@@ -1,0 +1,1 @@
+`AJAX` (Asynchronous JavaScript And XML) is the conventional umbrella terms used for network requests made from JavaScript (even now when the serialization format is usually not XML).
