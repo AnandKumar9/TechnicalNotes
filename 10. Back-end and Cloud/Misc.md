@@ -1,0 +1,7 @@
+##### OpenAPI
+
+[OpenAPI](https://swagger.io/specification/) (previously known as Swagger) is a way to describe an API's specs, its typically represented in yaml but can be in json too. It has fields to explain the payloads as well as some sample JSON, etc.
+
+The OpenAPI [spec](https://api.apis.guru/v2/specs/abstractapi.com/geolocation/1.0.0/openapi.yaml) for a sample public API (GetGeoLocation from IP address). This can be put in an [online Swagger editor](https://editor.swagger.io) to view a more beautified webpage for specs.[]()
+
+![image-20230811153431716](assets/image-20230811153431716.png)

@@ -1,3 +1,17 @@
+##### Aug 8th, 2023
+
+I have become a Distinguished Engineer, it happened. It did happen, what I was trying and looking for so much! Its an achievement, and also the time to look forward. How do I go about things hereon.
+
+- Diversify my knowledge, understand things beyond just iOS alone. Android, web, AWS, AI-ML, APIs. Have a timeline.
+
+- Know iOS in real depth, in things a DE should know, also in things most people don't.
+
+- Build a brand, write blogs, give talks. Maintain a personality.
+
+- In hindsight what are things I think I should have started working upon right away after becoming SM. Those are things I can start working on now too. One, start looking at the next level already and know that it too can be attained. And two, start improving my skillset and start looking for a switch outside. The time soon after one gets a prmotion is a good time to start preparing, and then switching to the next level somewhere outside.
+
+Have a timeline, and be careful about what I invest my time in going forward.
+
 ##### Jan 1st, 2023
 
 You have to know the basics, actually understand the thing from ground up. There is no avoiding it, it doesn't really work. You can scratch around, work very hard and get by with the immediate task but over even slightly longer term its far better and more efficient to actually understand the basics. Its possible. I can see this with some patchy scripting I am trying with awk/gawk, its better to really revise all the bash filter concepts and then build upon it.

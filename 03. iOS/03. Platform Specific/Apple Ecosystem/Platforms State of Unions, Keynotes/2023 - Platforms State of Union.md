@@ -184,3 +184,9 @@ TestFlight will be available to use on Vision Pro from the start.
 ##### Unity apps in visionOS (1:20:00)
 
 Apple and Unity have been deeply collaborating to layer Unity's real-time engine on top of RealityKit and enable their development tools to target visionOS. This means that Unity-created apps can coexist with other visionOS apps in the Shared Space
+
+##### Misc.
+
+List of all new frameworks presented at WWDC 23 ([Marco Eidinger post](https://blog.eidinger.info/all-new-frameworks-presented-at-wwdc23))
+
+![image-20230809100149457](assets/image-20230809100149457.png)

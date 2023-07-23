@@ -1,23 +1,23 @@
 
 
-Web - Basics, Run EASE, iOS frameworks<br>iOS - *2023 Keynote - k*, Xcodegen, Bazel, EASE UI tests, EASE setup<br>Android - Revise, Run EASE<br>ML - Basics (try a course)<br>Hybrid mobile - Flutter
+| iOS Basic    | iOS Advanced                                | Android + Web        | AI/ML             | Back-end          |
+| ------------ | ------------------------------------------- | -------------------- | ----------------- | ----------------- |
+| Swift        | XcodeGen, Bazel                             | Android, EASE app    | AI/ML courses     | Revise AWS        |
+| SwiftUI      | Developer Tools                             | TypeScript, EASE web | iOS ML and Vision | Capital One setup |
+| UI tests     | VisionKit                                   | Flutter              |                   | Make basic APIs   |
+| App Services | App Size and Launch<br>Building and Linking |                      |                   |                   |
+|              | LLDB/LLVM                                   |                      |                   |                   |
+|              | Modules/Packaging                           |                      |                   |                   |
 
----------
+Who to follow on Twitter<br>What books to read<br>
 
-Android (Revise Android, Use Android phone more, Run Android codebase)<br>
-Xcodegen/Bazel <br>
-UI frameworks <br>
+Next - 
 
-Instrumentation <br>
+1. Web dev notes, WebKit write, CT code
 
-LLDB/LLVM <br>
-App Size and Launch/Building and Linking <br>
-Modules/Packaging <br>
+2. EASE iOS platform, EASE web and Android
 
-UI automation <br>
-Swift <br>
-Safari and Web <br>
-Flutter <br>
+Write my vision of EASE iOS<br>Think what to present next
 
 ----------
 
