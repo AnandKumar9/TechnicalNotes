@@ -1,19 +1,19 @@
 
 
-| iOS Basic    | iOS Advanced                                | Android + Web        | AI/ML             | Back-end          |
-| ------------ | ------------------------------------------- | -------------------- | ----------------- | ----------------- |
-| Swift        | XcodeGen, Bazel                             | Android, EASE app    | AI/ML courses     | Revise AWS        |
-| SwiftUI      | Developer Tools                             | TypeScript, EASE web | iOS ML and Vision | Capital One setup |
-| UI tests     | VisionKit                                   | Flutter              |                   | Make basic APIs   |
-| App Services | App Size and Launch<br>Building and Linking |                      |                   | Serverside Swift  |
-|              | LLDB/LLVM                                   |                      |                   |                   |
-|              | Modules/Packaging                           |                      |                   |                   |
+| iOS Basic             | iOS Advanced                                | Android + Web         | AI/ML             | Back-end             |
+| --------------------- | ------------------------------------------- | --------------------- | ----------------- | -------------------- |
+| Swift                 | **XcodeGen**, Bazel                         | **Android, EASE app** | AI/ML courses     | Revise AWS           |
+| SwiftUI               | Developer Tools                             | TypeScript, EASE web  | iOS ML and Vision | Capital One setup    |
+| UI tests              | VisionKit                                   | Flutter               |                   | Make basic APIs - k  |
+| App Services          | App Size and Launch<br>Building and Linking |                       |                   | Serverside Swift - k |
+| **EASE iOS platform** | LLDB/LLVM                                   |                       |                   |                      |
+|                       | Modules/Packaging                           |                       |                   |                      |
 
 Who to follow on Twitter<br>What books to read<br>
 
 Next - 
 
-1. Web dev notes, WebKit write, CT code
+1. Web dev notes, WebKit write (k), CT code
 
 2. EASE iOS platform, EASE web and Android
 

@@ -85,3 +85,27 @@ swift run toolbox make-workspace
 ```
 
 > Inspect the code that runs when above is used.
+
+##### Solutions for previous issues
+
+###### Cannot load such file -- openssl
+
+While doing 'gem install bundler', I was getting an error that said 'Cannot load such file -- openssl'. It got resolved after doing [this](https://github.com/rvm/rvm/issues/5246#issuecomment-1671324137).
+
+```
+brew unlink openssl@3
+brew link openssl@1.1 --force
+```
+
+After this doing a fresh 'rvm install' followed by 'gem install bundler' worked.
+
+###### Wno-error=implicit-function-declaration
+
+While doing a 'rvm install' an error such as 'CPPFLAGS=$CPPFLAGS -Wno-error=implicit-function-declaration' is shown.
+
+This can be solved by using openssl@1.1.
+
+```
+CPPFLAGS=$CPPFLAGS "-Wno-error=implicit-function-declaration -Wno-error=compound-taken-by-split-macro" rvm install 2.5.3 -with-openssl-dir=/opt/homebrew/opt/openssl@1.1
+```
+

@@ -1,3 +1,5 @@
+##### What is SwiftNIO
+
 `SwiftNIO` is the official framework offered by Apple. It is however quite low-level, and relies on non-blocking NIO (whatever that may mean). 
 
 With NIO you can build a lot, you can make database connectors like postgres-nio, push notification services (APNSwift), basically you can support any kind of network protocols. On the other hand, if a simple REST API or a similar backend needs to be built, its not advisable to use SwiftNIO directly unless one has enough understanding of network layers, event loops, pipelines, channels, futures and more.
@@ -8,7 +10,7 @@ With NIO you can build a lot, you can make database connectors like postgres-nio
 
 Swift open source community has developed database drivers that help interact natively with most databases technologies. Partial list includes Postgres, MySQL, MongoDB, Redis, DynamoDB, and many others.
 
-`Storage` is a type in SwiftNIO (and hence Vapor too) that provides an interface for storing files (and accessing database too?).
+`Storage` is a type in SwiftNIO (and hence Vapor too) that provides an interface for storing files (and accessing database too?). (Covered in 'WWDC 2022 - Use Xcode for server-side development')
 
 ![image-20230817234258283](assets/image-20230817234258283.png)
 

@@ -1,3 +1,5 @@
+[toc]
+
 LLVM at high level - https://www.infoworld.com/article/3247799/development-tools/what-is-llvm-the-power-behind-swift-rust-clang-and-more.html
 
 ###### Running Swift from command line
