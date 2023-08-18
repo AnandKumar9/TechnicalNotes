@@ -5,7 +5,7 @@
 | Swift        | XcodeGen, Bazel                             | Android, EASE app    | AI/ML courses     | Revise AWS        |
 | SwiftUI      | Developer Tools                             | TypeScript, EASE web | iOS ML and Vision | Capital One setup |
 | UI tests     | VisionKit                                   | Flutter              |                   | Make basic APIs   |
-| App Services | App Size and Launch<br>Building and Linking |                      |                   |                   |
+| App Services | App Size and Launch<br>Building and Linking |                      |                   | Serverside Swift  |
 |              | LLDB/LLVM                                   |                      |                   |                   |
 |              | Modules/Packaging                           |                      |                   |                   |
 

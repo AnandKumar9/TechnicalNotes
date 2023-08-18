@@ -1,8 +1,26 @@
+[toc]
+
+#### Language Features
+
+##### Type safety
+
 Swift is said to be a `type-safe` language. What it means is that it does not allow a variable of one type to be assigned a value of another type.
 
-Not every type in Swift can be compared with equal to operator (`==`). However there is a protocol called `Equatable`, which requires its conforming types to implement the == and != operators.
+##### ABI Stability, Library Evolution
 
-When an array contains a collection of instances and is iterated over, the system automatically assumes the best possible type for each of the instances. If all them have a common superclass, then that is assumed as the type. Thus to access API of some subclass type that any of those elements might be, a downcasting must be done.
+(Official swift.org post [from 2019](https://www.swift.org/blog/abi-stability-and-more/), [from 2020](https://www.swift.org/blog/library-evolution/#:~:text=Module%20stability%20allows%20Swift%20modules,binary%20compatible%20with%20previous%20versions.))
+
+`ABI` stands for `Application Binary Interface`, a binary being ABI stable means the makers assure that it will continue to work even for future versions of various platforms where it is used. It can promise so if it gurantees to follow certain standards for that platform.
+
+As of mid-2019 👇
+
+![image-20230816112741364](assets/image-20230816112741364.png)
+
+`Swift ABI stability` for apps was introduced with Swift 5. What it means is that an app built with one version of the Swift compiler will be able to talk to a library built with another version of Swift without there being a need to add additional runtime related code in shipped binaries. ABI stability for Apple OSes means that apps deploying to upcoming releases of those OSes will no longer need to embed the Swift standard library and “overlay” libraries within the app bundle, shrinking their download size.
+
+ABI stability is about mixing versions of Swift at run time. As far as compile time is considered, Swift uses an opaque archive format called `swiftmodule` to describe the interface of a library. The library needs to have `module stability` so that clients can use a module without having to care what compiler it was built with. This probably happened in 2020 with Swift 5.1.
+
+when a Swift library changes, any apps using that library have to be recompiled.  `Library evolution` support means shipping a new version of a library without having to recompile its clients. This too probably happened in 2020 with Swift 5.1.
 
 #### Result type
 
@@ -90,6 +108,8 @@ class Class1<T> {
 `Hashable` (`hashValue`, `hash(into:)`) <br>
 `Sequence` (provides iteration requirements) <br>
 `Collection` (inherits Sequence and has index and non-destructive requirements) <br>
+
+Not every type in Swift can be compared with equal to operator (`==`). However there is a protocol called `Equatable`, which requires its conforming types to implement the == and != operators.
 
 #### Hashable
 
