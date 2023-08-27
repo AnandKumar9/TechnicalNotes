@@ -56,13 +56,13 @@ CGRectContainsPoint returns whether a rectangle contains a particular point.
 if (CGRectContainsPoint([self.bug.layer.presentationLayer frame], tapLocationCGPoint)) { .. }
 ```
 
-UIEdgeInsets is a struct that has 4 float attributes - top, left, bottom, right. They normally indicate the clear spaces to be left across a rectangle and are usually applied to rectangles to shrink or expand their area. UIEdgeInsetsMake() is the function used to create an edge inset.
+`UIEdgeInsets` is a struct that has 4 float attributes - top, left, bottom, right. They normally indicate the clear spaces to be left across a rectangle and are usually applied to rectangles to shrink or expand their area. UIEdgeInsetsMake() is the function used to create an edge inset.
 
 Handling insets for iPhone 4 or 5.
 ```
 CGFloat sideInset = [UIScreen mainScreen].preferredMode.size.width == 1136.0f?45.0f:25.0f;
 ```
-What is UIKIT_EXTERN?
+What is `UIKIT_EXTERN`?
 UIKIT_EXTERN NSString * const BHPhotoAlbumLayoutAlbumTitleKind;
 
 Detecting when the user taps back button for a view controller in navigation controller.
