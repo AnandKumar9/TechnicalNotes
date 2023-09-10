@@ -3,11 +3,11 @@
 | iOS Basic             | iOS Advanced                                | Android + Web         | AI/ML             | Back-end             |
 | --------------------- | ------------------------------------------- | --------------------- | ----------------- | -------------------- |
 | Swift                 | **XcodeGen**, Bazel                         | **Android, EASE app** | AI/ML courses     | Revise AWS           |
-| SwiftUI               | Developer Tools                             | TypeScript, EASE web  | iOS ML and Vision | Capital One setup    |
+| SwiftUI               | **Xcode settings**, <br>Developer Tools     | TypeScript, EASE web  | iOS ML and Vision | Capital One setup    |
 | UI tests              | VisionKit                                   | Flutter               |                   | Make basic APIs - k  |
 | App Services          | App Size and Launch<br>Building and Linking |                       |                   | Serverside Swift - k |
 | **EASE iOS platform** | LLDB/LLVM                                   |                       |                   |                      |
-|                       | Modules/Packaging                           |                       |                   |                      |
+| **MetricKit**         | Modules/Packaging                           |                       |                   |                      |
 
 Who to follow on Twitter<br>What books to read<br>
 
@@ -144,24 +144,18 @@ WWDC 2021: Review code and collaborate in Xcode <br>
 WWDC 2018: Source Control Workflows in Xcode <br>
 WWDC 2017: GitHub and the New Source Control Workflows in Xcode 9 <br>
 
-###### T13 - Swift Package plugins 2/2<br>
-
-WWDC 2022: Meet Swift Package plugins k<br>
-WWDC 2022: Create Swift Package plugins k<br>
-
-###### T14 - Server side development <br>
-
-WWDC 2022: Use Xcode for server-side development <br>
-WWDC 2020: Use Swift on AWS Lambda with Xcode <br>
-WWDC 2017: What's New in Signing for Xcode and Xcode Server <br>
-
-###### Safari and Web <br>
-
-WWDC 2022: What's new in WKWebView <br>WWDC 2020: Discover WKWebView enhancements <br>WWDC 2017: Customized Loading in WKWebView <br>WWDC 2021: Develop advanced web content <br>
-
-WWDC 2021: Move beyond passwords <br>WWDC 2019: What's New in Authentication k <br>
-WWDC 2018: Automatic Strong Passwords and Security Code AutoFill <br>
-
 ###### Testing 2/3
 
 WWDC 2020: Handle interruptions and alerts in UI tests k <br>WWDC 2018: What's New in Testing <br>WWDC 2017: What's New in Testing (looks deprecated) <br>WWDC 2015: UI Testing in Xcode k<br> 
+
+###### Metrics and Measurement
+
+WWDC 2022: Track down hangs with Xcode and on-device detection<br>
+
+WWDC 2021: Ultimate application performance survival guide<br>WWDC 2021: Understand and eliminate hangs from your app<br>WWDC 2021: Diagnose Power and Performance regressions in your app - w<br>WWDC 2021: Detect and diagnose memory issues<br>
+
+WWDC 2020: What's new in MetricKit - w<br>WWDC 2020: Diagnose performance issues with the Xcode Organizer - w<br>WWDC 2020: Identify trends with the Power and Performance API - w<br>WWDC 2020: Expanding Automation with the App Store Connect API<br>WWDC 2020: Eliminate Animation Hitches with XCTest<br>
+
+WWDC 2019: Improving Battery Life and Performance - w<br>
+
+WWDC 2018: What's New in Energy Debugging - Obsolete? <br>
