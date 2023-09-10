@@ -1,13 +1,31 @@
+Splunk [Today] <br>EASE Android <br>EASE Web <br>
 
+Xcode Settings <br>XcodeGen <br>
 
-| iOS Basic             | iOS Advanced                                | Android + Web         | AI/ML             | Back-end             |
-| --------------------- | ------------------------------------------- | --------------------- | ----------------- | -------------------- |
-| Swift                 | **XcodeGen**, Bazel                         | **Android, EASE app** | AI/ML courses     | Revise AWS           |
-| SwiftUI               | **Xcode settings**, <br>Developer Tools     | TypeScript, EASE web  | iOS ML and Vision | Capital One setup    |
-| UI tests              | VisionKit                                   | Flutter               |                   | Make basic APIs - k  |
-| App Services          | App Size and Launch<br>Building and Linking |                       |                   | Serverside Swift - k |
-| **EASE iOS platform** | LLDB/LLVM                                   |                       |                   |                      |
-| **MetricKit**         | Modules/Packaging                           |                       |                   |                      |
+TypeScript <br>ReactNative <br>ML basics <br>AWS revise <br>
+
+##### Immediate - Sep 12, 2023
+
+| General           | Growth           | Capital One                           |
+| ----------------- | ---------------- | ------------------------------------- |
+| Animation hitches | Identify talk    | Capital One back-end ecosystem        |
+| Application hangs | Diagram tools    | EASE iOS platform (**Tests**, Canvas) |
+| **Testing**       | Confluence pages | EASE Android                          |
+| Machine Learning  |                  | EASE Web                              |
+| Web               |                  |                                       |
+|                   |                  |                                       |
+|                   |                  |                                       |
+
+##### Slightly Longer Term - Sep 12, 2023
+
+| iOS Basic     | iOS Advanced                                | Android + Web | AI/ML             | Back-end             |
+| ------------- | ------------------------------------------- | ------------- | ----------------- | -------------------- |
+| Swift         | **XcodeGen**, Bazel                         | Android       | AI/ML courses     | Revise AWS           |
+| SwiftUI       | **Xcode settings**, <br>Developer Tools     | TypeScript    | iOS ML and Vision | Make basic APIs - k  |
+| UI tests      | VisionKit                                   | Flutter       |                   | Serverside Swift - k |
+| App Services  | App Size and Launch<br>Building and Linking |               |                   |                      |
+| MetricKit - k | LLDB/LLVM                                   |               |                   |                      |
+|               | Modules/Packaging                           |               |                   |                      |
 
 Who to follow on Twitter<br>What books to read<br>
 
@@ -88,18 +106,6 @@ WWDC 2019: What's New in Clang and LLVM <br>
 WWDC 2018: What's New in LLVM <br>
 WWDC 2017: What's New in LLVM <br>
 
-###### 6 - Instrumentation 4/14<br>
-
-WWDC 2018: Creating Custom Instruments k <br>WWDC 2019: Modeling in Custom Instruments <br>
-WWDC 2021: Ultimate application performance survival guide <br>
-WWDC 2021: Analyze HTTP traffic in Instruments <br>WWDC 2019: Developing a Great Profiling Experience k <br>WWDC 2015: Profiling in Depth k <br>WWDC 2018: Measuring Performance Using Logging k <br>WWDC 2021: Detect and diagnose memory issues <br>
-WWDC 2018: iOS Memory Deep Dive <br>
-WWDC 2015: Optimizing Swift Performance <br>
-WWDC 2020: What's new in MetricKit <br>
-WWDC 2020: Identify trends with the Power and Performance API <br>
-WWDC 2020: Diagnose performance issues with the Xcode Organizer <br>
-WWDC 2015: Performance on iOS and watchOS <br>
-
 ###### 7 - Modules <br>
 
 WWDC 2019: Binary Frameworks in Swift <br>
@@ -144,18 +150,23 @@ WWDC 2021: Review code and collaborate in Xcode <br>
 WWDC 2018: Source Control Workflows in Xcode <br>
 WWDC 2017: GitHub and the New Source Control Workflows in Xcode 9 <br>
 
-###### Testing 2/3
+----
 
-WWDC 2020: Handle interruptions and alerts in UI tests k <br>WWDC 2018: What's New in Testing <br>WWDC 2017: What's New in Testing (looks deprecated) <br>WWDC 2015: UI Testing in Xcode k<br> 
+###### Performance
 
-###### Metrics and Measurement
+WWDC 2021 - Detect and diagnose memory issues<br>WWDC 2018 - iOS Memory Deep Dive <br>
 
-WWDC 2022: Track down hangs with Xcode and on-device detection<br>
+WWDC 2023 - Analyze hangs with Instruments<br>WWDC 2022 - Track down hangs with Xcode and on-device detection<br>WWDC 2021 - Understand and eliminate hangs from your app<br>WWDC 2021 - Ultimate application performance survival guide  <br>
 
-WWDC 2021: Ultimate application performance survival guide<br>WWDC 2021: Understand and eliminate hangs from your app<br>WWDC 2021: Diagnose Power and Performance regressions in your app - w<br>WWDC 2021: Detect and diagnose memory issues<br>
+WWDC 2020 - Eliminate Animation Hitches with XCTest<br>Tech Talk - Demystify and eliminate hitches in the render phase<br>Tech Talk - Find and fix hitches in the commit phase<br>Tech Talk 2020 - Explore UI animation hitches and the render loop<br>
 
-WWDC 2020: What's new in MetricKit - w<br>WWDC 2020: Diagnose performance issues with the Xcode Organizer - w<br>WWDC 2020: Identify trends with the Power and Performance API - w<br>WWDC 2020: Expanding Automation with the App Store Connect API<br>WWDC 2020: Eliminate Animation Hitches with XCTest<br>
+###### Testing 
 
-WWDC 2019: Improving Battery Life and Performance - w<br>
+WWDC 2023: Fix failures faster with Xcode test reports<br>WWDC 2023: Embrace Expected Failures in XCTest<br>WWDC 2023: Diagnose unreliable code with test repetitions<br>WWDC 2020: Write tests to fail <br>WWDC 2020: Get your test results faster <br>WWDC 2020: XCTSkip your tests <br>WWDC 2020: Triage test failures with XCTIssue <br>WWDC 2019: Testing in Xcode k <br>WWDC 2018: What's New in Testing <br>WWDC 2018: Testing Tips & Tricks <br>WWDC 2017: Engineering for Testability <br>WWDC 2017: What's New in Testing (obsolete?) <br>
 
-WWDC 2018: What's New in Energy Debugging - Obsolete? <br>
+WWDC 2020: Handle interruptions and alerts in UI tests k <br>WWDC 2015: UI Testing in Xcode k<br>
+
+###### Swift
+
+WWDC 2023: Generalize APIs with parameter packs<br>WWDC 2023: What’s new in Swift<br>WWDC 2023: Beyond the basics of structured concurrency<br>WWDC 2023: Write Swift macros<br>WWDC 2023: Expand on Swift macros<br>WWDC 2023: Meet mergeable libraries<br>WWDC 2015: Optimizing Swift Performance <br>
+

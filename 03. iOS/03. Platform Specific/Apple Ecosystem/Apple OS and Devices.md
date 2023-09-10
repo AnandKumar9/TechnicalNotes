@@ -2,7 +2,7 @@
 
 | Year | macOS                       | iOS        | iPhone                                            |
 | ---- | --------------------------- | ---------- | ------------------------------------------------- |
-| 2023 | Sonoma (macOS 14)           | iOS 17     |                                                   |
+| 2023 | Sonoma (macOS 14)           | iOS 17     | iPhone 15Pro Max, 15 Pro, 15 Plus, 15             |
 | 2022 | Ventura (macOS 13)          | iOS 16     | iPhone 14Pro Max, 14 Pro, 14 Plus, 14, SE 3rd Gen |
 | 2021 | Monterey (macOS 12)         | iOS 15     | iPhone 13 Pro Max, 13 Pro, 13, 13 Mini            |
 | 2020 | Big Sur (macOS 11)          | iOS 14     | iPhone 12Pro Max, 12 Pro, 12, 12 Mini, 2nd Gen    |
@@ -109,7 +109,10 @@ iPhone 14ProMax, iPhone 14Pro, iPhone 14Plus, iPhone 14, iPhone SE 3rd Gen ?
 
 ###### Release Year
 
-`iPhone 14 Pro Max` - 2022 <br>
+`iPhone 15 Pro Max` - 2023 <br>
+`iPhone 15 Pro` - 2023 <br>
+`iPhone 15 Plus` - 2023 <br>
+`iPhone 15` - 2023 <br>`iPhone 14 Pro Max` - 2022 <br>
 `iPhone 14 Pro` - 2022 <br>
 `iPhone 14 Plus` - 2022 <br>
 `iPhone 14` - 2022 <br>

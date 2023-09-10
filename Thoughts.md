@@ -1,3 +1,30 @@
+##### Sept 29th, 2023
+
+There needs to be growth in all of these areas, each of these are important. So I have to work upon them, believe in myself, and do what it takes. Give it my everything.
+
+- Knowledge - Having good and wide knowledge is important. Both regarding work setup and tech world in general.
+  - EASE
+    - EASE iOS
+    - EASE Android
+    - EASE Web
+    - Back-end setup (Entitlements, ASVs, Systems, IDs, etc.)
+    - ISX APIs
+  - General Tech
+    - iOS
+    - Android
+    - Hybrid apps
+    - System design
+    - ML
+    - AWS
+- Vision
+  - What are the things that can be improved, what is the next big evolution
+  - Get ideas from conferences
+  - What is happening elsewhere in other companies
+- Brand
+  - Blogposts
+  - Talks
+  - Diagrams, Decks that can be passed around
+
 ##### Aug 8th, 2023
 
 I have become a Distinguished Engineer, it happened. It did happen, what I was trying and looking for so much! Its an achievement, and also the time to look forward. How do I go about things hereon.

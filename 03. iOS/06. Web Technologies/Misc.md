@@ -1,12 +1,7 @@
 ##### WWDC videos
 
-Customized Loading in WKWebView	WWDC17 iOS, macOS - Watched<br>Discover WKWebView enhancements	WWDC20 iOS, macOS - Watched<br>Develop advanced web content	WWDC21 iOS, macOS<br>Explore WKWebView additions	WWDC21 iOS, macOS - Watched<br>What's new in WKWebView	WWDC22 iOS, macOS - Watched<br>
+WWDC 2017 - Customized Loading in WKWebView- k<br>WWDC 2020 - Discover WKWebView enhancements - k<br>WWDC 2021 - Develop advanced web content<br>WWDC 2021 - Explore WKWebView additions - K<br>WWDC 2022 - What's new in WKWebView - k<br>
 
-What's new in Web Inspector	WWDC23 iOS, macOS
-Discover Web Inspector improvements	WWDC21 iOS, macOS
-What's new in Web Inspector	WWDC20 iOS, macOS, tvOS
-Understanding CPU Usage with Web Inspector	WWDC19 iOS, macOS
-Auditing Web Content with Web Inspector	WWDC19 iOS, macOS<br>Web Inspector Walkthrough	Tech Talks iOS, macOS, tvOS
+WWDC 2022 - What's new in Web Inspector<br>WWDC 2022 - Rediscover Safari developer features<br>WWDC 2022 - Discover Web Inspector improvements<br>WWDC 2022 - What's new in Web Inspector<br>WWDC 2022 - Understanding CPU Usage with Web Inspector<br>WWDC 2022 - Auditing Web Content with Web Inspector<br>WWDC 2022 - Web Inspector Walkthrough<br>
 
-What's New in Safari View Controller	WWDC17
-Introducing Safari View Controller	WWDC15
+WWDC 2017 - What's New in Safari View Controller - k<br>WWDC 2015 - Introducing Safari View Controller - k<br>

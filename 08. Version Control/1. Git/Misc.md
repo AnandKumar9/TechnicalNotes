@@ -1,4 +1,6 @@
-###### Working with terminal editor
+[toc]
+
+##### Working with terminal editor
 
 Pressing any key such as `a` activates the editor.
 Pressing `esc` deactivates the editor.
@@ -11,6 +13,8 @@ Then `:` followed by commands such as `w` `q` `a` can be typed to indicate what 
 
 > Once you are inside the editor, arrow keys work very fluidly for navigating up and down.
 
+##### Various trick commands 
+
 ###### Getting a list of all files that have changed between two commits
 
 ```
@@ -21,6 +25,15 @@ git log --name-only --pretty=oneline --full-index hash2..hash1 | grep -vE '^[0-9
 
 ```
 git shortlog -s | cut -c8-
+```
+
+###### Parsing commit log (`rev-parse`)
+
+`rev-parse` can be used to parse commit logs in several ways. Here are some of the commands. ([Reference](https://git-scm.com/docs/git-rev-parse), [Examples](https://stackoverflow.com/a/41350393/1135417))
+
+```
+git rev-parse HEAD <---- Gives commit hash
+git rev-parse --abbrev-ref HEAD <---- Gives branch name
 ```
 
 #### git worktree
@@ -95,22 +108,3 @@ Working directory / index / tree <br>
 http://git-memo.readthedocs.io/en/latest/filter-branch.html
 https://manishearth.github.io/blog/2017/03/05/understanding-git-filter-branch/
 
-#### GitHub apps
-
-[Link](https://docs.github.com/en/apps/creating-github-apps/creating-github-apps/about-apps#about-github-apps)
-
-A GitHub App acts on its own behalf, taking actions via the API directly using its own identity, thereby not requiring a bot. (But isn't a bot a similar thing anyway.) They can be installed for any GH account and come with built-in web hooks and specific permissions (say restrict app's access to only certain repos, etc.).
-
-| Step 1                        | Step 2                        |
-| ----------------------------- | ----------------------------- |
-| ![](assets/Misc-10.52.51.png) | ![](assets/Misc-10.53.35.png) |
-
-Various kinds of permissions that can be granted.
-
-![](assets/Misc-10.54.07.png)
-
-
-
-It generates an AppID and a Client ID. New client secrets can then be generated.
-
-![](assets/Misc-11.06.36.png)

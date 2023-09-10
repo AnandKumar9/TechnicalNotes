@@ -11,11 +11,7 @@ WWDC 2018: Creating Custom Instruments k <br>
 WWDC 2018: Measuring Performance Using Logging k <br>
 
 WWDC 2015: Profiling in Depth k <br>
-WWDC 2015: Debugging Energy Issues <br>
 
-WWDC 2020: Diagnose performance issues with Xcode organizer <br>
-WWDC 2018: iOS Memory Deep Dive <br>
-WWDC 2015: Performance on iOS and watchOS <br>
 
 --------
 
