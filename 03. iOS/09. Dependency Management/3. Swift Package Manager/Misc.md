@@ -34,8 +34,6 @@ SwiftPM uses `llbuild` for building (for whatever that may mean).
 
 Sometimes there is an error while trying to the build the package and it says  "xcrun: error: unable to find utility "xctest", not a developer tool or in PATH". If this happens, it just needs to be ensured that there is something in in Xcode > Locations > Command Line Tools.
 
-
-
 -----
 
 Study EASE packages
@@ -48,11 +46,7 @@ Check the commands list
 
 What is the right term? Libraries or Swift package? Are they the identical things?
 
-
-
-A company may prefer to distribute binaries instead of source files to protect intellectual property. Is there any such example, where a consumer app has added a binary package and the source code is not known to it. ([Distributing Binary Frameworks from Swift Packages](https://developer.apple.com/documentation/xcode/distributing-binary-frameworks-as-swift-packages) (Make binaries available to other developers by creating Swift packages that include one or more XCFrameworks) )
-
-
+A company may prefer to distribute binaries instead of source files to protect intellectual property (i.e. distribute xcFramework). So a consumer app has adds a binary package (i.e. xcFramework made available as a Swift Package). ([Distributing Binary Frameworks from Swift Packages](https://developer.apple.com/documentation/xcode/distributing-binary-frameworks-as-swift-packages) (Make binaries available to other developers by creating Swift packages that include one or more XCFrameworks) )
 
 To find out whether a package dependency is a binary dependency or if a source-based package depends (https://developer.apple.com/documentation/xcode/identifying-binary-dependencies)
 
