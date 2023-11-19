@@ -1,3 +1,5 @@
+[toc]
+
 ##### Running on a newer iOS version from an older Xcode
 
 For example running on an iOS11 device from Xcode 8.3.2
@@ -110,6 +112,10 @@ It probably can also be done from command line.
 xcodebuild -showBuildTimingSummary
 ```
 
+###### Inspecting entitlements in an ipa
+
+Change the ipa's format to zip, extract it, do 'Show package contents' for the `.app` there, and then look for a file named `embedded.mobileprovision`. All the entitlements are listed there. In case of Ad-hoc build, that is also where all the allowed devices' UDIDs are listed.
+
 ###### Using `xcodebuild`
 
 Build without code signing.
@@ -123,7 +129,7 @@ Verify the command line tools version being used.
 xcode-select -print-path
 ```
 
-###### Storyboards and Interface Builder -
+###### Storyboards and Interface Builder
 
 Document label in identity inspector allows a custom name to be given to a control which then shows up in the documents outline.
 
