@@ -21,10 +21,10 @@ TypeScript <br>ReactNative <br>ML basics <br>AWS revise <br>
 | iOS Basic     | iOS Advanced                                | Android + Web | AI/ML             | Back-end             |
 | ------------- | ------------------------------------------- | ------------- | ----------------- | -------------------- |
 | Swift         | **XcodeGen**, Bazel                         | Android       | AI/ML courses     | Revise AWS           |
-| SwiftUI       | **Xcode settings**, <br>Developer Tools     | TypeScript    | iOS ML and Vision | Make basic APIs - k  |
-| UI tests      | VisionKit                                   | Flutter       |                   | Serverside Swift - k |
+| SwiftUI       | **Xcode settings - ✔️**, <br>Developer Tools | TypeScript    | iOS ML and Vision | Make basic APIs - ✔️  |
+| UI tests      | VisionKit                                   | Flutter       |                   | Serverside Swift - ✔️ |
 | App Services  | App Size and Launch<br>Building and Linking |               |                   |                      |
-| MetricKit - k | LLDB/LLVM                                   |               |                   |                      |
+| MetricKit - ✔️ | LLDB/LLVM                                   |               |                   |                      |
 |               | Modules/Packaging                           |               |                   |                      |
 
 Who to follow on Twitter<br>What books to read<br>
@@ -78,11 +78,11 @@ WWDC 2015: Advanced Debugging and the Address Sanitizer k <br>
 
 WWDC 2022: Improve app size and runtime performance <br>
 WWDC 2022: Diagnose Power and Performance regressions in your app <br>
-WWDC 2022: Track down hangs with Xcode and on-device detection <br>
+WWDC 2022: Track down hangs with Xcode and on-device detection k <br>
 WWDC 2020: Background execution demystified <br>
 WWDC 2019: Advances in App Background Execution <br>
 WWDC 2020: Why is my app getting killed <br>
-WWDC 2021: Understand and eliminate hangs from your app <br>
+WWDC 2021: Understand and eliminate hangs from your app k <br>
 WWDC 2019: Optimizing App Launch <br>
 WWDC 2017: App Startup Time: Past, Present, and Future <br>
 WWDC 2016: Optimizing App Startup Time k <br>
