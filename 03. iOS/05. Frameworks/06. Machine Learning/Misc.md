@@ -12,12 +12,12 @@ WWDC 2020: Use model deployment and security with Core ML
 WWDC 2020: Get models on device using Core ML Converters
 WWDC 2019: Core ML 3 Framework
 WWDC 2019: Creating Great Apps Using Core ML and ARKit
-WWDC 2018: What’s New in Core ML, Part 1
-WWDC 2018: What’s New in Core ML, Part 2
+WWDC 2018: What’s New in Core ML, Part 1 ([link](https://www.bilibili.com/video/BV1YX4y1c7Y6/)) - 0.5k
+WWDC 2018: What’s New in Core ML, Part 2 ([link](https://www.bilibili.com/video/BV1rw41197Ps/?spm_id_from=333.788.recommend_more_video.-1)) - 0.5k
 WWDC 2018: Vision with Core ML
-WWDC 2017: Introducing Core ML ([link](https://www.bilibili.com/video/BV18P4y1472G/))
-WWDC 2017: Vision Framework: Building on Core ML
-WWDC 2017: Core ML in depth<br>Tech Talk: Convert PyTorch models to Core ML
+WWDC 2017: Introducing Core ML ([link](https://www.bilibili.com/video/BV18P4y1472G/)) - 0.5k
+WWDC 2017: Vision Framework: Building on Core ML<br>WWDC 2017: Core ML in depth <br>
+WWDC 2017: Tech Talk: Convert PyTorch models to Core ML
 
 ##### CreateML WWDC videos
 
@@ -35,7 +35,7 @@ WWDC 2019: Training Object Detection Models in Create ML
 WWDC 2019: Training Recommendation Models in Create ML
 WWDC 2019: Building Activity Classification Models in Create ML
 WWDC 2019: Training Text Classifiers in Create ML
-WWDC 2018: Introducing Create ML<br>Tech Talk: Improve Object Detection models in Create ML
+WWDC 2018: Introducing Create ML ([link](https://www.bilibili.com/video/BV1Fy4y1j77p/))<br>Tech Talk: Improve Object Detection models in Create ML
 
 
 
