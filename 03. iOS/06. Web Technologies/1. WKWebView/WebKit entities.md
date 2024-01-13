@@ -1,3 +1,3 @@
-| ![WebKit entities](assets/WebKit entities.png) |
+| ![WebKit entities](assets/WebKit-entities.png) |
 | ---------------------------------------------- |
 

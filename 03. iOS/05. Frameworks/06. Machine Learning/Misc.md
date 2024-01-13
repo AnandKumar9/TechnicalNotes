@@ -9,13 +9,13 @@ Apple's ML home page ([link](https://developer.apple.com/machine-learning/)) <br
 WWDC 2023: Improve Core ML integration with async prediction<br>WWDC 2023: Use Core ML Tools for machine learning model compression<br>WWDC 2022: Optimize your Core ML usage
 WWDC 2021: Tune your Core ML models
 WWDC 2020: Use model deployment and security with Core ML
-WWDC 2020: Get models on device using Core ML Converters
-WWDC 2019: Core ML 3 Framework
+WWDC 2020: Get models on device using Core ML Converters - k
+WWDC 2019: Core ML 3 Framework - k
 WWDC 2019: Creating Great Apps Using Core ML and ARKit
-WWDC 2018: What’s New in Core ML, Part 1 ([link](https://www.bilibili.com/video/BV1YX4y1c7Y6/)) - 0.5k
-WWDC 2018: What’s New in Core ML, Part 2 ([link](https://www.bilibili.com/video/BV1rw41197Ps/?spm_id_from=333.788.recommend_more_video.-1)) - 0.5k
+WWDC 2018: What’s New in Core ML, Part 1 ([link](https://www.bilibili.com/video/BV1YX4y1c7Y6/)) - k
+WWDC 2018: What’s New in Core ML, Part 2 ([link](https://www.bilibili.com/video/BV1rw41197Ps/?spm_id_from=333.788.recommend_more_video.-1)) - k
 WWDC 2018: Vision with Core ML
-WWDC 2017: Introducing Core ML ([link](https://www.bilibili.com/video/BV18P4y1472G/)) - 0.5k
+WWDC 2017: Introducing Core ML ([link](https://www.bilibili.com/video/BV18P4y1472G/)) - k
 WWDC 2017: Vision Framework: Building on Core ML<br>WWDC 2017: Core ML in depth <br>
 WWDC 2017: Tech Talk: Convert PyTorch models to Core ML
 

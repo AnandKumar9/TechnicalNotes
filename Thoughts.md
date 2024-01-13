@@ -1,4 +1,28 @@
-##### Sept 29th, 2023
+[toc]
+
+##### Jan 12th, 2024: Retrospective of last 7.5 years
+
+Did I work hard, give it my all. <br>Was I happy, and if not was I too harsh on myself in retrospect. <br>What else should I have really been doing but wasn't. <br>
+
+~ **2016 Aug - 2017 Jul**: Just joined Capital one, working in Wallet. Gave it my all, and I think I was **mostly happy**. A little uncertain still but happy enough. There is really nothing else that I could have done. **Proud** of what I did.
+
+~ **2018 Jan - 2019 Feb**: iOS extension. Was **somewhat happy**, a little anxious about the tech i didn't know but happy still. Should have started learning ML at this time, was enough noise already. And should have understood that one need not be an expert in it.
+
+~ **2019 Mar - 2020 Feb**: ISX projects. Yes, **very happy and content**. Got a very good raise too. The first time I got to lead projects, and work like I wanted to. The results showed. Could have started trying Android already.
+
+~ **2020 Mar - 2021 Feb**: Promotion, first year as SM, ISX projects. **Happy enough**, slightly anxious but not much. Could see I needed to better, should have started understanding Cloud better.
+
+~ **2021Mar - 2022 Feb**: Welcome, ISX projects (Toolbox). Happy initially but **increasingly discontent** after that. Could feel a stagnation and some despair creeping in. Should have looked into EASE lot more. 
+
+~ **2022 Mar - 2022 Dec**: L1 ISX projects (Combine). Slightly content for only some time and then **unhappy**. Should have made myself more versatile, understand web too.
+
+~ **2023**: Diagrams and talks. Promoted to DE in Jul. The high of becoming one, and then **very anxious**. Need to become lot more well rounded and have depth.
+
+In general, needed to push myself lot more and know many more things. If something is making noise, know about it. To always make contributions, have things to show. Cultivating a personality, a reliable and calming presence.
+
+Trying new things and gadgets outside work. That is what brings confidence.
+
+##### Sept 29th, 2023: Tech and Career improvement thoughts
 
 There needs to be growth in all of these areas, each of these are important. So I have to work upon them, believe in myself, and do what it takes. Give it my everything.
 
@@ -25,7 +49,7 @@ There needs to be growth in all of these areas, each of these are important. So 
   - Talks
   - Diagrams, Decks that can be passed around
 
-##### Aug 8th, 2023
+##### Aug 8th, 2023: Promoted to DE
 
 I have become a Distinguished Engineer, it happened. It did happen, what I was trying and looking for so much! Its an achievement, and also the time to look forward. How do I go about things hereon.
 
@@ -39,11 +63,11 @@ I have become a Distinguished Engineer, it happened. It did happen, what I was t
 
 Have a timeline, and be careful about what I invest my time in going forward.
 
-##### Jan 1st, 2023
+##### Jan 1st, 2023: Know basics
 
 You have to know the basics, actually understand the thing from ground up. There is no avoiding it, it doesn't really work. You can scratch around, work very hard and get by with the immediate task but over even slightly longer term its far better and more efficient to actually understand the basics. Its possible. I can see this with some patchy scripting I am trying with awk/gawk, its better to really revise all the bash filter concepts and then build upon it.
 
-##### Dec 26th, 2022
+##### Dec 26th, 2022: Slight retro and thoughts ahead
 
 Its now been 6.5 years that I have been at Capital One. Joining Capital One and getting through the first few months there is something which I really feel I had handled very well then, and was an important step forward in my career. In the initial years, I operated as an iOS expert and the years rolled by. Trying to ship features flawlessly, being bankable, and working for my next promotion and appraisal. But now if I see, more or less I am still what I was 6.5 years back. An iOS expert, that's all. I could have used these years to be more verstile than that, but I was too busy with feature work to become that.
 
