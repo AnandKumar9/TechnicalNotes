@@ -42,8 +42,6 @@ SPM source code
 
 Check the commands list
 
-
-
 What is the right term? Libraries or Swift package? Are they the identical things?
 
 A company may prefer to distribute binaries instead of source files to protect intellectual property (i.e. distribute xcFramework). So a consumer app has adds a binary package (i.e. xcFramework made available as a Swift Package). ([Distributing Binary Frameworks from Swift Packages](https://developer.apple.com/documentation/xcode/distributing-binary-frameworks-as-swift-packages) (Make binaries available to other developers by creating Swift packages that include one or more XCFrameworks) )

@@ -1,20 +1,52 @@
-Benefits - Remote caching, faster builds, predictable
+`BAZEL_INTEGRATION_DIR` - 'TestSomething/TestSomething.xcodeproj/rules_xcodeproj/bazel'
 
-##### Videos
+##### bazelrc file ([reference](https://bazel.build/run/bazelrc))
 
-Two large team iOS Bazel migrations (Erik Kerber) - https://www.youtube.com/watch?v=wy3Q38VJ5uQ <br>iOS dev with Bazel (Peter Iakovlev) - https://www.youtube.com/watch?v=O3A9KmFUwMc <br>What's Bazel? Why should you care (Siemens) - https://www.youtube.com/watch?v=sW8b-cgqicc
+Configuration file which can be used to specify bazel options that need to remain same across builds. Usually placed in workspace folder, but can be placed in other places too.
 
-##### Language
+Lines that start with import or try-import are special and are used to load other `rc` files. To specify a path that is relative to the workspace root, write 'import %workspace%/path/to/bazelrc'.
 
-Starlark language ([overview](https://github.com/bazelbuild/starlark/?tab=readme-ov-file), [specs](https://github.com/bazelbuild/starlark/blob/master/spec.md)) - Designed to be a configuration language for Bazel. A subset of Python, dynamically typed, has garbage collerction. Used in both BUILD files, and WORKSPACE files. Gurantees thread safe execution.
+The first word on each line specifies when these defaults are applied with the possible values being - `startup`, `common`, `always`, `command`.
 
-##### Common rules
+`````
+build --test_tmpdir=/tmp/foo --verbose_failures
+`````
 
-Bazel glossary - https://bazel.build/reference/glossary<br>Bazel iOS - https://bazel-ios.github.io<br>
+In addition to setting option defaults, the rc file can be used to group options and provide a shorthand for common groupings. This is done by adding a `:name` suffix to the command. These options are ignored by default, but will be included when the option --config=name is present, either on the command line or in a .bazelrc file, recursively.
 
-Getting started - https://bazel.build/start <br>Basic iOS tutorial - https://github.com/bazelbuild/rules_apple/blob/master/doc/tutorials/ios-app.md <br>Build concepts - https://bazel.build/concepts/build-ref <br>
+`````
+# Definition of --config=memcheck
+build:memcheck --strip=never --test_timeout=3600
+`````
 
-User guides - https://bazel.build/docs <br>Migrating from Xcode to Bazel - https://bazel.build/migrate/xcode <br>Full reference - https://bazel.build/reference <br>Extending Bazel - https://bazel.build/extending <br>
+Bazel looks for a `bazelrc` file in multiple places, not just the workspace file but also in certain folders in home directory, etc.
 
-rules_apple ([link](https://github.com/bazelbuild/rules_apple)) - Handles linking and building of apps and extensions (i.e. forms .app, .ipa) <br>objc_library ([link](https://bazel.build/reference/be/objective-c#objc_library)) - Produces a static lib from ObjC files <br>rules_swift ([link](https://github.com/bazelbuild/rules_swift)) - Rules to buld libs and executables for macOS and Linux from Swift files <br>swift_library ([link](https://github.com/bazelbuild/rules_swift/blob/master/doc/rules.md#swift_library)) - Produces a static lib/swiftmodule from Swift code <br>rules_ios ([link](https://github.com/bazel-ios/rules_ios)) - Rules for iOS apps (accounts for both Swift and ObjC code) <br>
+##### bazelignore file
+
+Used to specify directories within the workspace that you want Bazel to ignore, such as related projects that use other build systems.
+
+##### glob function ([reference](https://bazel.build/reference/be/functions#glob))
+
+`glob` is a helper function that finds all files that match certain path patterns, and returns a new, mutable, sorted list of their paths. Glob only searches files in its own package, and looks only for source files (not generated files nor other targets).
+
+`````python
+glob(include, exclude=[], exclude_directories=1, allow_empty=True)
+
+data = glob(
+    ["testdata/*.txt"],
+    exclude = ["testdata/experimental.txt"],
+),
+`````
+
+##### bazel directories ([documentation](https://bazel.build/remote/output-directories))
+
+When a build is done, four different directories are generated -
+
+ `bazel-bin` (refers to bin directory?) <br> `bazel-<RootFolderName>` (the working directory for all actions that take place in the build) <br> `bazel-out` (where outputs are stored?) <br>`bazel-testlogs`  (results of unit tests)
+
+##### alias rule ([reference](https://bazel.build/reference/be/general#alias))
+
+`alias` is a native rule that creates another name a rule can be referred to as. It only works for "regular" targets. In particular, package_group and test_suite cannot be aliased.
+
+----
 

@@ -1,26 +1,26 @@
 [toc]
 
-| Year | macOS                       | iOS        | iPhone                                            |
-| ---- | --------------------------- | ---------- | ------------------------------------------------- |
-| 2023 | Sonoma (macOS 14)           | iOS 17     | iPhone 15Pro Max, 15 Pro, 15 Plus, 15             |
-| 2022 | Ventura (macOS 13)          | iOS 16     | iPhone 14Pro Max, 14 Pro, 14 Plus, 14, SE 3rd Gen |
-| 2021 | Monterey (macOS 12)         | iOS 15     | iPhone 13 Pro Max, 13 Pro, 13, 13 Mini            |
-| 2020 | Big Sur (macOS 11)          | iOS 14     | iPhone 12Pro Max, 12 Pro, 12, 12 Mini, 2nd Gen    |
-| 2019 | Catalina (macOS 10.15)      | iOS 13     | iPhone 11Pro Max, 11 Pro, 11                      |
-| 2018 | Mojave (macOS 10.14)        | iOS 12     | iPhone XSMax, XS, XR                              |
-| 2017 | High Sierra (macOS 10.13)   | iOS 11     | iPhone X, 8Plus, 8                                |
-| 2016 | Sierra (macOS 10.12)        | iOS 10     | iPhone 7Plus, 7, SE 1st Gen                       |
-| 2015 | El Capitan (OS X 10.11)     | iOS 9      | iPhone 6SPlus, 6S                                 |
-| 2014 | Yosemite (OS X 10.10)       | iOS 8      | iPhone 6Plus, 6                                   |
-| 2013 | Mavericks (OS X 10.9)       | iOS 7      | iPhone 5S, 5C                                     |
-| 2012 | Mountain Lion (OS X 10.8)   | iOS 6      | iPhone 5                                          |
-| 2011 | Lion (OS X 10.7)            | iOS 5      | iPhone 4S                                         |
-| 2010 | Snow Leopard (MacOS X 10.6) | iOS 4      | iPhone 4                                          |
-| 2009 |                             | iPhoneOS 3 | iPhone 3GS                                        |
-| 2008 |                             |            |                                                   |
-| 2007 | Leopard (MacOS X 10.5)      |            |                                                   |
+| Year | macOS                       | iOS               | iPhone                                            | iPad                                                       |
+| ---- | --------------------------- | ----------------- | ------------------------------------------------- | ---------------------------------------------------------- |
+| 2023 | Sonoma (macOS 14)           | iOS 17, iPadOS 17 | iPhone 15Pro Max, 15 Pro, 15 Plus, 15             |                                                            |
+| 2022 | Ventura (macOS 13)          | iOS 16, iPadOS 16 | iPhone 14Pro Max, 14 Pro, 14 Plus, 14, SE 3rd Gen | iPad Pro 6th Gen, Air 5th Gen, 10th Gen                    |
+| 2021 | Monterey (macOS 12)         | iOS 15, iPadOS 15 | iPhone 13 Pro Max, 13 Pro, 13, 13 Mini            | iPad Pro 5th Gen, 9th Gen, Mini 6th Gen                    |
+| 2020 | Big Sur (macOS 11)          | iOS 14, iPadOS 14 | iPhone 12Pro Max, 12 Pro, 12, 12 Mini, 2nd Gen    | iPad Pro 4th Gen, Air 4th Gen, 8th Gen                     |
+| 2019 | Catalina (macOS 10.15)      | iOS 13            | iPhone 11Pro Max, 11 Pro, 11                      | iPad Air 3rd Gen, 7th Gen,  mini 5th Gen                   |
+| 2018 | Mojave (macOS 10.14)        | iOS 12            | iPhone XSMax, XS, XR                              | iPad 6th Gen, Pro 3rd Gen                                  |
+| 2017 | High Sierra (macOS 10.13)   | iOS 11            | iPhone X, 8Plus, 8                                | iPad 5th Gen, Pro 2nd Gen 12.9 inch, Pro 2nd Gen 10.5 inch |
+| 2016 | Sierra (macOS 10.12)        | iOS 10            | iPhone 7Plus, 7, SE 1st Gen                       | iPad Pro 9.7 inch                                          |
+| 2015 | El Capitan (OS X 10.11)     | iOS 9             | iPhone 6SPlus, 6S                                 | iPad Pro 12.9 inch, Mini 4                                 |
+| 2014 | Yosemite (OS X 10.10)       | iOS 8             | iPhone 6Plus, 6                                   | iPad Air 2, Mini 3                                         |
+| 2013 | Mavericks (OS X 10.9)       | iOS 7             | iPhone 5S, 5C                                     | iPad Air, Mini 2                                           |
+| 2012 | Mountain Lion (OS X 10.8)   | iOS 6             | iPhone 5                                          | iPad 4th gen, Mini, 3rd gen (new iPad)                     |
+| 2011 | Lion (OS X 10.7)            | iOS 5             | iPhone 4S                                         | iPad 2                                                     |
+| 2010 | Snow Leopard (MacOS X 10.6) | iOS 4             | iPhone 4                                          | iPad                                                       |
+| 2009 |                             | iPhoneOS 3        | iPhone 3GS                                        |                                                            |
+| 2008 |                             |                   |                                                   |                                                            |
+| 2007 | Leopard (MacOS X 10.5)      |                   |                                                   |                                                            |
 
-
+`iPhone 7 Plus`  , `iPhone 7` - Static home button <br>`iPhone 6s Plus`  , `iPhone 6s`  - 3D Touch <br>`iPhone 6s Plus`  , `iPhone 6s`  - 3D Touch <br> `iPhone 6 Plus`  , `iPhone 6`  - ApplePay <br>`iPhone 5s`  , `iPhone 5c`  - Touch ID <br>`iPhone 5` - Longer screen <br> `iPhone 4s` - Siri <br>`iPhone 4` - Retina display
 
 ### OS versions
 
@@ -92,9 +92,11 @@ Here is the conversion between points and rendered pixels. There is something ca
 `2 * No. of points (2x)` - iPhone SE 2nd Gen, XR, 6S, 6, iPhone SE, 5S, 5C, 5, iPhone 4S, 4 <br>
 `No. of points` - iPhone 3GS, 3G, 2G
 
+###### 
+
 ##### iPhone
 
-###### Resolution
+###### Resolution (width, height in points)
 
 iPhone 14ProMax, iPhone 14Pro, iPhone 14Plus, iPhone 14, iPhone SE 3rd Gen ?
 
@@ -106,48 +108,6 @@ iPhone 14ProMax, iPhone 14Pro, iPhone 14Plus, iPhone 14, iPhone SE 3rd Gen ?
 `375, 667` - iPhone SE 2nd Gen, 8, 7, 6S, 6 <br>
 `320, 568` - iPhone SE 1st Gen, 5S, 5C, 5 <br>
 `320, 480` - iPhone 4S, 4, iPhone 3GS, 3G, iPhone <br>
-
-###### Release Year
-
-`iPhone 15 Pro Max` - 2023 <br>
-`iPhone 15 Pro` - 2023 <br>
-`iPhone 15 Plus` - 2023 <br>
-`iPhone 15` - 2023 <br>`iPhone 14 Pro Max` - 2022 <br>
-`iPhone 14 Pro` - 2022 <br>
-`iPhone 14 Plus` - 2022 <br>
-`iPhone 14` - 2022 <br>
-`iPhone SE 3rd Gen` - 2022 <br>
-`iPhone 13 Pro Max` - 2021 <br>
-`iPhone 13 Pro` - 2021 <br>
-`iPhone 13` - 2021 <br>
-`iPhone 13 Mini` - 2021 <br>
-`iPhone 12 Pro` - 2020 <br>
-`iPhone 12 Pro Max` - 2020 <br>
-`iPhone 12` - 2020 <br>
-`iPhone 12 Mini` - 2020 <br>
-`iPhone 2nd Gen` - 2020 <br>
-`iPhone 11` - 2019. Still has FaceID, but just 2 rear lens. <br>
-`iPhone 11 Pro Max` - 2019 <br>
-`iPhone 11 Pro` - 2019 <br>
-`iPhone XR` - 2018 <br>
-`iPhone XSMax` - 2018 <br>
-`iPhone XS` - 2018 <br>
-`iPhone X` - 2017. Full length screen. Introduced Face ID. <br>
-`iPhone 8 Plus` - 2017 <br>
-`iPhone 8` - 2017 <br>
-`iPhone 7 Plus` - 2016 <br>
-`iPhone 7` - 2016. Revamped home button. <br>
-`iPhone SE` 1st Gen - 2016 <br>
-`iPhone 6s Plus` - 2015 <br>
-`iPhone 6s` - 2015. Introduced 3D Touch. <br>
-`iPhone 6 Plus` - 2014 <br>
-`iPhone 6` - 2014. Introduced Apple Pay. <br>
-`iPhone 5s` - 2013. Introduced Touch ID. <br>
-`iPhone 5c` - 2013 <br>
-`iPhone 5` - 2012. Longer screen. <br>
-`iPhone 4S` - 2011. Same look as iPhone 4. Offered Siri. <br>
-`iPhone 4` - 2010. New sharp edges. Retina display. Had antenna issues. <br>
-`iPhone 3GS` - 2009. Rested brilliantly on the palm. Ergonomically still the best. <br>
 
 ###### Screen sizes
 
@@ -162,7 +122,7 @@ iPhone 14ProMax, iPhone 14Pro, iPhone 14Plus, iPhone 14, iPhone SE 3rd Gen ?
 
 ##### iPad
 
-###### Screen resolutions (width, height in points)
+###### Resolutions (width, height in points)
 
 iPad Pro 12.9" - 1024, 1366  <br>
 iPad Pro 9.7", iPad Air 2, iPad Air, iPad 4th gen, iPad 3rd gen, iPad 2, iPad - 768, 1024  <br>
@@ -181,20 +141,6 @@ Here is the device size (the diagonal size) in inches for various iPads.
 iPad Pro 12.9" - 12.9" <br>
 iPad Pro 9.7", iPad Air 2, iPad Air, iPad 4th gen, iPad 3rd gen, iPad 2, iPad - 9.7" <br>
 iPad Mini 4, iPad Mini 3, iPad Mini 2, iPad Mini - 7.9" <br>
-
-###### Release Year
-
-iPad mini 5th Gen - 2019 <br>
-iPad 6th Gen, iPad Pro 3rd Gen - 2018 <br>
-iPad 5th Gen, iPad Pro 2nd Gen (12.9 inch, 10.5 inch) - 2017 <br>
-iPad Pro 9.7 inch - 2016 <br>
-iPad Pro 12.9 inch, iPad Mini 4 - 2015 <br>
-iPad Air 2, iPad Mini 3 - 2014 <br>
-iPad Air, iPad Mini 2 - 2013 <br>
-iPad 4th gen, iPad Mini - 2012 <br>
-iPad 3rd gen (new iPad) - 2012 <br>
-iPad 2 - 2011 <br>
-iPad - 2010 <br>
 
 ###### Screen sizes
 

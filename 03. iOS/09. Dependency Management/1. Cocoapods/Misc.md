@@ -1,5 +1,23 @@
 [toc]
 
+##### Commands
+
+([Reference](https://guides.cocoapods.org/terminal/commands.html))
+
+`````
+pod repo update -- Updates local clone of repo registry, i.e. gets to know about latest updates
+pod install  -- Downloads all dependencies defined in Podfile, creates Xcode Pods library project in ./Pods.
+pod update -- Updates the specified pods, else updates all pods
+
+pod list -- List all available pods (even remote?)
+
+pod spec create
+
+pod cache clean
+`````
+
+
+
 ##### Installing Cocoapods on Apple M1 Macs
 
 The usual way to install Cocoapods is to just install the gem ([link](https://guides.cocoapods.org/using/getting-started.html)).
