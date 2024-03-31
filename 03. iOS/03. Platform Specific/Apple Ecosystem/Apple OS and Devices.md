@@ -24,25 +24,7 @@
 
 ### OS versions
 
-##### macOS versions
-
-`Sonoma (macOS 14.0)` - 2023 <br>
-`Ventura (macOS 13.0)` - 2022 <br>
-`Monterey (macOS 12.0)` - 2021 <br>
-`Big Sur (macOS 11.0)` - 2020 <br>
-`Catalina (macOS 10.15)` - 2019 <br>
-`Mojave (macOS 10.14)` - 2018 <br>
-`High Sierra (macOS 10.13)` - 2017 <br>
-`Sierra (macOS 10.12)` - 2016 <br>
-`El Capitan (OS X 10.11)` - 2015 <br>
-`Yosemite (OS X 10.10)` - 2014 <br>
-`Mavericks (OS X 10.9)` - 2013 <br>
-`Mountain Lion (OS X 10.8)` - 2012 <br>
-`Lion (OS X 10.7)` - 2011 <br>
-`Snow Leopard (OS X 10.6)` - 2009 <br>
-`Leopard (OS X 10.5)` - 2007 <br>
-
-##### iOS versions
+#### iOS versions features
 
 `iOS 17` - 2023 <br>
 `iOS 16` - 2022 <br>
@@ -60,7 +42,7 @@
 `iOS 4` - 2010. iPhone OS renamed to iOS. Had multitasking for all apps. iBooks. <br>
 `iPhoneOS 3` - 2009. Push notifications. Copy and paste. MMS. <br>
 
-##### watchOS versions
+#### watchOS versions
 
 `watchOS 10` - 2023 <br>
 `watchOS 9` - 2022 <br>
@@ -73,7 +55,7 @@
 `watchOS 2` - 2015 <br>
 `watchOS 1` - 2015 <br>
 
-##### visionOS versions
+#### visionOS versions
 
 `visionOS 1 (Beta)` - 2023
 
