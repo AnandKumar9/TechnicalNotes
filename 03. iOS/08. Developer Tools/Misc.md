@@ -36,3 +36,19 @@ swiftc -o CompiledExecutable FileName.swift   // This generates the executable
 
 swiftc first.swift second.swift third.swift -o program  // Compile multiple Swift file, yet to try
 ```
+
+###### xed
+
+Just a command line tool (that comes pre-installed with Xcode/macOS) and can be used to open projects/files in Xcode with the right Xcode version (even if multiple versions are installed).
+
+```shell
+xed . -> Opens the project in current directory
+
+xed -xc test.swift -> Creates a new file and opens it, does not link it to project though
+
+xed Test.swift -> Opens the file
+
+xed help -> See all options
+```
+
+[Article](https://dive.medium.com/xcode-invocation-tool-xed-deb04d03cf98)

@@ -42,6 +42,6 @@ Finally setup Arkana (important, this is what creates required Arkana dependenci
 bundle exec arkana -e ./env/.env
 ```
 
-Open xcproject, it will load the dependencies.
+Open xcproj file, it will load the dependencies.
 
 ![image-20240331175158006](assets/image-20240331175158006.png)

@@ -1,3 +1,5 @@
+[toc]
+
 #### Breakpoints
 
 Charles Breakpoints (`Cmd + Shift + K`) can be used to visually intercept network calls and change any of its request/response aspects (headers, payload, status code, etc.).

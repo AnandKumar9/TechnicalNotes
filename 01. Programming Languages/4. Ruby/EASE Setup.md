@@ -100,7 +100,7 @@ CPPFLAGS=$CPPFLAGS "-Wno-error=implicit-function-declaration -Wno-error=compound
 
 ###### Cannot load such file -- openssl
 
-While doing 'gem install bundler', I was getting an error that said 'Cannot load such file -- openssl'. It got resolved after doing [this](https://github.com/rvm/rvm/issues/5246#issuecomment-1671324137).
+While doing 'gem install bundler', I was getting an error that said 'Cannot load such file -- openssl'. It got resolved after doing [this](https://github.com/rvm/rvm/issues/5246#issuecomment-1671324137). Ruby does not work with OpenSSL3 yet.
 
 ```
 brew unlink openssl@3

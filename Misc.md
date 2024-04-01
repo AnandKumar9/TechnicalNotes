@@ -10,3 +10,4 @@ Cmd Ctrl and swipe anywhere (not just the title bar) in the window to drag it. D
 ###### Understanding JWT
 
 https://supertokens.com/blog/what-is-jwt <br>https://en.wikipedia.org/wiki/JSON_Web_Token
+

@@ -1,8 +1,8 @@
 [toc]
 
-| Year | macOS                       | iOS               | iPhone                                            | iPad                                                       |
+| Year | macOS                       | iOS/iPadOS        | iPhone                                            | iPad                                                       |
 | ---- | --------------------------- | ----------------- | ------------------------------------------------- | ---------------------------------------------------------- |
-| 2023 | Sonoma (macOS 14)           | iOS 17, iPadOS 17 | iPhone 15Pro Max, 15 Pro, 15 Plus, 15             |                                                            |
+| 2023 | Sonoma (macOS 14)           | iOS 17, iPadOS 17 | iPhone 15Pro Max, 15 Pro, 15 Plus, 15             | iPad Pro 7th Gen, Air 6th Gen                              |
 | 2022 | Ventura (macOS 13)          | iOS 16, iPadOS 16 | iPhone 14Pro Max, 14 Pro, 14 Plus, 14, SE 3rd Gen | iPad Pro 6th Gen, Air 5th Gen, 10th Gen                    |
 | 2021 | Monterey (macOS 12)         | iOS 15, iPadOS 15 | iPhone 13 Pro Max, 13 Pro, 13, 13 Mini            | iPad Pro 5th Gen, 9th Gen, Mini 6th Gen                    |
 | 2020 | Big Sur (macOS 11)          | iOS 14, iPadOS 14 | iPhone 12Pro Max, 12 Pro, 12, 12 Mini, 2nd Gen    | iPad Pro 4th Gen, Air 4th Gen, 8th Gen                     |

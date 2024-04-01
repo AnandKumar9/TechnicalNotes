@@ -46,6 +46,10 @@ Extract every 4th line. In below example, every 4th line beginning at line numbe
 awk -v n=4 'NR%n==2' Temp.txt | pbcopy
 ```
 
+Print all components of `$PATH` in new line.
+
+`echo $PATH | tr ':' '\n' `
+
 ##### mdfind
 
 This is actually a macOS command instead. `mdfind` allows to do a Spotlight search from terminal and as it uses Spotlight's pre-built file database, its quicker. ([Link](https://metaredux.com/posts/2019/12/22/mdfind.html)) Very handy for piping the results into another command, etc. too.
