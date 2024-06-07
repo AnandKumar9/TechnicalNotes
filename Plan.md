@@ -1,8 +1,8 @@
-Splunk [Today] <br>EASE Android <br>EASE Web <br>
+ReactNative <br>iOS entry points <br>Arnold's Routing PR <br>EASE GraphQL <br>TypeScript, EASE Web <br>VCHome contribution architecture <br>
 
 Xcode Settings <br>XcodeGen <br>
 
-TypeScript <br>ReactNative <br>ML basics <br>AWS revise <br>
+ML basics <br>AWS revise <br>
 
 ##### Immediate - Sep 12, 2023
 
