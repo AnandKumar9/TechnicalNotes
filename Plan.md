@@ -1,4 +1,4 @@
-ReactNative <br>iOS entry points <br>Arnold's Routing PR <br>EASE GraphQL <br>TypeScript, EASE Web <br>VCHome contribution architecture <br>
+ReactNative  - k<br>iOS entry points <br>Arnold's Routing PR <br>EASE GraphQL <br>TypeScript, EASE Web <br>VCHome contribution architecture <br>
 
 Xcode Settings <br>XcodeGen <br>
 

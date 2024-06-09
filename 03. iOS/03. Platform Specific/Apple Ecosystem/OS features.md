@@ -60,6 +60,8 @@ Official documentation ([link](https://support.apple.com/en-us/111795))
 
 ##### iPadOS Stage Manager (App groups, multiple apps in one space)
 
+> There in macOS too
+
 Its basically a way to create Mac like Spaces in iPad, i.e. grouping together of certain apps. And in those spaces, the apps can be sized and positioned as you wish. One app can only be in one app group at a time. Also, there can be more than two apps in one app group (unlike in split-view where there can be only two apps). This is probably more useful in larger iPads along with an external keyboard, without those this doesn't seem to be of much use yet as the space is still quite constricted.
 
 | Stage Manager (there are 3 apps displayed together here) | App Switcher (app group on left has 3 apps together) |
