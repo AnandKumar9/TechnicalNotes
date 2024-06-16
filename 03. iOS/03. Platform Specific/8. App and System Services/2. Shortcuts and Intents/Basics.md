@@ -110,6 +110,18 @@ Takes advantage of on-device machine learning to allow phrases similar to the on
 
 To help make authoring and testing App Shortcuts faster and easier, we're introducing a powerful new tool in Xcode called App Shortcuts Preview.
 
+##### Next Steps
+
+Understand Shortcuts app better<br>Summarize all watched videos' notes<br>
+
+Shows in Shortcuts app
+Shows in Spotlight
+Can be added to home sceen
+Is a command in Siri
+SiriTipView
+
+Widgets
+
 ##### Resources
 
 WWDC 2023: Spotlight your app with App Shortcuts - **Watched** <br>WWDC 2022: Implement App Shortcuts with App Intents - **Watched**<BR>WWDC 2022: Dive into App Intents - **Watched** <br>WWDC 2022: Design App Shortcuts<BR>WWDC 2021: Design great actions for Shortcuts, Siri, and Suggestions<BR>WWDC 2021: Donate intents and expand your app’s presence <br>WWDC 2020: What's new in SiriKit and Shortcuts<BR>WWDC 2020: Feature your actions in the Shortcuts app<BR>
