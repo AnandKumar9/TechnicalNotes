@@ -34,17 +34,21 @@ For specifying multiple patterns, club them in `()`.
 tree -I '*png|*md'
 ```
 
-##### Misc. tricks
+##### Extracting WWDC videos list
 
 Remove all empty lines.
+
 ```
 sed -E '/^$/d' Temp.txt
 ```
 
 Extract every 4th line. In below example, every 4th line beginning at line number 2 is extracted.
+
 ```
 awk -v n=4 'NR%n==2' Temp.txt | pbcopy
 ```
+
+##### Misc. tricks
 
 Print all components of `$PATH` in new line.
 

@@ -10,6 +10,13 @@ The trick in configuring is to ensure that the in macOS display settings the iPa
 
 ![image-20240527080826920](assets/image-20240527080826920.png)
 
+##### Controlling from iOS devices (Control iPad from iPhone)
+
+Not everything can be done, but several common things like media playback, etc. can be controlled. Go to 'Accessibility > Control Nearby Devices'. ([link](https://support.apple.com/guide/iphone/control-a-nearby-apple-device-iphd9bc05ba9/ios#:~:text=Go%20to%20Settings%20%3E%20Accessibility%20%3E%20Control,control%2C%20then%20tap%20a%20button.))
+
+| ![](assets/IMG_4006.png) | ![](assets/IMG_4007.png) |
+| ------------------------ | ------------------------ |
+
 ##### Sidecar (Show Mac on iPad)
 
 Use iPad or any external monitor as an additional display for the Mac. It can be used an another display/space or just be used to mirror any other display.

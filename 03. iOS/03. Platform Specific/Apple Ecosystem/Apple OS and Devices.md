@@ -75,8 +75,6 @@ Here is the conversion between points and rendered pixels. There is something ca
 `2 * No. of points (2x)` - iPhone SE 2nd Gen, XR, 6S, 6, iPhone SE, 5S, 5C, 5, iPhone 4S, 4 <br>
 `No. of points` - iPhone 3GS, 3G, 2G
 
-###### 
-
 ##### iPhone
 
 ###### Resolution (width, height in points)
