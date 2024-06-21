@@ -94,6 +94,6 @@ JS code
 
 ----
 
-Benefits and downsides ([link](https://techexactly.com/blogs/advantages-and-disadvantages-of-using-react-native)) <br>ReactNative downsides ([link](https://blog.back4app.com/react-native-disadvantages/)) <br>
+Benefits and downsides ([link](https://techexactly.com/blogs/advantages-and-disadvantages-of-using-react-native)) <br>ReactNative downsides ([link](https://blog.back4app.com/react-native-disadvantages/)) <br>Communication between native and React native ([link](# Communication between native and React Native))
 
 The general theme regarding downsides - Lack of native gestures and animations,  Often needs bridges for device specific capabilities like Map, etc. anyway, Memory management not as good, longer initialization at runtime
