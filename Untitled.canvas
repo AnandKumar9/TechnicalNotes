@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"4819919b8ae8ec58","type":"text","text":"React Components","x":-360,"y":-221,"width":190,"height":50},
+		{"id":"a6819b63264907cf","type":"text","text":"ReactNative Components","x":-60,"y":-226,"width":240,"height":55},
+		{"id":"0fa78675a957293d","type":"text","text":"Core Components","x":-240,"y":-75,"width":250,"height":50},
+		{"id":"7c1a23d392fab245","x":100,"y":-80,"width":250,"height":60,"type":"text","text":"Custom Components"},
+		{"id":"2a584819c5a41a91","x":-365,"y":40,"width":250,"height":50,"type":"text","text":"JSX"},
+		{"id":"1a11bf3e5e4217e6","x":-365,"y":140,"width":250,"height":60,"type":"text","text":"Props"},
+		{"id":"7a38fa0873c84176","x":-365,"y":260,"width":250,"height":60,"type":"text","text":"State"},
+		{"id":"6940b4e4dd2a3a05","x":100,"y":35,"width":250,"height":60,"type":"text","text":"Expo"},
+		{"id":"325b9aff6f8d9bc7","x":100,"y":140,"width":250,"height":60,"type":"text","text":"Ignite"},
+		{"id":"3d61e8a46673b32f","x":100,"y":260,"width":250,"height":60,"type":"text","text":"Metro"},
+		{"id":"d8f21297c7def176","x":-365,"y":380,"width":250,"height":60,"type":"text","text":"RTCRootView"}
+	],
+	"edges":[
+		{"id":"15876f7378451f8c","fromNode":"a6819b63264907cf","fromSide":"bottom","toNode":"0fa78675a957293d","toSide":"top"},
+		{"id":"753f835ab88e4f3f","fromNode":"a6819b63264907cf","fromSide":"bottom","toNode":"7c1a23d392fab245","toSide":"top"}
+	]
+}

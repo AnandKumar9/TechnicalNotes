@@ -23,11 +23,15 @@ Copying and pasting - Killing (C-w) and yanking (C-y)
 C-x and C-f - Find file (a function for finding files in current directory)
 `emacs-lisp-mode` - Gets emacs to a mode where it things its work with emacs-lsip (elisp) source files.
 
-Emacs packages are written in elisp and are hosted on various package repositories such as Milky Postmans E-Lisp Package Archive
+Emacs packages are written in `elisp` and are hosted on various package repositories such as Milky Postmans E-Lisp Package Archive
 
-`C-x C-c` - Exit emacs
-`C-x b` - New buffer
+Type `emacs` - Enter emacs <br>
+`C-x C-c` - Exit emacs <br>
+`C-x b` - New buffer <br>
 
-`C-h C-h` - List of all Help options
-`C-h t` - Tutorial
-`C-h r` - Manual
+`C-h C-h` - List of all Help options <br>
+`C-h t` - Tutorial <br>
+`C-h r` - Manual <br>
+
+Some common key bindings to move around in buffers.
+![](assets/Pasted%20image%2020240624080516.png)

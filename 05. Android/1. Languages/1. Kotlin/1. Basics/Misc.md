@@ -14,6 +14,7 @@ import java.util.*
 
 Packages are typically named as reverse domain name.
 
+
 #### Reified types
 
 `Reified types` are sometimes necessary because of type erasure. Reified types, unlike generic types, persist to runtime.

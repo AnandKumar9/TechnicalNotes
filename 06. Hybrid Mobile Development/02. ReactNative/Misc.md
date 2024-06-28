@@ -1,22 +1,16 @@
-Did the Udemy course 'Build a Mobile Instagram Feed App with React Native and ChatGPT' ([link](https://capitalone.udemy.com/course/the-complete-chatgpt-with-react-native-mobile-application/learn/lecture/35948940#overview)) upto 4.5 chapters and got an idea of what ReactNative is and what its tooling and dev workflow looks like.
+Things to know about a stack -
 
-Code Visual Studio, save files, and it should refresh. Uses TypeScript now.
+Know the basic concepts, have the mental model and map understood <br>How to run the app<br>How to debug, etc. <br>
 
-No Virtual DOM in it
+Common issues ([link](https://reactnative.dev/docs/troubleshooting)) <br>`Metro` bundler ([link](https://metrobundler.dev)) - JS bundler for RN, but what does it do. Says loads apps faster, but is that what a JS bundler is <br>
 
-Testing done in Simulator provided by ExpoGo
+##### Tooling
 
-ReactNative CLI
+##### Installing nvm, node
 
-Camera can be tested using a QR code
+![image-20240628160954089](assets/image-20240628160954089.png)
 
-Need - Node.js, ReactNative CLI, Visual Studio Code
-
-Hot restart
-
-------
-
-Installing `nvm` (nvm recommends that it not be installed through Homebrew) [[link](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)]
+Installing `nvm` (nvm recommends that it not be installed through Homebrew) ([link](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script))
 
 `````
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -40,60 +34,32 @@ npm install -g npm
 
 `npx` (i.e. `Node Package eXecute`) is NPM package runner, i.e. it can execute any JavaScript package available on NPM registrty without ever installing it. Its probably installed automatically with nvm or npm.
 
-----
+> `Yarn` is another package manager that is used by some people, it has slighly better installation times and offers some more features such as 'workspaces'.
 
-`create-expo-app` is a npm package that creates universal React apps ([link](https://www.npmjs.com/package/create-expo-app)).
+##### Misc.
 
-```swift
-npx create-expo-app instagram-feed-app
-```
+Hot loading/restart is where you save a file in Visual Studio and the UI in simulator refreshes <br>
+No Virtual DOM in it <br>Camera can be tested using a QR code
 
-Creates the project. The file system looks like this.
+The regular JS `Fetch` ([link](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)) is used for networking, i.e. REST calls, etc. 
 
-![image-20240608180148770](assets/image-20240608180148770.png)
+Accessibility resources ([link](https://reactnative.dev/docs/accessibility))
 
+`Expo Router` is what is used to navigate between screens. ([link](https://docs.expo.dev/develop/file-based-routing/))
 
+`react-native-safe-area-context` is an Expo library used to work with safe area real estate. `react-native-reanimated` is the library to work with advanced animations.
 
-`npx expo start`
+`Fast refresh` is the automatic reloading of UI on simulator. Its usually enabled by default. ([link](https://reactnative.dev/docs/fast-refresh))
 
-![image-20240608172215848](assets/image-20240608172215848.png)
+Timers ([link](https://reactnative.dev/docs/timers))
 
-Tapping i installs Expo Go app on simulator. That app I think has all apps that are built using ReactNative. And then you can go to your apps from the list in it.
+App Extensions ([link](https://reactnative.dev/docs/app-extensions))
 
-| *Home* screen                                                | One of the apps                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image-20240608174214146](assets/image-20240608174214146.png) | ![image-20240608174230534](assets/image-20240608174230534.png) |
+##### Resources
 
-The QR like code there is something that can be scanned (the shell needs to have a dark theme for it to be scannable) with physical iOS device (have Expo Go app installed from App Store though) and then the app opens up in simulator. It gets the source code using bluetooth from a local server that starts on Mac.
-
-`.expo` folder is created when an Expo project is started with `expo start`. Assets are stored in `assets/`. 
-
-`node_modules` has the libraries that are imported with React Native. 
-
-![image-20240608180514832](assets/image-20240608180514832.png)
-
-`app.js` is the starting point in JS based projects. For TS based projects its possibly `app/tabs/index.ts`.
-
-Index.ts has a function namd `HomeScreen()` which is probably the starting point and has styles defined too in a variable named styles.
-
-`app.json` has some basic app config.
-
-| index.ts                                                     | app.json                                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image-20240608183906302](assets/image-20240608183906302.png) | ![image-20240608183844820](assets/image-20240608183844820.png) |
-
-`package.json` has a list of all packages used along with their version numbers.
-
------
-
-`FlatList` is something like a scrollable list view. ([refrence](https://reactnative.dev/docs/flatlist))
-
-JS code
-
-![image-20240608193358858](assets/image-20240608193358858.png)
-
-----
+Udemy course 'Build a Mobile Instagram Feed App with React Native and ChatGPT' ([link](https://capitalone.udemy.com/course/the-complete-chatgpt-with-react-native-mobile-application/learn/lecture/35948940#overview)) (Did upto 4.5 chapters and got an idea of what ReactNative is)
 
 Benefits and downsides ([link](https://techexactly.com/blogs/advantages-and-disadvantages-of-using-react-native)) <br>ReactNative downsides ([link](https://blog.back4app.com/react-native-disadvantages/)) <br>Communication between native and React native ([link](# Communication between native and React Native))
 
 The general theme regarding downsides - Lack of native gestures and animations,  Often needs bridges for device specific capabilities like Map, etc. anyway, Memory management not as good, longer initialization at runtime
+
