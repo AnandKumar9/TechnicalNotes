@@ -1,5 +1,15 @@
 [toc]
 
+##### Jul 5th, 2024: Things to focus upon
+
+There are three things I can focus upon everyday - expertise in iOS, tangible outcomes at work, improved knowledge in other areas.
+
+Expertise in iOS means knowing everything that's happening in iOS and EASE, and some real depth.
+
+Tangible outcomes at work implies things that I can demonstrably show. A new proof of concept, new architecture, a proposal, odd code contributions too, sharing vision of new state.
+
+Improved knowledge in others means everything else that's outside iOS. Android, web, ML, back-end, even knowhow on making decks.
+
 ##### Jan 12th, 2024: Retrospective of last 7.5 years
 
 Did I work hard, give it my all. <br>Was I happy, and if not was I too harsh on myself in retrospect. <br>What else should I have really been doing but wasn't. <br>
@@ -10,7 +20,7 @@ Did I work hard, give it my all. <br>Was I happy, and if not was I too harsh on 
 
 ~ **2019 Mar - 2020 Feb**: ISX projects. Yes, **very happy and content**. Got a very good raise too. The first time I got to lead projects, and work like I wanted to. The results showed. Could have started trying Android already.
 
-~ **2020 Mar - 2021 Feb**: Promotion, first year as SM, ISX projects. **Happy enough**, slightly anxious but not much. Could see I needed to better, should have started understanding Cloud better.
+~ **2020 Mar - 2021 Feb**: Promotion, first year as SM, ISX projects. **Happy enough**, slightly anxious but not much. Could see I needed to get better, should have started understanding Cloud better.
 
 ~ **2021Mar - 2022 Feb**: Welcome, ISX projects (Toolbox). Happy initially but **increasingly discontent** after that. Could feel a stagnation and some despair creeping in. Should have looked into EASE lot more. 
 

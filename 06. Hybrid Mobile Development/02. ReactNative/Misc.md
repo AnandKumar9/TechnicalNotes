@@ -1,10 +1,14 @@
-Things to know about a stack -
+##### ReactNative Documentation Structure
+
+![image-20240707132555600](assets/image-20240707132555600.png)
+
+##### Things to know about a stack
 
 Know the basic concepts, have the mental model and map understood <br>How to run the app<br>How to debug, etc. <br>
 
 Common issues ([link](https://reactnative.dev/docs/troubleshooting)) <br>`Metro` bundler ([link](https://metrobundler.dev)) - JS bundler for RN, but what does it do. Says loads apps faster, but is that what a JS bundler is <br>
 
-##### Tooling
+Tooling
 
 ##### Installing nvm, node
 
@@ -35,6 +39,12 @@ npm install -g npm
 `npx` (i.e. `Node Package eXecute`) is NPM package runner, i.e. it can execute any JavaScript package available on NPM registrty without ever installing it. Its probably installed automatically with nvm or npm.
 
 > `Yarn` is another package manager that is used by some people, it has slighly better installation times and offers some more features such as 'workspaces'.
+
+##### Common errors
+
+While doing a 'npx expo start' etc., if a message such as this is shown then that implies that the latest Long Term Support (LTS) version of Node (as specified [here](https://nodejs.org/en)) should be used as opposed to the latest version of Node (which can have features that have not been fully tested). ([Link](https://stackoverflow.com/a/77737680))
+
+> The `punycode` module is deprecated. Please use a userland alternative instead.
 
 ##### Misc.
 

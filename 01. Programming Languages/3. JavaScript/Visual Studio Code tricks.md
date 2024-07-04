@@ -1,3 +1,5 @@
+[toc]
+
 Running the JS file - Install NodeJS, then `Ctrl + Option + N` <br>
 
 ##### Region folding
@@ -50,5 +52,7 @@ File Explorer - `Cmd Shift E` <br>Extensions - `Cmd Shift K` <br>Command Palette
 Go to File - `Cmd P` <br>Open Terminal - ``Ctrl ` `` <br>Open in new tab - Double click <br>
 
 Fold All - `Cmd K Cmd 0` <br>Unfold All - `Cmd K Cmd J` <br>
+
+New Terminal - ``Ctrl Shift ` `` <br>
 
 Show Preview (Markdown Editor extension) - `Cmd Option Shift M` <br>

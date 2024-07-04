@@ -1,3 +1,5 @@
+[toc]
+
 #### Open Source
 
 ##### swift-syntax related
@@ -15,6 +17,18 @@ A bunch of projects that use [swift-syntax](https://github.com/apple/swift-synta
 ##### Misc.
 
 [jpsim/yams](https://github.com/jpsim/Yams) - Swift YAML parser
+
+
+
+#### New Things
+
+##### WebAssembly
+
+`WebAssembly` is a high-performance assembly-like language that can be compiled from various languages, including C/C++, Rust, and AssemblyScript. It is supported by Chrome, Firefox, Safari, Edge, and Node.js. 
+
+It has  wo file formats, a binary format called a WebAssembly Module with a `.wasm` extension and corresponding text representation called WebAssembly Text format with a `.wat` extension.
+
+How to use it with Node ([link](https://nodejs.org/en/learn/getting-started/nodejs-with-webassembly))
 
 #### How does that happen
 

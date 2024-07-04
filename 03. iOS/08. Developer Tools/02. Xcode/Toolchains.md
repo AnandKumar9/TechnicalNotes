@@ -14,3 +14,7 @@ It can be done from Xcode preferences -> components as well as menu option. Typi
 
 > Seeing if it works. <br>
 I tried a Swift 4 playground page On Xcode 8.3.2 with the default toolchain, it gave errors. When I switched to Swift 4 toolchain (called Swift development snapshot), it worked. So yes, it works.
+
+###### How to check the exact Swift version 
+
+`xcrun swift -version` - This gives an exact Swift version (like `swift-driver version: 1.90.11.1 Apple Swift version 5.10`), and this probably corresponds to the latest Swift version of the default Xcode in the system.
