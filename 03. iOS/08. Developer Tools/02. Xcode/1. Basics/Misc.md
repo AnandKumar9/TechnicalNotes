@@ -1,11 +1,5 @@
 [toc]
 
-##### Basic UI
-
-`Canvas` is shown automatically for SwiftUI files but can be hidden using the menu option 'View > Editor > Canvas'.
-
-![](assets/Misc-4423493.png)
-
 ##### Design related
 
 > These are mainly from 'WWDC 2019: What's New in Xcode 11' 20:34 onwards. Have not tried them.

@@ -1,6 +1,6 @@
 [toc]
 
-##### Running on a newer iOS version from an older Xcode
+#### Running on a newer iOS version from an older Xcode
 
 For example running on an iOS11 device from Xcode 8.3.2
 
@@ -10,7 +10,7 @@ There will be similar folders for other platforms too, i.e. watchOS, etc. (need 
 
 All the iOS device support files are available in [this](https://github.com/filsv/iPhoneOSDeviceSupport) page, there are even links for downloading individual iOS versions'.
 
-##### Tools
+#### Tools
 
 iOS Console - To view logs from debug console of devices (and probably the simulator too) real time. The good thing is that it can be used to filter logs real time using strings that you give.
 
@@ -20,7 +20,7 @@ FileMerge - It can't just be used to compare files, but to merge changes too. Na
 
 DiffMerge - Another tool like FileMerge.
 
-##### Info.plist keys
+#### Info.plist keys
 
 The key used in app names - <br>
 `iOS target's info.plist: Bundle display name (CFBundleDisplayName)` -> iPhone home screen, notification on iPhone <br>
@@ -34,7 +34,7 @@ Getting the current version no. and build no. of the app.
 [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion”]; (bundle no.)
 ```
 
-##### Base SDK and Deployment Target
+#### Base SDK and Deployment Target
 
 `Base SDK` indicates the OS SDK whose SDK is used to build the ipa. By default it is the latest available version.
 `Deployment target` indicates the minimum OS version on which the app can run.
@@ -59,7 +59,7 @@ When an Xcode update happens, all the base SDKs that were added later on are aut
 
 Another way to do this in newer Xcode versions -  [link](https://stackoverflow.com/a/47438811/1135417)
 
-##### Various
+#### Various
 
 Build folder of a project can be seen from File -> Project Settings in Xcode 4. By default it is at the following location in Xcode 4 - `/Users/administrator/Library/Developer/Xcode/DerivedData`
 
@@ -73,7 +73,7 @@ Build folder of a project can be seen from File -> Project Settings in Xcode 4. 
 If an OTA build (TestFairy, Applause, etc.) does not get installed and does not show any message either -
 Check the message in console. If it is a message such as "LoadExternalDownloadManifestOperation: Ignore manifest download, already have bundleID:", then use iExplorer to remove all the files from Media - Downloads, restart the device and try again.
 
-###### Checking physical location of frameworks.
+##### Checking physical location of frameworks.
 
 Physical location of frameworks can always be checked by doing a 'Show in Finder' from the context menu that comes for them in Project Navigator or even in Xcode Build Phases -> Link Binary with Libraries.
 If frameworks are mistakenly deleted from Finder, they can be put back in the Finder. (One more reason you should always keep a copy of your Xcode installation package.)
@@ -86,7 +86,7 @@ Frameworks are located at below location for Xcode 4.5.1 and Mountain Lion.
 
 > Dylib files are Xcode Dynamic link libraries.
 
-###### Clearing up some space taken by Xcode
+##### Clearing up some space taken by Xcode
 
 There are folders such as these which take up a lot of space and whose contents can be deleted without any issues. If needed, these folders are later automatically recreated. I could free up as much as 120 GB from these folders. (link)
 ```
@@ -95,13 +95,13 @@ There are folders such as these which take up a lot of space and whose contents 
 /Users/akumar5/Library/Developer/Xcode/Archives (this has the xcarchive/ipa files, so be a little careful)
 ```
 
-###### Create an ipa from xcarchive (useful if Xcode just keeps on giving error) -
+##### Create an ipa from xcarchive (useful if Xcode just keeps on giving error) -
 
 ```
 xcodebuild -exportArchive -archivePath xcarchivePath -exportPath $Omnicare ipa -exportProvisioningProfile ActualProvisioningProfileName"
 ```
 
-###### Build with Time logs
+##### Build with Time logs
 
 With Xcode 10, time taken is always logged in build logs. If however, `Product > Perform Action > Build with Time Summary` is done a summary of time taken is also shown in Build Logs' Recent messages tab.
 
@@ -112,11 +112,11 @@ It probably can also be done from command line.
 xcodebuild -showBuildTimingSummary
 ```
 
-###### Inspecting entitlements in an ipa
+##### Inspecting entitlements in an ipa
 
 Change the ipa's format to zip, extract it, do 'Show package contents' for the `.app` there, and then look for a file named `embedded.mobileprovision`. All the entitlements are listed there. In case of Ad-hoc build, that is also where all the allowed devices' UDIDs are listed.
 
-###### Using `xcodebuild`
+##### Using `xcodebuild`
 
 Build without code signing.
 ```
@@ -129,7 +129,7 @@ Verify the command line tools version being used.
 xcode-select -print-path
 ```
 
-###### Storyboards and Interface Builder
+#### Storyboards and Interface Builder
 
 Document label in identity inspector allows a custom name to be given to a control which then shows up in the documents outline.
 
