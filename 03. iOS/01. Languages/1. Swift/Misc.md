@@ -1,12 +1,14 @@
 [toc]
 
-#### Language Features
+### Language Features
 
-##### Type safety
+#### Type safety
 
-Swift is said to be a `type-safe` language. What it means is that it does not allow a variable of one type to be assigned a value of another type.
+Swift is said to be a `type-safe` language. What it means is that it does not allow a variable of one type to be assigned a value of another type. 
 
-##### ABI Stability, Library Evolution
+> Such languages are also called `Statically typed or Static languages`. <br>Languages where type can change at runtime are called `Dynamic languages`. Python, and JS are two such dynamic languages.
+
+#### ABI Stability, Library Evolution
 
 (Official swift.org post [from 2019](https://www.swift.org/blog/abi-stability-and-more/), [from 2020](https://www.swift.org/blog/library-evolution/#:~:text=Module%20stability%20allows%20Swift%20modules,binary%20compatible%20with%20previous%20versions.))
 
@@ -22,31 +24,7 @@ ABI stability is about mixing versions of Swift at run time. As far as compile t
 
 when a Swift library changes, any apps using that library have to be recompiled.  `Library evolution` support means shipping a new version of a library without having to recompile its clients. This too probably happened in 2020 with Swift 5.1.
 
-#### Result type
-
-(This is available from Swift 5.0).
-
-```
-enum Result<Success, Failure> where Failure : Error {
-  case success(Success)
-  case failure(Failure)  
-}
-```
-
-`init(catching: () -> Success)` - Creates a new Result by running the passes closure. Returned value is treated as success case, and any thrown error is treated as failure case.
-```
-let xyz = Result<String, PlaceholderError> {
-    if Bool.random() {
-        return "All nice"
-    } else {
-        throw PlaceholderError()
-    }
-}
-```
-
-`get()`- Returns the value in case of success, else throws an error.
-
-`map()`, `mapError()`, `flaMap()`, `flatMapError()` - Maps (and flattens by one level of unwrap) the success, error.
+### Advanced concepts
 
 #### Universal `Self`
 
@@ -75,6 +53,43 @@ class ImprovedNetworkManager: NetworkManager {
 ImprovedNetworkManager().printDebugData()   // Prints 3 then 4
 ```
 
+
+
+#### Resilient Types
+
+> When debugging Swift code on Apple platforms, variables with `resilient types` (including Foundation value types such as URL, URLComponents, Notification, IndexPath, Decimal, Data, Date, Global, Measurement, and UUID) are displayed in the Xcode variable view and the frame variable / v command again.
+>
+> What are they ☝️?
+
+### Misc.
+
+#### Result type
+
+(This is available from Swift 5.0).
+
+```
+enum Result<Success, Failure> where Failure : Error {
+  case success(Success)
+  case failure(Failure)  
+}
+```
+
+`init(catching: () -> Success)` - Creates a new Result by running the passes closure. Returned value is treated as success case, and any thrown error is treated as failure case.
+
+```
+let xyz = Result<String, PlaceholderError> {
+    if Bool.random() {
+        return "All nice"
+    } else {
+        throw PlaceholderError()
+    }
+}
+```
+
+`get()`- Returns the value in case of success, else throws an error.
+
+`map()`, `mapError()`, `flaMap()`, `flatMapError()` - Maps (and flattens by one level of unwrap) the success, error.
+
 #### Boolean
 
 `toggle()` is a mutating function for boolean.
@@ -99,6 +114,8 @@ class Class1<T> {
 
 	class Class2<T> {
 ```
+
+Its even possible to have functions defined inside functions, i.e. `Local Functions`. However until Swift 5.4, it was not possible to have multiple local functions with the same name (but different argument types/signatures, i.e. function overloading) in the same scope. Its been addressed since.
 
 #### Various protocols
 
@@ -142,6 +159,7 @@ extension Point: Hashable {
 ...
 
 For example, this will fail if `x` is 6.3 but succeed if `x` is 6.0
+
 ```
 let a = Int(exactly: x)
 ```
@@ -151,6 +169,7 @@ let a = Int(exactly: x)
 It's pretty easy since Swift 4.2.
 
 All number types now have a `random(in:)` method that takes in a range.
+
 ```
 Int.random(in: 1...1000)
 UInt8.random(in: .min ... .max)
@@ -158,6 +177,7 @@ Double.random(in: 0..<1)
 ```
 
 There is more.
+
 ```
 Bool.random()
 collection1.random()!  // Returns optional, as it can be nil if collection is empty
@@ -170,7 +190,7 @@ In fact there is even a protocol called `RandomNumberGenerator` which can now be
 
 > Need to try `RandomNumberGenerator`.
 
-##### Accessing underlying contents through unsafe pointers
+#### Accessing underlying contents through unsafe pointers
 
 ```
 withUnsafeBufferPointer
@@ -181,31 +201,11 @@ withUnsafeMutableBytes
 
 Tuples too can be compared (using <, > operators) if their values allow comparison to happen. Tuples are compared from left to right, one value at a time, until the comparison finds two values that aren’t equal. Int and String can be compared (i.e. < or >), but Bool cannot be.
 
-##### callAsFunction
-
-(This was proposed in [SE-0253 Callable values of user-defined nominal types
-](https://github.com/apple/swift-evolution/blob/master/proposals/0253-callable.md) and introduced in Swift 5.2.)
-
-If a type has a function called `callAsFunction`, then an instance of that type can be used as it was a function itself. The function can also take in arguments.
-
-```
-struct Dice {
-    var lowerBound: Int
-    var upperBound: Int
-
-    func callAsFunction() -> Int {
-        (lowerBound...upperBound).randomElement()!
-    }
-}
-
-let d6 = Dice(lowerBound: 1, upperBound: 6)
-let roll = d6()
-````
-
-##### Sundries
+#### Sundries
 
 Getting a Date from unix format  timestamp - <br>
 It is as simple as this. Unix timestamp are formats like 181481901.
+
 ```
 Date.init(timeIntervalSince1970: unixTimestamp)
 ```
@@ -231,10 +231,8 @@ public var imageQuality: CGFloat = 0.9 {
 
 > Swift.org Protocols write-up, Protocols composition
 
-> Swift 5.3
-
 > The `New integer protocols` page in Ole Begemman's Swift 4 playground
 
-> `dynamicMemberLookup`, `@inlinable`, `@usableFromInline` attributes in Swift 4.2. Ole's playground. `dynamicMemberLookup` is also in Paul Hudson's blog.
+>  `@usableFromInline` attributes in Swift 4.2. Ole's playground.
 
 > MemoryLayout offset(of:) introduced in Swift 4.2
