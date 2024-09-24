@@ -1,5 +1,15 @@
 [toc]
 
+##### Sep 30th, 2024: What the world looks for in a DE 
+
+A DE is someone who commands respect. And it can't just be from the work he does but also from the **demeanour** in which he carries himself. Maintain a pleasant body language. **Talk with dignity**, and measure. Not get into arguments over every trivial thing. And also carry myself well, and **dress smartly**. I should strive to be able to inspire people, and make connections.
+
+Coming to the technical part, its tricky. All these years I learnt thing from the ground up, spent time with fine details of every single thing I touched. But that is not quite practical now if I am touching plenty of things. There is only so much of time, and there also isn't as much chance to be writing production code for features end-to-end. The more necessary thing now is to have a good **breadth of knowledge**, that is to be someone who understands lots of different areas quite well. That is not an easy attribute to have, and also if someone were to have he'd be listened to only if he is senior enough like a DE. Consequently, its an expectation too of DEs. Its a classic case of 'what got you here will not get you there'. Coding in details got me here, but knowing many different things reasonably well is what can now take me forward. Just know things well enough that I know what people are talking about and am also able to make connections that people who are silo-ed in their tech are not able to.
+
+And speaking and presentations is important too. Having all the skills to make detailed nice-looking **docs and decks**. Build a portfolio of technical conbtributions, and develop a **brand**.
+
+
+
 ##### Jul 5th, 2024: Things to focus upon
 
 There are three things I can focus upon everyday - expertise in iOS, tangible outcomes at work, improved knowledge in other areas.

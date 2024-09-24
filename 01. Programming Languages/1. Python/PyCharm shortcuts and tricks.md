@@ -1,3 +1,7 @@
+[toc]
+
+##### Keyboard shortcuts
+
 Run - `Ctrl R` <br>
 Toggle run console display - `Cmd 4` <br>
 Hide bottom console - `Shift Escape` <br>
@@ -14,7 +18,7 @@ Check longer documentation - `Option Space` (even shows function definition) <br
 
 ##### How to setup and run a basic Python project in PyCharm
 
-Create a new project in PyCharm and select a Python version. If the Python version is not available, it can be downloaded from Settings > Project: .... > Python Interpreter. If nothing is already available, there will be a download button to download it. 
+Create a new project in PyCharm and select a Python version. If the Python version is not available, it can be downloaded from Settings > Project: .... > Python Interpreter. If nothing is already available, there will be a button to download it. 
 
 | Select a Virtual Environment and Python version              | Settings > Python Interpreter                                |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
