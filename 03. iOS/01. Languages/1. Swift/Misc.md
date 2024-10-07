@@ -128,7 +128,7 @@ Its even possible to have functions defined inside functions, i.e. `Local Functi
 
 Not every type in Swift can be compared with equal to operator (`==`). However there is a protocol called `Equatable`, which requires its conforming types to implement the == and != operators.
 
-#### Hashable
+##### Hashable
 
 If a custom type needs to be made `Hashable` conformant, it needs to have implementations `hash(into: inout Hasher)`. It also needs `hashValue: Int` property implementation but that has now been deprecated. <br>
 (This was proposed in [SE-026 Hashable Enhancements](https://github.com/apple/swift-evolution/blob/master/proposals/0206-hashable-enhancements.md) and implemented in Swift 4.2.)
@@ -149,6 +149,14 @@ extension Point: Hashable {
 ```
 
 > Understand `hash(into: inout Hasher)` better. Explained in Ole's 4.2 playground.
+
+##### Identifiable
+
+It denotes types that can hold a value for stable identity (i.e. the value is guranteed to not change no matter what). [Reference](https://developer.apple.com/documentation/swift/identifiable)
+
+Its only requirement is an **id** property and teh simplest way to get any type to conform it is to simply add an id property to it and assign it a `UUID()` ([reference](https://developer.apple.com/documentation/foundation/uuid)).
+
+![image-20241006211305565](./assets/image-20241006211305565.png)
 
 ##### Failable initializers for numeric types
 
