@@ -1,5 +1,13 @@
 [toc]
 
+##### Nov 20, 2024: Looking at next year
+
+What does Mike want: Exciting POCs, new intersections of technologies <br>What does Swapna want: Smooth executions of projects <br>What would platform want: Hardcore mobile insights  <br>What would Lauren want: Medium level involvement in projects
+
+Really boils down to two things - Knowledge of all things mobile, Actual underdstanding of EASE codebase. And while this is true for mobile general, pratically speaking the emphasis obviously has to be on iOS.
+
+And then its about building a brand with external presence, and having the executive kind speech.
+
 ##### Sep 30th, 2024: What the world looks for in a DE 
 
 A DE is someone who commands respect. And it can't just be from the work he does but also from the **demeanour** in which he carries himself. Maintain a pleasant body language. **Talk with dignity**, and measure. Not get into arguments over every trivial thing. And also carry myself well, and **dress smartly**. I should strive to be able to inspire people, and make connections.
@@ -7,8 +15,6 @@ A DE is someone who commands respect. And it can't just be from the work he does
 Coming to the technical part, its tricky. All these years I learnt thing from the ground up, spent time with fine details of every single thing I touched. But that is not quite practical now if I am touching plenty of things. There is only so much of time, and there also isn't as much chance to be writing production code for features end-to-end. The more necessary thing now is to have a good **breadth of knowledge**, that is to be someone who understands lots of different areas quite well. That is not an easy attribute to have, and also if someone were to have he'd be listened to only if he is senior enough like a DE. Consequently, its an expectation too of DEs. Its a classic case of 'what got you here will not get you there'. Coding in details got me here, but knowing many different things reasonably well is what can now take me forward. Just know things well enough that I know what people are talking about and am also able to make connections that people who are silo-ed in their tech are not able to.
 
 And speaking and presentations is important too. Having all the skills to make detailed nice-looking **docs and decks**. Build a portfolio of technical conbtributions, and develop a **brand**.
-
-
 
 ##### Jul 5th, 2024: Things to focus upon
 

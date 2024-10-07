@@ -1,4 +1,16 @@
-ReactNative  - k<br>iOS entry points <br>Arnold's Routing PR <br>EASE GraphQL <br>TypeScript, EASE Web <br>VCHome contribution architecture <br>
+WWDC 23 - Keep up with the keyboard <br>WWDC 21 - Your guide to keyboard layout <br>WWDC 21 - Use the camera for keyboard input in your app<br>
+
+WWDC 21 - Support full keyboard access in your iOS app<br>
+
+UIInputView (custom keyboard specific to app) ([link](https://developer.apple.com/documentation/uikit/uiinputview)) <br>Custom Keyboard extension ([link](https://developer.apple.com/documentation/uikit/keyboards_and_input/creating_a_custom_keyboard/)) <br>Safari Services extension ([link](https://developer.apple.com/documentation/safariservices/))
+
+https://www.magnuskahr.dk/posts/2019/05/creating-a-custom-input-in-swift/
+
+
+
+---
+
+ReactNative  - k<br>TypeScript, EASE Web <br>
 
 Xcode Settings <br>XcodeGen <br>
 
