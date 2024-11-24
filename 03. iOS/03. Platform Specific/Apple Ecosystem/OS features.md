@@ -47,6 +47,14 @@ Its a way to have a very trimmed down version of iOS where only few selected app
 
 Official documentation ([link](https://support.apple.com/en-in/guide/assistive-access-iphone/welcome/ios#:~:text=What%20is%20Assistive%20Access%3F,Learn%20about%20Assistive%20Access))
 
+##### iOS Assistive Touch (Replacement for gestures and home button)
+
+Its a way to use home button without having to press one, or to access various geatures without really performing them. Its activated using 'Settings > Accessibility > Touch > AssistiveTouch'. Its helpful for people with relevant motor impairments, and was also useful in iOS models with physical home button when the home button press got glitchy with time.
+
+![image-20241212201456874](./assets/image-20241212201456874.png)
+
+Offical documentation ([link](https://support.apple.com/en-us/111794)) 
+
 ##### iOS Guided Access (Restricting touch real estate)
 
 Its traditionally been used for restricting the device to just one app, but it can be used more creatively than that. It can also be used to restrict touches in just a part of the real estate. Very useful in something like YouTube app where you wouldn't want unintended touches in bottom edges to start new videos.
@@ -81,3 +89,10 @@ To turn on Stage Manager, a button in Control Center can be used. It can also be
 
 Official documentation ([link](https://support.apple.com/en-sg/guide/ipad/ipad1240f36f/ipados))
 
+----
+
+Motor accessibility - Limited range of physical motion, difficulty touching screen, uses external keyboards, joystick, etc for touches
+
+Full Keyboard Access
+
+Assistive Touch

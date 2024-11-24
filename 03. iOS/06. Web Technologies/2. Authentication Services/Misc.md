@@ -26,6 +26,8 @@ Introduced in 'WWDC 2019 - What's New in Authentication' talk in the initial par
 
 WWDC 2017 - Introducing Password Autofill For Apps
 
+WWDC 2016 - Increase Usage of Your App With Proactive Suggestions (22:00)
+
 WWDC 2019 - What's New in Authentication (4:20 mark, again at 7:31 mark)
 
 Available for iPad apps for Mac too (since 2019). The app's App ID has to be listed on your server in order to tie your app and your website together. 
