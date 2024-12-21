@@ -20,9 +20,9 @@ Any UITextInput conforming entity needs to have a selectedTextRange and markedTe
 
 ##### WWDC videos
 
-WWDC 23 - What’s new with text and text interactions <br>WWDC 21 - Use the camera for keyboard input in your app - k<br>WWDC 21 - Your guide to keyboard layout - k <br>
+WWDC 23 - What’s new with text and text interactions <br>WWDC 21 - Use the camera for keyboard input in your app - k<br>WWDC 23 - Keep up with the keyboard - k <br>WWDC 21 - Your guide to keyboard layout - k <br>
 
-WWDC 23 - Keep up with the keyboard - k <br>WWDC 17 - The Keys to a Better Text Input Experience (👈 Excellent video, discusses inputView etc. Have downloaded, [unofficial link](https://nonstrict.eu/wwdcindex/wwdc2017/242/)) - k<br>WWDC 21 - Support full keyboard access in your iOS app - k <br>
+WWDC 17 - The Keys to a Better Text Input Experience (👈 Excellent video, discusses inputView etc. Have downloaded, [unofficial link](https://nonstrict.eu/wwdcindex/wwdc2017/242/)) - k<br>WWDC 21 - Support full keyboard access in your iOS app - k <br>
 
 ##### Undocked and Split keyboard
 

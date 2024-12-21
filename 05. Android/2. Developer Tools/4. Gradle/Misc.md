@@ -51,6 +51,8 @@ In case of a multi-project setup the projects are defined in a `settings.gradle`
 
 Gradle reference - Configuring the build environment ([link](https://docs.gradle.org/current/userguide/build_environment.html))
 
+Gradle caches are stored in `~/.gradle/caches`.
+
 ##### Tasks
 
 Ad-hoc tasks implement one-off simple actions through things like `doFirst` and `doLast`. More complex tasks can be define in a custom task, these are called `Typed tasks`. An example of such a task woykld be something that copies files to the disk.
