@@ -17,7 +17,13 @@ Not everything can be done, but several common things like media playback, etc. 
 | ![](assets/IMG_4006.png) | ![](assets/IMG_4007.png) |
 | ------------------------ | ------------------------ |
 
-##### Sidecar (Show Mac on iPad)
+##### Controlling iPhone from Mac (iPhone Mirroring)
+
+Can be done with **iPhone Mirroring** macOS app in macOS Sequoia (2024). Its resticted on my office iPhone though.
+
+![image-20250311113759624](./assets/image-20250311113759624.png)
+
+##### Sidecar (Show Mac on iPad or TV)
 
 Use iPad or any external monitor as an additional display for the Mac. It can be used an another display/space or just be used to mirror any other display.
 
@@ -28,6 +34,14 @@ To start using iPad as one, just hover over any window's maximize window and sel
 | ![image-20240527081937713](assets/image-20240527081937713.png) | ![image-20240527081622074](assets/image-20240527081622074.png) |
 
 Official documentation ([link](https://support.apple.com/en-us/102597))
+
+This can also be activated from Mac's Control Center > Screen Mirroring
+
+| Step 1                                                       | Step 2                                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![image-20250302194400061](./assets/image-20250302194400061.png) | ![image-20250302194425794](./assets/image-20250302194425794.png) |
+
+
 
 ##### Continuity Sketch (Sketch from iOS to macOS's compatible apps)
 

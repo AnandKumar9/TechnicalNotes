@@ -28,13 +28,35 @@ Skipped - <br>
 
 12/25 - 11 chapters left. 11*10 = 110 hrs, so 10 days? That is Jan 4th. Is that worth it. Well if I really have learnt an important language by the end of it, I think yes.
 
-#### Misc.
+#### String operations
 
 ##### String interpolation
 
 ```
 console.log(`${a} - ${b}`);
 ```
+
+##### Checking if a string satisfies a particular regex
+
+```javascript
+if (/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(value[0])) { 
+  .... 
+}
+```
+
+##### Add a prefix if string length is less than some particular length
+
+The below example prefixes a zero if length is less than 2.
+
+```swift
+const prefixZeroIfNeeded = (str) => str.toString().padStart(2, '0'); // Actually a lambda/inline function kind of thing
+
+const newFromDateValue = `${year} ${prefixZeroIfNeeded(month)} ${prefixZeroIfNeeded(day)}`;
+```
+
+
+
+#### Misc.
 
 ##### `eval`
 
@@ -48,3 +70,4 @@ alert(typeof x);
 ##### Currying
 
 `Currying` is a transform that makes f(a,b,c) callable as f(a)(b)(c). Its not some built-in thing, but just a way of transforming functions. ([Link](https://javascript.info/currying-partials#summary))
+

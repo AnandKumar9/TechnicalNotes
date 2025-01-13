@@ -1,3 +1,49 @@
+| Topic                                | Things                                                       |
+| ------------------------------------ | ------------------------------------------------------------ |
+| Swiftlang                            |                                                              |
+| Swift concurrency                    | Revise notes and watched videos <br>2023: Beyond the basics of structured concurrency<br/>2022: Visualize and optimize Swift concurrency <br/>2022: Eliminate data races using Swift Concurrency |
+| SwiftUI                              |                                                              |
+| SwiftData                            | 2023: Meet SwiftData<br/>2023: Model your schema with SwiftData<br/>2023: Migrate to SwiftData<br/>2023: Dive deeper into SwiftData |
+| Safari Web extensions                | Revise notes and watched videos (`03. iOS/06. Web Technologies/4. Safari Services/1. SFSafariViewController - Basics.md`)<br>Make concept extension for VN checkout |
+| Revise AI tools (with iOS dev focus) |                                                              |
+
+##### 2025 01 21
+
+Long term things that I need to work for.
+
+1. New Calcutta house for Papa, Mommy, Didi
+2. Kids (surrogacy/FET)
+3. New job
+4. Improved tech skills, online profile
+5. Citizenship, how to build a better case
+6. Right personality
+
+Tech skills - 
+
+Swiftlang
+AI basics and tools
+Android user basics
+
+Articulate work ideas for next year -
+
+Using VN at checkout, on web
+	Doc/POC on iOS Action extension
+	Doc/POC on Safari web extension
+Doc on various ways to tackle VN expiration from front-end
+	Button to create new BVCNs
+	Reminders, local notifications
+	Siri integration (Hey Siri, remind me about this)
+VN card on file
+	Keyboard and copy-paste button integration
+Android
+	As a user
+	Tooling
+	Developer frameworks
+
+
+
+##### Interim
+
 Safari Services extension ([link](https://developer.apple.com/documentation/safariservices/))<br>
 
 ReactNative  - k<br>TypeScript, EASE Web <br>

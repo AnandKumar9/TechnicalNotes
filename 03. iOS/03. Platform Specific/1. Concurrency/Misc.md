@@ -1,4 +1,4 @@
-###### Thread Sanitizer
+#### Thread Sanitizer
 
 In edit scheme's Run - Diagnostics option, 'Thread Sanitizer' option can be checked to get a report on all race conditions that happened while running the app. In fact there is also a checkbox to pause execution when an issue (such as race conditon) occurs.
 
@@ -8,7 +8,7 @@ It shows the threads and the part of code where race conditions occurred.
 
 ![](assets/Misc-9e6302c1.png)
 
-###### Run Loop
+#### Run Loop
 
 A `run loop` is an event processing loop that can be used to schedule work and coordinate the receipt of incoming events. The purpose of a run loop is to keep the thread busy when there is work to do and put the thread to sleep when there is none. It is a loop the thread enters and uses to run event handlers in response to incoming events. Run loops can be run in different modes. Each mode defines a set of events the run loop is going to react to. If a run loop has no input sources configured, every attempt to run it will exit immediately.
 
@@ -20,7 +20,7 @@ How it differs from queues | Timer APIs
 --- | ---
 ![](assets/Misc-88d9e7b2.png) | ![](assets/Misc-1df80412.png)
 
-###### Understanding threads in crash logs when using GCD
+#### Understanding threads in crash logs when using GCD
 
 _As of 2015, with GCD 👇 (explained in 'WWDC 2015: Building responsive and efficient apps with GCD': 40:00)_
 
@@ -39,26 +39,6 @@ Main queue when idle | Main queue when active
 ![](assets/Misc-e6966ea5.png) | ![](assets/Misc-d3985012.png)
 
 
-###### WWDC videos
-
-[(Google Sheets list)](https://docs.google.com/spreadsheets/d/1b5_i0HhzGC7TM0O_Yzb4Vb5qwlwgrtTf1HsrycFThGE/edit#gid=409775223)
-
-async await - <br>
-2021: Meet async/await in Swift k <br>
-2021: Explore structured concurrency in Swift k <br>
-2021: Protect mutable state with Swift actors k <br>
-2021: Swift concurrency: Behind the scenes k <br>
-2021: Swift concurrency: Update a sample app <br>
-2021: Meet AsyncSequence <br>
-
-GCD - <br>
-2017: Modernizing Grand Central Dispatch usage <br>
-2016: Concurrent Programming With GCD in Swift 3 k <br>
-2015: Building responsive and efficient apps with GCD k <br>
-2014: Power, performance and diagnostics: What's New in GCD and XPC <br>
-
-OperationQueues - <br>
-2015: Advanced NSOperations <br>
 
 ---------
 
