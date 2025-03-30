@@ -36,6 +36,8 @@ tree -I '*png|*md'
 
 ##### Extracting WWDC videos list
 
+WWC videos topic-wise [link](https://developer.apple.com/videos/topics/)
+
 Remove all empty lines.
 
 ```

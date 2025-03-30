@@ -50,7 +50,7 @@ git worktree add <path> <newBranchName>
 ```
 
 ```
-git worktree add ../Fix (Creates new workstream named Fix at location ../Fix, from the current commit)
+git worktree add ../Fix (Creates new worktree named Fix at location ../Fix, from the current commit)
 git worktree add ../Fix -b AsiaMore 21d00af (Creates a new workstree named AsiaMore at the path ../Fix, from the specified commit, and creates a branch named AsiaMore)
 
 git worktree remove Fix2  (Removes the mentioned worktree from file system)
