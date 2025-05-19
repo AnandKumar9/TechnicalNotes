@@ -97,6 +97,20 @@ This can also be achieved globally by adding the below in `~/.gitconfig` file.
 
 General Github documentation for working with SSH keys ([link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys))
 
+#### Git submodules
+
+Basically, a way to have one git folder include references to other git sub-folders (which can then maintain their own git history). The two sub-folders however need to have their own remote URLs and cannot physically reside in the same remote URL as that of the main git folder.
+
+The submodulesare maintained in a file named `.gitmodules` which looks like this.
+
+![image-20250531161726720](./assets/image-20250531161726720.png)
+
+##### Some of the commands
+
+`git submodule` - List all the submodules <br>`git submodule add ../<SubFolderName> <SubModuleName>` - Add a new submodule <br>To remove a submodule, the least invasive way is to simply edit the submodule file and remove the concerned snippet.
+
+
+
 --------
 
 filter branch <br>

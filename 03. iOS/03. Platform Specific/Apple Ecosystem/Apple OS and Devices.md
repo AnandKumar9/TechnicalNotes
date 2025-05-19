@@ -4,6 +4,7 @@
 
 | Year | macOS                       | iOS/iPadOS        | iPhone                                            | iPad                                                       |
 | ---- | --------------------------- | ----------------- | ------------------------------------------------- | ---------------------------------------------------------- |
+| 2025 | Tahoe (macOS 26)            | iOS 26, iPadOS 26 |                                                   |                                                            |
 | 2024 | Sequoia (macOS 15)          | iOS 18, iPadOS 18 | iPhone 16Pro Max, 16 Pro, 16 Plus, 16             | iPad Pro 7th Gen, **Air 6th Gen**                          |
 | 2023 | Sonoma (macOS 14)           | iOS 17, iPadOS 17 | iPhone 15Pro Max, **15 Pro**, 15 Plus, 15         |                                                            |
 | 2022 | Ventura (macOS 13)          | iOS 16, iPadOS 16 | iPhone 14Pro Max, 14 Pro, 14 Plus, 14, SE 3rd Gen | iPad Pro 6th Gen, Air 5th Gen, 10th Gen                    |

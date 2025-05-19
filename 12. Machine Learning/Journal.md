@@ -79,3 +79,8 @@ With the explosive advances in generative AI, predictive text, and Transformer-b
 
 `Transformer` - Deep learning model that adopts the mechanism of self-attention, differentially weighting the significance of each part of the input (which includes the recursive output) data. It is used primarily in the fields of natural language processing (NLP) and computer vision (CV).
 
+##### AI Landscape
+
+~ 2025, taken from [here](https://substack.com/home/post/p-159347263) (Janvi Kalra, substack)
+
+![AILandscape-2025](./assets/AILandscape-2025.png)
