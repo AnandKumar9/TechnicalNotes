@@ -32,6 +32,22 @@ Once set, a python code can also be simply run from command line.
 python3 main.py
 ```
 
+##### Running the project from any file
+
+To be able to run from any file ..
+
+![image-20250628150026365](./assets/image-20250628150026365.png)
+
+.. , a configuration needs to be created that basically runs `main.py`.
+
+![image-20250628150054355](./assets/image-20250628150054355.png)
+
+##### Adding modules
+
+Modules can be added in 'PyCharm Settings > Project <ProjectName> > Python Interpreter'.
+
+![image-20250628150637675](./assets/image-20250628150637675.png)
+
 ##### Some of the gotchas
 
 If debugging the code is not working or code does not seem to be running, check the configuration. It should be `main`.

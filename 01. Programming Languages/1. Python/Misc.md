@@ -1,3 +1,22 @@
+##### Run a function from command line and pass arguments
+
+In the file add a snippet such as this
+
+```swift
+if __name__ == "__main__":
+    import sys
+    arg1 = sys.argv[1]
+		thatParticularFunction(arg1)
+```
+
+And then it can be run like this from command line
+
+```swift
+python3 FileName.py customArgumentXYZ
+```
+
+Basically if a python file is run, `__name__ ` becomes `__main__` and the arguments get passed in `sys.argv` array.
+
 ##### Standard Library Modules
 
 `os` - Interacts with OS. That is file system, system resources, etc. <br>

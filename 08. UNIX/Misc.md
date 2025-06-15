@@ -56,7 +56,7 @@ Print all components of `$PATH` in new line.
 
 `echo $PATH | tr ':' '\n' `
 
-##### mdfind
+##### Spotlight search (mdfind)
 
 This is actually a macOS command instead. `mdfind` allows to do a Spotlight search from terminal and as it uses Spotlight's pre-built file database, its quicker. ([Link](https://metaredux.com/posts/2019/12/22/mdfind.html)) Very handy for piping the results into another command, etc. too.
 
@@ -65,3 +65,27 @@ There are several flags, and it by default searches in the entire Mac.
 ```
 mdfind -name "Basics"
 ```
+
+##### Creating temporary files and deleting them (mktemp, trap)
+
+Temporary files and directories can be created with `mktemp`, and `trap` can be used to automatically clear them when the script exits for any reason.
+
+```swift
+# -- Create a temporary directory —--
+UNZIPPED_IPA_DIR=$(mktemp -d "/tmp/ipa_extract_XXXX")
+
+# -- Create a temporary file —--
+TEMP_PLIST_FILE=$(mktemp "$UNZIPPED_IPA_DIR/ipa_plist_XXXX.plist")
+
+# Set a trap to clean up the temporary directory when the script exits
+trap "rm -rf \"$UNZIPPED_IPA_DIR\"" EXIT ERR
+```
+
+##### Unzipping files
+
+Can be done with `unzip`
+
+```swift
+unzip -q "$IPA_FILE" -d "$UNZIPPED_IPA_DIR"
+```
+
