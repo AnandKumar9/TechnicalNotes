@@ -48,6 +48,12 @@ Modules can be added in 'PyCharm Settings > Project <ProjectName> > Python Inter
 
 ![image-20250628150637675](./assets/image-20250628150637675.png)
 
+##### Associating a file with a particular file type
+
+Here PyCharm is being instructed to treat the lldbinit file as a Python file (for syntax highlighting, etc.) even if it does not have a .py extension.
+
+![image-20250712084230242](./assets/image-20250712084230242.png)
+
 ##### Some of the gotchas
 
 If debugging the code is not working or code does not seem to be running, check the configuration. It should be `main`.
