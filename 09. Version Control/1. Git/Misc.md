@@ -101,7 +101,7 @@ General Github documentation for working with SSH keys ([link](https://docs.gith
 
 Basically, a way to have one git folder include references to other git sub-folders (which can then maintain their own git history). The two sub-folders however need to have their own remote URLs and cannot physically reside in the same remote URL as that of the main git folder.
 
-The submodulesare maintained in a file named `.gitmodules` which looks like this.
+The submodules are maintained in a file named `.gitmodules` which looks like this.
 
 ![image-20250531161726720](./assets/image-20250531161726720.png)
 

@@ -38,15 +38,17 @@ Did I work hard, give it my all. <br>Was I happy, and if not was I too harsh on 
 
 ~ **2020 Mar - 2021 Feb**: Promotion, first year as SM, ISX projects. **Happy enough**, slightly anxious but not much. Could see I needed to get better, should have started understanding Cloud better.
 
-~ **2021Mar - 2022 Feb**: Welcome, ISX projects (Toolbox). Happy initially but **increasingly discontent** after that. Could feel a stagnation and some despair creeping in. Should have looked into EASE lot more. 
+~ **2021 Mar - 2022 Feb**: Welcome, ISX projects (Toolbox). Happy initially but **increasingly discontent** after that. Could feel a stagnation and some despair creeping in. Should have looked into EASE lot more. 
 
-~ **2022 Mar - 2022 Dec**: L1 ISX projects (Combine). Slightly content for only some time and then **unhappy**. Should have made myself more versatile, understand web too.
+~ **2022 Mar - 2023 Jun**: L1 ISX projects (Combine). Slightly content for only some time and then **unhappy**. Should have made myself more versatile, understand web too. Diagrams and talks towards tha later part.
 
-~ **2023**: Diagrams and talks. Promoted to DE in Jul. The high of becoming one, and then **very anxious**. Need to become lot more well rounded and have depth.
+~ **2023 Jul - 2024 Jun**:  Promoted to DE in Jul. The high of becoming one, and then **very anxious**. Need to become lot more well rounded and have depth.
 
 In general, needed to push myself lot more and know many more things. If something is making noise, know about it. To always make contributions, have things to show. Cultivating a personality, a reliable and calming presence.
 
 Trying new things and gadgets outside work. That is what brings confidence.
+
+**~2024 Jul -** : Change in reporting structure, POCs and concept documents. Given ways to express myself and feel more **hopeful**. Have to always keep planning ahead, exploring possible opportunities, looking ath big pictures, connecting the dot. That is what has helped me.
 
 ##### Sept 29th, 2023: Tech and Career improvement thoughts
 

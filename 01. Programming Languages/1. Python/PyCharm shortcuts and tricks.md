@@ -42,6 +42,8 @@ To be able to run from any file ..
 
 ![image-20250628150054355](./assets/image-20250628150054355.png)
 
+> This configuration can also be automatically created by going to Project tool window (left panel), and doing a  right-click on main.py to do a Run from there once..
+
 ##### Adding modules
 
 Modules can be added in 'PyCharm Settings > Project <ProjectName> > Python Interpreter'.
