@@ -65,7 +65,7 @@
 
 ### Devices
 
-##### Screen resolutions (width, height in points)
+#### Screen resolutions (width, height in points)
 
 [ios-resolution link](https://ios-resolution.com/)
 
@@ -73,14 +73,14 @@ The resolutions are in `points`.
 
 Here is the conversion between points and rendered pixels. There is something called `device pixels` also and that again is calculated from `rendered pixels`. Usually in code what is specified is points (usually APIs do not uses pixels, they always use points instead, only some like OpenGL ES work directly with pixels) . Theoretically this coordinate space is called user coordinate space. The pixels system (to which it eventually boils down) is called device coordinate system and the conversion from user coordinate system to device coordinate system is done entirely by the system.
 
-###### No. of rendered pixels
+##### 
 `3 * No. of points (3x)` - iPhone 11ProMax, 11Pro, 11, XSMax, XS, X, 8Plus, 7Plus, 6S Plus, 6 Plus (8 and 7 too?) <br>
 `2 * No. of points (2x)` - iPhone SE 2nd Gen, XR, 6S, 6, iPhone SE, 5S, 5C, 5, iPhone 4S, 4 <br>
 `No. of points` - iPhone 3GS, 3G, 2G
 
-##### iPhone
+#### iPhone
 
-###### Resolution (width, height in points)
+##### Resolution (width, height in points)
 
 iPhone 14ProMax, iPhone 14Pro, iPhone 14Plus, iPhone 14, iPhone SE 3rd Gen ?
 
@@ -93,7 +93,7 @@ iPhone 14ProMax, iPhone 14Pro, iPhone 14Plus, iPhone 14, iPhone SE 3rd Gen ?
 `320, 568` - iPhone SE 1st Gen, 5S, 5C, 5 <br>
 `320, 480` - iPhone 4S, 4, iPhone 3GS, 3G, iPhone <br>
 
-###### Screen sizes
+##### Screen sizes
 
 `6.6 in` - iPhone 13ProMax, iPhone 12ProMax <br>
 `6.5 in` - iPhone 11ProMax, iPhone XSMax<br>
@@ -104,9 +104,9 @@ iPhone 14ProMax, iPhone 14Pro, iPhone 14Plus, iPhone 14, iPhone SE 3rd Gen ?
 `4 in` - iPhone 5, 5S <br>
 `3.5 in` - Up till iPhone 4S <br>
 
-##### iPad
+#### iPad
 
-###### Resolutions (width, height in points)
+##### Resolutions (width, height in points)
 
 iPad Pro 12.9" - 1024, 1366  <br>
 iPad Pro 9.7", iPad Air 2, iPad Air, iPad 4th gen, iPad 3rd gen, iPad 2, iPad - 768, 1024  <br>
@@ -126,13 +126,13 @@ iPad Pro 12.9" - 12.9" <br>
 iPad Pro 9.7", iPad Air 2, iPad Air, iPad 4th gen, iPad 3rd gen, iPad 2, iPad - 9.7" <br>
 iPad Mini 4, iPad Mini 3, iPad Mini 2, iPad Mini - 7.9" <br>
 
-###### Screen sizes
+##### Screen sizes
 
 `12.9 in`, `11 in`, `10.5 in`, `9.7 in` - iPad Pro <br>
 `7.9 in` - iPad mini <br>
 `9.7 in` - iPad and iPad Air <br>
 
-##### Misc.
+#### Misc.
 
 Yosemite - 2014. Handoff, Instant Hotspot (includes making calls from Mac).
 Handoff not supported in all Mac and iOS devices. Needs Bluetooth 4.0. Devices supported iPhone 5, iPad 4, MacBook 2012 onwards. Of course iOS8 too. MacBook 2011 not supported in spite of having Bluetooth 4.0. Whether Handoff supported or not could be checked from About this Mac - System Report - Bluetooth.
@@ -140,7 +140,7 @@ Probably the same way for Instant Hotspot too.
 
 AirPlay - Allows to stream content from Mac and iOS devices to the HDTV and speakers, via AppleTV. Content can be streamed (it probably means that it will not occupy screen space in the source device) as well as mirrored (same content visible in the source as well). Also, the HDTV can be made to work as an extra display for the source so that effectively there are dual screens available. Peer-to-peer AirPlay is also possible for guest drives (this probably means that the guest devices need not have the password to connect to the wi-fi network and can stream directly to the HDTV.)
 
-###### Screen resolution for various action extensions if the UI is locked to portrait - (width, height in points)
+##### Screen resolution for various action extensions if the UI is locked to portrait - (width, height in points)
 
 iPhone -
 

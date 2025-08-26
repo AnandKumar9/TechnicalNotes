@@ -55,17 +55,3 @@ This infact directs the output to a new file.
 osascript ScrapeWebHTML.scpt > output.txt
 ```
 
-
-
-##### How to assign keyboard shortcut to a script (QuickAction)
-
-1. **Automator** > New document > **Quick Action**:  Add the script (select 'workflow receives no input' in 'Finder') and save it. (Note that all quick actions are saved in `~/Library/Services/`)
-2. Go to **System settings** > Keyboard > Keyboard Shortcuts > **Services** > General and assign that quick action a keyboard shortcut.
-
-| Automator > Quick Action configuration                       | System settings > Keyboard Shortcut                          |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image-20250608135721643](./assets/image-20250608135721643.png) | ![image-20250608135655880](./assets/image-20250608135655880.png) |
-
-Quick Actions generally appear (where applicable for Finder) as a menu option in `Finder > Services`.
-
-![image-20250608140236777](./assets/image-20250608140236777.png)

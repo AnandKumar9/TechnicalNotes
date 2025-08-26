@@ -1,3 +1,17 @@
+##### x-callback-url
+
+Its basically just a convention regarding the data sent from appA to appB when A invokes B using its URL schema. It tells B how to redirect back to A, the details are passed in the query param of the URL schema.
+
+From ChatGPT -
+
+![image-20250905120229366](./assets/image-20250905120229366.png)
+
+
+
+----------------------
+
+
+
 List of all supported deep links (URL schemas) to iOS apps and Settings sub-screens - [Link](https://github.com/FifiTheBulldog/ios-settings-urls/blob/master/settings-urls.md) (~Oct 2022)
 
 

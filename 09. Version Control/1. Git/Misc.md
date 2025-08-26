@@ -1,6 +1,6 @@
 [toc]
 
-##### Working with terminal editor
+#### Working with terminal editor
 
 Pressing any key such as `a` activates the editor.
 Pressing `esc` deactivates the editor.
@@ -9,25 +9,25 @@ Then `:` followed by commands such as `w` `q` `a` can be typed to indicate what 
 `:wq` - Write and commit <br>
 `:x` - Save and quit <br>
 
-[link](https://stackoverflow.com/a/13507455/1135417)
+([link](https://stackoverflow.com/a/13507455/1135417))
 
 > Once you are inside the editor, arrow keys work very fluidly for navigating up and down.
 
-##### Various trick commands 
+#### Various trick commands 
 
-###### Getting a list of all files that have changed between two commits
+##### Getting a list of all files that have changed between two commits
 
 ```
 git log --name-only --pretty=oneline --full-index hash2..hash1 | grep -vE '^[0-9a-f]{40} ' | sort | uniq
 ```
 
-###### Getting a list of all authors (i.e. every1 who has ever made a commit)
+##### Getting a list of all authors (i.e. every1 who has ever made a commit)
 
 ```
 git shortlog -s | cut -c8-
 ```
 
-###### Parsing commit log (`rev-parse`)
+##### Parsing commit log (`rev-parse`)
 
 `rev-parse` can be used to parse commit logs in several ways. Here are some of the commands. ([Reference](https://git-scm.com/docs/git-rev-parse), [Examples](https://stackoverflow.com/a/41350393/1135417))
 

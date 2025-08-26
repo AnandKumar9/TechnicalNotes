@@ -14,3 +14,6 @@ Swift open source community has developed database drivers that help interact na
 
 ![image-20230817234258283](assets/image-20230817234258283.png)
 
+##### Resources
+
+Swift on server (swift.org [link](https://www.swift.org/documentation/server/)) <br>gRPC Swift support ([grpc.io link](https://grpc.io/docs/languages/swift/), [GH package](https://github.com/grpc/grpc-swift)) <br>Server side Swift related packages ([link](https://www.swift.org/packages/server.html)) <br>SSWG (Server Side Working Group) Incubation Process ([link](https://www.swift.org/sswg/incubation-process.html))
