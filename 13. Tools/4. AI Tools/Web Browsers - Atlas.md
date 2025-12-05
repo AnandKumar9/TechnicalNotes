@@ -12,7 +12,7 @@ Sidebar for normal ChatGPT
 
 Regular internet access
 
-Activate Agend Mode using + button in chat sidebar.
+Activate Agent Mode using + button in chat sidebar.
 
 #### Use Cases
 

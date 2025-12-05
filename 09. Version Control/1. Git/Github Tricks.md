@@ -45,6 +45,18 @@ For instance this means that any changes in `FriendlyFraud` folder would need to
 
 ##### GitHub apps
 
+###### 3 kinds of applications
+
+As of 2025, there are 3 kinds of Applications that show up under 'GitHub > Profile > Settings > Integrations > Applications'.
+
+![image-20251213083046730](./assets/image-20251213083046730.png)
+
+The difference is supposedly this
+
+![image-20251213083442955](./assets/image-20251213083442955.png)
+
+###### Previous
+
 [Link](https://docs.github.com/en/apps/creating-github-apps/creating-github-apps/about-apps#about-github-apps)
 
 A GitHub App acts on its own behalf, taking actions via the API directly using its own identity, thereby not requiring a bot. (But isn't a bot a similar thing anyway.) They can be installed for any GH account and come with built-in web hooks and specific permissions (say restrict app's access to only certain repos, etc.).

@@ -1,20 +1,3 @@
-| Topic                                | Things                                                       |
-| ------------------------------------ | ------------------------------------------------------------ |
-| SDUI in depth                        |                                                              |
-| iOS Tooling                          |                                                              |
-| SwiftUI                              |                                                              |
-| Swiftlang                            |                                                              |
-| Revise AI tools (with iOS dev focus) |                                                              |
-| SwiftData                            | 2023: Meet SwiftData<br/>2023: Model your schema with SwiftData<br/>2023: Migrate to SwiftData<br/>2023: Dive deeper into SwiftData |
-
-| Technology           |      |
-| -------------------- | ---- |
-| ReactNative          |      |
-| Kotlin MultiPlatform |      |
-| Flutter              |      |
-
-
-
 ##### 2025 01 21
 
 Long term things that I need to work for.
