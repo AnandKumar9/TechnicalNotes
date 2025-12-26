@@ -1,3 +1,5 @@
+[toc]
+
 ##### ReactNative Documentation Structure
 
 ![image-20240707132555600](assets/image-20240707132555600.png)
@@ -73,3 +75,4 @@ Benefits and downsides ([link](https://techexactly.com/blogs/advantages-and-disa
 
 The general theme regarding downsides - Lack of native gestures and animations,  Often needs bridges for device specific capabilities like Map, etc. anyway, Memory management not as good, longer initialization at runtime
 
+Phillip Pan – React Native under the hood | App.js Conf 2024 ([YT link](https://www.youtube.com/watch?v=oLmGInjKU2U&list=PL7ayPm9SfNucrgTd1avY2TYJtxBqQsWhW))

@@ -1,3 +1,5 @@
+[toc]
+
 #### Thread Sanitizer
 
 In edit scheme's Run - Diagnostics option, 'Thread Sanitizer' option can be checked to get a report on all race conditions that happened while running the app. In fact there is also a checkbox to pause execution when an issue (such as race conditon) occurs.
@@ -46,8 +48,29 @@ GCD code | Swift concurrency code
 --- | ---
 ![](assets/Misc-f9c7c54a.png) | ![](assets/Misc-0cdc0f9c.png)
 
+#### Per-thread local storage using pthread_key_t
+
+> There is a code snippet in 'Swift Secrets' book > 'UNIX and I/O fundamentals' chapter > 'Threads and GCD'. Its basically a more performant way to achieve per-thread data without using any locks.
+
+![image-20251226160354525](./assets/image-20251226160354525.png)
+
+![image-20251226160507236](./assets/image-20251226160507236.png)
+
+[ChatGPT link](https://chatgpt.com/g/g-p-6934bcdfcafc819182baa9435e044320-swift-programs/c/694ef72e-5be4-8326-b49f-263d52e95c77)
+
+#### Bailing out of runtime errors, SIGABRT, etc.
+
+> From 'Swift Secrets > UNIX and I/O Fundamentals chapter > Signals, longjmp, and Fotify'
+
+UNIX has long had a **longjmp()** function that can rewind the stack to a previously agreed point set up by calling the **setjmp()** function. There is an open source code called Fortify.swift ([GH link](https://github.com/johnno1962/Fortify/blob/main/Sources/Fortify.swift)) that uses this to even handle runtime errors and process termination signals.
+
+Debugging aside, this can have some real uses (for example with web servers).
+
+![image-20251226164722031](./assets/image-20251226164722031.png)
+
 ---------
 
 CPU strategy view in Instruments
 
 the main thread is special. It gets both a main run loop and a main queue.
+

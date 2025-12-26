@@ -6,7 +6,7 @@ SciKit diagram for chosing the right estimator (algorithm?) - https://scikit-lea
 
 ##### Resources
 
-Learning ML in a week ([link](https://medium.com/learning-new-stuff/machine-learning-in-a-week-a0da25d59850#.tk6ft2kcg)) <br>Learning ML in a year ([link](https://medium.com/learning-new-stuff/machine-learning-in-a-year-cdb0b0ebd29c#.hhcb9fxk1)) <br>ML resources for experienced engineers ([link](https://github.com/ZuzooVn/machine-learning-for-software-engineers))
+Learning ML in a week ([link](https://medium.com/learning-new-stuff/machine-learning-in-a-week-a0da25d59850#.tk6ft2kcg)) <br>Learning ML in a year ([link](https://medium.com/learning-new-stuff/machine-learning-in-a-year-cdb0b0ebd29c#.hhcb9fxk1)) <br>ML resources for experienced engineers ([link](https://github.com/ZuzooVn/machine-learning-for-software-engineers)) <br>Web scraping and parsing with Beautiful Soup & Python Introduction (YouTube tutorial I did in 2023, [link](https://www.youtube.com/watch?v=aIPqt-OdmS0&list=PLQVvvaa0QuDfV1MIRBOcqClP6VZXsvyZS))
 
 Andrew Ng's Coursera course <br>Sci-Kit tutotrials <br>Sentdex YT tutorials <br>Udacity's intro to ML <br>Udacity - Supervised Learning course <br>
 Udacity deep learning course <br>

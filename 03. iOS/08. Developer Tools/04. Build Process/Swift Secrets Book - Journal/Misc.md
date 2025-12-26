@@ -1,5 +1,13 @@
 [toc]
 
+#### Building swift compiler
+
+> Haven't read or tried yet but has been explained in 'Swift Secrets > Swift Open Source project > Building and Testing the Swift Compiler' .
+
+After cloning the git repo, you can build the compiler in two ways - Using **cmake** or (for simpler changes) **utils/build-script**.
+
+![image-20251229153934545](./assets/image-20251229153934545.png)
+
 #### Generics implementation
 
 C++ has had code templating (Swift generics is inspired from that), but C++ implements that using code duplication whereas Swift implements that using generics.
