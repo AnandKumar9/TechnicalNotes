@@ -43,6 +43,12 @@ For instance this means that any changes in `FriendlyFraud` folder would need to
 /Enterprise/MobileUI/Features/FriendlyFraud/ @ease-ios-card/bb8
 ```
 
+##### GitHub Actions
+
+Its basically the GH equivalent of Git hooks. Get things to happen on server when certain events occur.
+
+##### ![image-20260111163147793](./assets/image-20260111163147793.png) 
+
 ##### GitHub apps
 
 ###### 3 kinds of applications
