@@ -1,0 +1,69 @@
+1) Session & Conversation Control
+/clear — Clear full conversation history from context.		k
+/compact — Clear history but retain a summarized version.	k
+/fork — Create a new conversation branch from here.		k (sus)
+/rename — Rename the current conversation.			k
+/resume — Reopen a previously saved conversation.		k (sus)
+/rewind — Restore code and/or chat to an earlier state.		k
+/exit — Exit the Claude Code REPL.				k
+/plan — Enable or view structured planning mode.
+/todos — List current tracked todo items.
+
+2) Workspace & Filesystem
+/add-dir — Add an additional working directory to the session.	k
+/init — Generate a CLAUDE.md file documenting your codebase.	k
+/memory — View or edit Claude’s persistent memory files.	k
+/sandbox — Configure or inspect sandbox execution settings.	k
+
+3) Config, UI & UX
+/config — Open Claude Code configuration panel.			k
+/context — Visualize current context/token usage.		k
+/output-style — Change Claude’s response formatting style.	k
+/theme — Switch the UI theme.
+/statusline — Configure the terminal status line UI.
+/keybindings — Edit custom keyboard shortcuts.
+/terminal-setup — Enable improved terminal key behavior.
+/vim — Toggle Vim editing mode.
+/copy — Copy the last response as markdown.
+/export — Export the conversation to file or clipboard.		k
+
+4) Models & Performance
+/model — Select the AI model used in the session.		k
+/fast — Toggle fast-response mode (Opus-specific).		k
+
+5) Diagnostics & Telemetry
+/status — Show version, model, account, and connectivity info.	k
+/doctor — Diagnose installation and configuration issues.
+/debug — View session debug logs.
+/stats — Display usage statistics and activity metrics.
+/insights — Generate an analytical report of sessions.
+/usage — Show plan usage limits.				k
+/release-notes — View latest updates and changes.
+
+6) Agents, Tools & Extensions
+/agents — Manage custom agent configurations.			k
+/skills — List available skill modules.				k
+/plugin — Manage Claude Code plugins.
+/hooks — Configure tool-event hooks.				k
+/mcp — Manage MCP servers.					k
+/permissions — Control tool allow/deny rules.
+/tasks — Manage background tasks.
+
+7) Integrations
+/ide — Manage IDE integrations and status.
+/install-github-app — Install GitHub Actions integration.
+/install-slack-app — Install Claude’s Slack app.
+/pr-comments — Fetch comments from a GitHub pull request.
+/review — Perform a pull request review.
+/chrome — Configure Claude in Chrome (beta).
+/mobile — Show QR code for Claude mobile app.
+
+8) Account, Billing & Misc
+/login — Sign in to your Anthropic account.
+/logout — Sign out of your account.
+/upgrade — Upgrade plan for higher limits/features.		k
+/extra-usage - Configure extra usage when limits are hit 	k
+/feedback — Submit product feedback.
+/security-review — Run a security review on pending branch changes.
+/help — Show help and available commands.
+/stickers — Order Claude Code stickers.
