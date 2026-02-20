@@ -1,12 +1,12 @@
 ##### Resources
 
-WWDC 2019 - Data Flow Through SwiftUI <br>WWDC 2020 - Data Essentials in SwiftUI <br>WWDC 2023 - Discover Observation in SwiftUI <br>
+WWDC 2019 - Data Flow Through SwiftUI <br>  <br>WWDC 2023 - Discover Observation in SwiftUI <br>
 
 Learning SwiftUI tutorials - Chapter 3: State and data flow ([link](https://developer.apple.com/tutorials/swiftui-concepts)) <br>
 
 SwiftUI documentation Data and Storage - Model Data ([link](https://developer.apple.com/documentation/swiftui/model-data)) <br>SwiftUI documentation Data and Storage - Environmenrt values ([link](https://developer.apple.com/documentation/swiftui/environment-values)) <br>SwiftUI documentation Data and Storage - Preferences ([link](https://developer.apple.com/documentation/swiftui/preferences)) <br>SwiftUI documentation Data and Storage - Persistent and Storage ([link](https://developer.apple.com/documentation/swiftui/persistent-storage)) <br>
 
-Test project - TestSwiftUI
+Test projects - <br>SwiftUI-StateAndDataManagement <br>TestSwiftUI
 
 ##### Misc.
 
