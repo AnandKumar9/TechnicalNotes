@@ -73,7 +73,6 @@ The resolutions are in `points`.
 
 Here is the conversion between points and rendered pixels. There is something called `device pixels` also and that again is calculated from `rendered pixels`. Usually in code what is specified is points (usually APIs do not uses pixels, they always use points instead, only some like OpenGL ES work directly with pixels) . Theoretically this coordinate space is called user coordinate space. The pixels system (to which it eventually boils down) is called device coordinate system and the conversion from user coordinate system to device coordinate system is done entirely by the system.
 
-##### 
 `3 * No. of points (3x)` - iPhone 11ProMax, 11Pro, 11, XSMax, XS, X, 8Plus, 7Plus, 6S Plus, 6 Plus (8 and 7 too?) <br>
 `2 * No. of points (2x)` - iPhone SE 2nd Gen, XR, 6S, 6, iPhone SE, 5S, 5C, 5, iPhone 4S, 4 <br>
 `No. of points` - iPhone 3GS, 3G, 2G

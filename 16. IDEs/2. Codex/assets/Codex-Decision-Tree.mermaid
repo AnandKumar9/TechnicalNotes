@@ -1,0 +1,21 @@
+---
+title: What Codex product to use for local development?
+---
+
+flowchart TD
+
+X["Do you want the work done on your local system?"]
+X -->|No| Y["Codex Web"]
+X -->|Yes| A["Do you prefer IDEs?"]
+
+
+A -->|Yes| B["Do you need to work on multiple things simultaneously?"]
+B -->|Yes| D
+B -->|No| C["IDE Extension"]
+
+
+A -->|No| D["Do you strongly prefer pure Terminal?"]
+D -->|No| E["Codex app
+(has a shell anyway)"]
+
+D -->|Yes| F["Codex CLI"]
