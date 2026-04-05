@@ -1,5 +1,21 @@
 [toc]
 
+##### Entry Points/Interfaces
+
+Just like Codex, Claude Code too has similar interfaces (but not all of them).
+
+1. Claude Code **CLI** (the primary interface)
+2. Claude Code Visual Studio **extension**
+3. **Claude Code Web** (similar to Codex Web, where you can connect to GH repos and make changes to them and run on virtual servers, in beta as of Apr 2026, [link](https://code.claude.com/docs/en/claude-code-on-the-web))
+
+There is also something known as **Claude Console**, its basically just an onine playground to easily test Anhtropic APIs (like you would with Postman). [Link](https://platform.claude.com/dashboard). These APIs are things such as https://api.anthropic.com/v1/messages.
+
+##### Visual Studio Code extension
+
+Just like Codex extension. Once installed and enabled, it gets a tab of its own in right pane. You can trigger agents, etc. from here with the usual slash command syntax.
+
+![image-20260405115716688](./assets/image-20260405115716688.png)
+
 ##### AgentSDK and CLI access
 
 There are [Python](https://platform.claude.com/docs/en/agent-sdk/python) and [TS](https://platform.claude.com/docs/en/agent-sdk/typescript) packages that can let you communicate with Claude Code and let it do things. 
