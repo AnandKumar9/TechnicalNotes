@@ -39,7 +39,7 @@ end tell
 return pageSource
 ```
 
-##### Running a Python script from AppleScript
+##### Running a Python script from AppleScript£
 
 This is basically the same as running a shell command from AppleScript
 
