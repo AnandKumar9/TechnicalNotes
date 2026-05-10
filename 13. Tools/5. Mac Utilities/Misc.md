@@ -24,3 +24,8 @@ cat urls.txt | xargs -n 1 -P 4 yt-dlp -x --audio-format mp3
 ffmpeg -loop 1 -i <imageFile>.jpg -i <audioFile>.mp3 -c:v libx264 -tune stillimage -c:a aac -b:a 192k -shortest -pix_fmt yuv420p output.mp4
 ```
 
+https://www.instagram.com/reels/DH0zQq-zn2g/
+
+
+
+yt-dlp -x https://www.instagram.com/reels/DH0zQq-zn2g/
