@@ -34,3 +34,13 @@ Here is one of the skills
 ![image-20260406151037613](./assets/image-20260406151037613.png)
 
 ![image-20260406151058825](./assets/image-20260406151058825.png)
+
+##### Derived Data Location
+
+While the default is `/Users/anandkumar/Library/Developer/Xcode/DerivedData`, the default can also be set to be in the current ptoject folder.
+
+<img src="./assets/image-20260616185329157.png" alt="image-20260616185329157" style="zoom:50%;" />
+
+And even this can be changed on a per-project basis through **File > Project Settings**.
+
+<img src="./assets/image-20260616185417679.png" alt="image-20260616185417679" style="zoom:50%;" />

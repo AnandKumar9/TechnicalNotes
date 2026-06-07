@@ -12,7 +12,9 @@ Its accessible from Xcode's Report Navigator and then also from App Store Connec
 
 ##### Basics
 
-You create workflows, and every workflow needs these things - Start Conditons, Actions, Post-Actions i.e. when to run these workflows, what happens in them, and what happens once those things are done.
+You create workflows, and every workflow needs these things - Start Conditons, Actions, Post-Actions i.e. when to run these workflows, what happens in them, and what happens once those things are done. Environment is where you can specify what Xcode and macOS version should the build be done on in cloud (and what environment variables should be passed to it).
+
+![Image 2026-05-09 at 11.46.38 PM](./assets/Image 2026-05-09 at 11.46.38 PM.png)
 
 Here is the workflow settings for a workflow that I created to automatically generate and upload an archive to App Store Connect anytime a certain tag is pushed.
 

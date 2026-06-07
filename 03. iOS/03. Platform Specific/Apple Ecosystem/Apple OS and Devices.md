@@ -2,27 +2,27 @@
 
 ### Overall List
 
-| Year | macOS                       | iOS/iPadOS        | iPhone                                            | iPad                                                       |
-| ---- | --------------------------- | ----------------- | ------------------------------------------------- | ---------------------------------------------------------- |
-| 2025 | Tahoe (macOS 26)            | iOS 26, iPadOS 26 | iPhone 17Pro Max, **17 Pro**, Air, 17             | iPad Pro 8th Gen, Air 7th Gen, 11th Gen                    |
-| 2024 | Sequoia (macOS 15)          | iOS 18, iPadOS 18 | iPhone 16Pro Max, 16 Pro, 16 Plus, 16, 16e        | iPad Pro 7th Gen, **Air 6th Gen**, Mini 7th Gen            |
-| 2023 | Sonoma (macOS 14)           | iOS 17, iPadOS 17 | iPhone 15Pro Max, **15 Pro**, 15 Plus, 15         |                                                            |
-| 2022 | Ventura (macOS 13)          | iOS 16, iPadOS 16 | iPhone 14Pro Max, 14 Pro, 14 Plus, 14, SE 3rd Gen | iPad Pro 6th Gen, Air 5th Gen, 10th Gen                    |
-| 2021 | Monterey (macOS 12)         | iOS 15, iPadOS 15 | iPhone 13 Pro Max, 13 Pro, 13, 13 Mini            | iPad Pro 5th Gen, 9th Gen, Mini 6th Gen                    |
-| 2020 | Big Sur (macOS 11)          | iOS 14, iPadOS 14 | iPhone 12Pro Max, 12 Pro, 12, 12 Mini, 2nd Gen    | iPad Pro 4th Gen, Air 4th Gen, 8th Gen                     |
-| 2019 | Catalina (macOS 10.15)      | iOS 13            | iPhone 11Pro Max, **11 Pro**, 11                  | iPad Air 3rd Gen, 7th Gen,  Mini 5th Gen                   |
-| 2018 | Mojave (macOS 10.14)        | iOS 12            | iPhone XSMax, XS, XR                              | iPad 6th Gen, Pro 3rd Gen                                  |
-| 2017 | High Sierra (macOS 10.13)   | iOS 11            | iPhone X, 8Plus, 8                                | iPad 5th Gen, Pro 2nd Gen 12.9 inch, Pro 2nd Gen 10.5 inch |
-| 2016 | Sierra (macOS 10.12)        | iOS 10            | iPhone 7Plus, **7**, SE 1st Gen                   | **iPad Pro 9.7 inch**                                      |
-| 2015 | El Capitan (OS X 10.11)     | iOS 9             | iPhone 6SPlus, **6S**                             | iPad Pro 12.9 inch, Mini 4                                 |
-| 2014 | Yosemite (OS X 10.10)       | iOS 8             | iPhone 6Plus, 6                                   | iPad Air 2, Mini 3                                         |
-| 2013 | Mavericks (OS X 10.9)       | iOS 7             | iPhone 5S, 5C                                     | iPad Air, Mini 2                                           |
-| 2012 | Mountain Lion (OS X 10.8)   | iOS 6             | iPhone 5                                          | iPad 4th gen, Mini, **3rd gen (new iPad)**                 |
-| 2011 | Lion (OS X 10.7)            | iOS 5             | **iPhone 4S**                                     | iPad 2                                                     |
-| 2010 | Snow Leopard (MacOS X 10.6) | iOS 4             | iPhone 4                                          | **iPad**                                                   |
-| 2009 |                             | iPhoneOS 3        | **iPhone 3GS**                                    |                                                            |
-| 2008 |                             |                   |                                                   |                                                            |
-| 2007 | Leopard (MacOS X 10.5)      |                   |                                                   |                                                            |
+| iPad                                                       | macOS                       | Year | iOS/iPadOS        | iPhone                                            |
+| ---------------------------------------------------------- | --------------------------- | ---- | ----------------- | ------------------------------------------------- |
+| iPad Pro 8th Gen, Air 7th Gen, 11th Gen                    | Tahoe (macOS 26)            | 2025 | iOS 26, iPadOS 26 | iPhone 17Pro Max, **17 Pro**, Air, 17             |
+| iPad Pro 7th Gen, **Air 6th Gen**, Mini 7th Gen            | Sequoia (macOS 15)          | 2024 | iOS 18, iPadOS 18 | iPhone 16Pro Max, 16 Pro, 16 Plus, 16, 16e        |
+|                                                            | Sonoma (macOS 14)           | 2023 | iOS 17, iPadOS 17 | iPhone 15Pro Max, **15 Pro**, 15 Plus, 15         |
+| iPad Pro 6th Gen, Air 5th Gen, 10th Gen                    | Ventura (macOS 13)          | 2022 | iOS 16, iPadOS 16 | iPhone 14Pro Max, 14 Pro, 14 Plus, 14, SE 3rd Gen |
+| iPad Pro 5th Gen, 9th Gen, Mini 6th Gen                    | Monterey (macOS 12)         | 2021 | iOS 15, iPadOS 15 | iPhone 13 Pro Max, 13 Pro, 13, 13 Mini            |
+| iPad Pro 4th Gen, Air 4th Gen, 8th Gen                     | Big Sur (macOS 11)          | 2020 | iOS 14, iPadOS 14 | iPhone 12Pro Max, 12 Pro, 12, 12 Mini, 2nd Gen    |
+| iPad Air 3rd Gen, 7th Gen,  Mini 5th Gen                   | Catalina (macOS 10.15)      | 2019 | iOS 13            | iPhone 11Pro Max, **11 Pro**, 11                  |
+| iPad 6th Gen, Pro 3rd Gen                                  | Mojave (macOS 10.14)        | 2018 | iOS 12            | iPhone XSMax, XS, XR                              |
+| iPad 5th Gen, Pro 2nd Gen 12.9 inch, Pro 2nd Gen 10.5 inch | High Sierra (macOS 10.13)   | 2017 | iOS 11            | iPhone X, 8Plus, 8                                |
+| **iPad Pro 9.7 inch**                                      | Sierra (macOS 10.12)        | 2016 | iOS 10            | iPhone 7Plus, **7**, SE 1st Gen                   |
+| iPad Pro 12.9 inch, Mini 4                                 | El Capitan (OS X 10.11)     | 2015 | iOS 9             | iPhone 6SPlus, **6S**                             |
+| iPad Air 2, Mini 3                                         | Yosemite (OS X 10.10)       | 2014 | iOS 8             | iPhone 6Plus, 6                                   |
+| iPad Air, Mini 2                                           | Mavericks (OS X 10.9)       | 2013 | iOS 7             | iPhone 5S, 5C                                     |
+| iPad 4th gen, Mini, **3rd gen (new iPad)**                 | Mountain Lion (OS X 10.8)   | 2012 | iOS 6             | iPhone 5                                          |
+| iPad 2                                                     | Lion (OS X 10.7)            | 2011 | iOS 5             | **iPhone 4S**                                     |
+| **iPad**                                                   | Snow Leopard (MacOS X 10.6) | 2010 | iOS 4             | iPhone 4                                          |
+|                                                            |                             | 2009 | iPhoneOS 3        | **iPhone 3GS**                                    |
+|                                                            |                             | 2008 |                   |                                                   |
+|                                                            | Leopard (MacOS X 10.5)      | 2007 |                   |                                                   |
 
 `iPhone 7 Plus`  , `iPhone 7` - Static home button <br>`iPhone 6s Plus`  , `iPhone 6s`  - 3D Touch <br>`iPhone 6s Plus`  , `iPhone 6s`  - 3D Touch <br> `iPhone 6 Plus`  , `iPhone 6`  - ApplePay <br>`iPhone 5s`  , `iPhone 5c`  - Touch ID <br>`iPhone 5` - Longer screen <br> `iPhone 4s` - Siri <br>`iPhone 4` - Retina display
 

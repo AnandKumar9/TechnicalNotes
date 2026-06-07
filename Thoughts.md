@@ -1,5 +1,15 @@
 [toc]
 
+##### Jun 9, 2026: To be aggressive in Upskilling, and Improving brand
+
+There is a catch, in general people don't cooperate and are very territorial. Sometimes they are also prone to favoritism. Like now, there are 4 things that I need people to be responsive and cooperative about but they aren't. DCI directors have been asked to submit nominations for CAB process review and some of them haven't. They have also been asked to submit AI skills reviewers but most of them haven't. Some of them respond, but a couple of them just don't. Almost as if they are disinterested in letting others find traction at all. And outside DCI, I sent a mail to Claude Code folks urging them to answer some questions that DCI have, and they just wouldn't respond. Coming to Scout and EASE mobile, it is something right up my alley and I offered the team my expertise and leadership there but the impression I got is that its almost as if EASE platform doesn't want me to be involved centrally over there. Why, what kind of defensive mindset is that. May be they just don't want me to direct things there at all. It sucks, they don't want anyone from outside and all this while their own work can suck.
+
+As a DE, I am wanting more involvement throughout EASE. EASE platform tries to subtly restrict it and they just don't want anyone from outside to be meaningfully involved in these things and its totally off. Why can't they be more open. But then when I look even within DCI, for whatever reason I am not involved across all of Mike's mobile work. Its something that I can very positively impact. Let alone Mike, not even Jon's. I can be leading both Swapna and Alyssa's mobile work from a DE standpoint. Alyssa seems ok but Jon and Swapna did not. Its not like any of these people have something against me per se, but still they refrain from empowering in that way. Why. Where would they want actual output to be then.
+
+EASE will not let others shape platform work. Feature teams will not let others help them with their features. How to go about things then. May be focus fully in improving my core skills. May be know everything about EASE where I can speak on anything at all, make a bunch of incremental improvements that normal developers notice, think of and show all possible initatives. Become better rounded with Android/Web and back-end.
+
+Skills expertise - iOS, Android, Hybrid, Web, Back-end, ML <br>Build a brand - Better looking blog, Public talks <br>Research openings - Look at requirements better
+
 ##### Nov 20, 2024: Looking at next year
 
 What does Mike want: Exciting POCs, new intersections of technologies <br>What does Swapna want: Smooth executions of projects <br>What would platform want: Hardcore mobile insights  <br>What would Lauren want: Medium level involvement in projects
@@ -46,7 +56,11 @@ Did I work hard, give it my all. <br>Was I happy, and if not was I too harsh on 
 
 Need to become lot more well rounded and have depth. If something is making noise, know about it. To always make contributions, have things to show. Cultivating a personality, a reliable and calming presence. Trying new things and gadgets outside work. That is what brings confidence.
 
-**~2024 Jul -** : Change in reporting structure, POCs and concept documents. Given ways to express myself and feel more **hopeful**. Have to always keep planning ahead, exploring possible opportunities, looking at the big picture, connecting the dots. That is what has helped me.
+**~2024 Jul - 2026 May** : Change in reporting structure, Lauren left in early 2025 and coupled with the possibilities that AI enabled, the time since then became one of my most satisying periods. POCs and concept documents. Got ways to express myself and felt lot more **satisfied** and productive .
+
+**~ 2026 Jun onwards** : Have to pivot again, expect less of outside people as they are quite political don't  tend to cooperate. Will need to work on my skills instead but yet be very patient and wise yet hopeful in dealing with people.
+
+Have to always keep planning ahead, exploring possible opportunities, looking at the big picture, connecting the dots. That is what has helped me.
 
 ##### Sept 29th, 2023: Tech and Career improvement thoughts
 

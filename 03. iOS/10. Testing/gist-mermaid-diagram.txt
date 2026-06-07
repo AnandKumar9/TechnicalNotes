@@ -1,0 +1,17 @@
+flowchart TD
+    A[Tests]
+    B[Test Target]
+    C[Test Plan]
+    D[App Scheme's
+   Test Action]
+    E[.xctestrun
+    .app]
+    F[.xctestresult]
+    G[Test results json]
+    
+    A --> B
+    B --> C
+    C --> D
+    D -- "xcodebuild build-for-testing -scheme"--> E
+    E -- "xcodebuild test-without-building -xctestrun" --> F
+    F -- "xcrun xctestresulttool" --> G    

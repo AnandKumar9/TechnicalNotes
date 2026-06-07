@@ -17,7 +17,7 @@ And then initialize it from project directory.
 
 ```
 cd project-directory
-rsync init
+rulesync init
 ```
 
 That creates the following files in project directory.
