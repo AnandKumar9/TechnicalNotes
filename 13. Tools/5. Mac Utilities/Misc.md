@@ -16,8 +16,6 @@ To download multiple videos together (save the URLs in a txt file) -
 cat urls.txt | xargs -n 1 -P 4 yt-dlp -x --audio-format mp3
 ```
 
-
-
 ##### Creating a video from a still image (png) and audio (mp3)
 
 ```
@@ -28,4 +26,4 @@ https://www.instagram.com/reels/DH0zQq-zn2g/
 
 
 
-yt-dlp -x https://www.instagram.com/reels/DH0zQq-zn2g/
+yt-dlp -x --audio-format mp3 https://www.instagram.com/reels/DH0zQq-zn2g/
