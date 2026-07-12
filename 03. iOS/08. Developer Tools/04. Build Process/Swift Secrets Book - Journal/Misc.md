@@ -22,7 +22,7 @@ Its possible to user **Mirror** ([reference](https://developer.apple.com/documen
 
 #### Outputs leading to xcframework
 
-![image-20251206112346559](./assets/image-20251206112346559.png)
+<img src="./assets/image-20251206112346559.png" alt="image-20251206112346559" style="zoom:50%;" />
 
 ----
 
@@ -39,7 +39,7 @@ Its possible to user **Mirror** ([reference](https://developer.apple.com/documen
 
 Consider below code snippet
 
-![image-20251214130741081](./assets/image-20251214130741081.png)
+<img src="./assets/image-20251214130741081.png" alt="image-20251214130741081" style="zoom:50%;" />
 
 At compile time an **existential** is passed to the function, whereas at runtime an **existential container** is passed. The container has the value of the concrete instance that conforms to the protocol, and also the PWT for that concrete type.
 
@@ -51,7 +51,7 @@ The witness tables also contain pointers to **thunks**, which are basically comp
 
 Before ABI stability, Swift apps used **RPATH** to load a bundled Swift standard library from the app. Since the introduction of ABI stability, the loaded uses a **fixed system path** (such as `/usr/lib/swift` ) instead for those system libraries. This is how `rpath` was used before ABI stability.
 
-![image-20251214132846861](./assets/image-20251214132846861.png)
+<img src="./assets/image-20251214132846861.png" alt="image-20251214132846861" style="zoom:50%;" />
 
 
 
