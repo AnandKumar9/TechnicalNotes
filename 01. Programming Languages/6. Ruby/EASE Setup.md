@@ -34,7 +34,7 @@ rvm install $(head -n 1 .ruby-version)
 
 ##### 3. Install Bundler
 
-So this makes sure that all developers are working with the same Ruby version. The next task is to ensure everyone is indeed using the same gem versions too. The way to do it is by using Bundler, which is in fact a gem itself. To install the desired Bundler version, RubyGems (which gets automatically installed along with Ruby) is used. Gemfile.lock file in ease-ios root has the bundler version mentioned in its last line.
+So the above makes sure that all developers are working with the same Ruby version. The next task is to ensure everyone is indeed using the same gem versions too. The way to do it is by using Bundler, which is in fact a gem itself. To install the desired Bundler version, RubyGems (which gets automatically installed along with Ruby) is used. Gemfile.lock file in ease-ios root has the bundler version mentioned in its last line.
 
 ```
 gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"

@@ -1,5 +1,13 @@
 [toc]
 
+#### How does Charles work
+
+[ChatGPT link](https://chatgpt.com/c/69f1468d-0644-83ea-b065-b4194e025167)
+
+Its basically a proxy server, where it inserts itself between the app and the server. The thing to understand though is all the stuff where how its 'fake certificate' works when talking with the server and what really its 'root CA certificate' does.
+
+<img src="./assets/image-20260726103141400.png" alt="image-20260726103141400" style="zoom:50%;" />
+
 #### Breakpoints
 
 Charles Breakpoints (`Cmd + Shift + K`) can be used to visually intercept network calls and change any of its request/response aspects (headers, payload, status code, etc.).

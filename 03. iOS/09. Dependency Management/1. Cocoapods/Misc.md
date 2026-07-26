@@ -1,5 +1,11 @@
 [toc]
 
+What Cocoapods really did ~Jul 2026 ([ChatGPT link](https://chatgpt.com/g/g-p-6934bcdfcafc819182baa9435e044320/c/6a5ccd4b-7a34-83ea-bcce-0fef2da508f7?src=history_search&messageId=8c166d8e-91a8-4d2a-82fd-f267b9fbf40a&historySearchQuery=cocoa+pods))
+
+<img src="./assets/image-20260725165420506.png" alt="image-20260725165420506" style="zoom:50%;" />
+
+<img src="./assets/image-20260725165459632.png" alt="image-20260725165459632" style="zoom:50%;" />
+
 ##### Commands
 
 ([Reference](https://guides.cocoapods.org/terminal/commands.html))
