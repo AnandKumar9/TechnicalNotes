@@ -1,12 +1,14 @@
 [toc]
 
+Also check the notes at '03. iOS/08. Developer Tools/03. Library and Frameworks/Summary - 2026 Jul'
+
 #### Building swift compiler
 
 > Haven't read or tried yet but has been explained in 'Swift Secrets > Swift Open Source project > Building and Testing the Swift Compiler' .
 
 After cloning the git repo, you can build the compiler in two ways - Using **cmake** or (for simpler changes) **utils/build-script**.
 
-![image-20251229153934545](./assets/image-20251229153934545.png)
+<img src="./assets/image-20251229153934545.png" alt="image-20251229153934545" style="zoom:50%;" />
 
 #### Generics implementation
 
