@@ -12,6 +12,14 @@ Note that even with the generated Xcodeproject, doing a Cmd R still uses `bazel 
 
 [ChatGPT link](https://chatgpt.com/g/g-p-6a3c8dbc95448191b06b36d292074647/c/6a777d17-cdc8-83ea-99f5-3fc10fa2a964)
 
+##### Key folders
+
+![image-20260929130547883](./assets/image-20260929130547883.png)
+
+<img src="./assets/image-20260929130634084.png" alt="image-20260929130634084" style="zoom:50%;" />
+
+[ChatGPT link](https://chatgpt.com/g/g-p-6a3c8dbc95448191b06b36d292074647-bazel/c/6abbef32-1e9c-83ea-b1d6-ae9e659f07a1)
+
 ##### Bazelisk
 
 A version manager for Bazel. Like rbenv or rvm are for Ruby.
@@ -78,4 +86,4 @@ dot -Tpng actions.dot -o actions.png
 
 ##### Resources
 
-ChatGPT Bazel project (link) <br>1. Build systems basics ([link](https://chatgpt.com/g/g-p-6a3c8dbc95448191b06b36d292074647-bazel/c/6a3c90dc-1640-83ea-b27c-7aff8864f5c0)) <br>2. Bazel fundamentals ([link](https://chatgpt.com/g/g-p-6a3c8dbc95448191b06b36d292074647-bazel/c/6a69709a-95dc-83ea-8ef5-17c40a3a2b62)) <br>3. Bazel build - phases ([link](https://chatgpt.com/g/g-p-6a3c8dbc95448191b06b36d292074647-bazel/c/6a76b48c-1f0c-83ea-bcf0-a55157156c1b)) <br>5. Bazel - iOS ecosystem ([link](https://chatgpt.com/g/g-p-6a3c8dbc95448191b06b36d292074647-bazel/c/6a777d17-cdc8-83ea-99f5-3fc10fa2a964)) <br>Bazel iOS hands-on tutorial ([link](https://chatgpt.com/g/g-p-6a3c8dbc95448191b06b36d292074647-bazel/c/6a777e22-ad00-83ea-bd4b-cfe6efcdd005))
+ChatGPT Bazel project ([link](https://chatgpt.com/g/g-p-6a3c8dbc95448191b06b36d292074647/project)) <br>1. Build systems basics ([link](https://chatgpt.com/g/g-p-6a3c8dbc95448191b06b36d292074647-bazel/c/6a3c90dc-1640-83ea-b27c-7aff8864f5c0)) <br>2. Bazel fundamentals ([link](https://chatgpt.com/g/g-p-6a3c8dbc95448191b06b36d292074647-bazel/c/6a69709a-95dc-83ea-8ef5-17c40a3a2b62)) <br>3. Bazel build - phases ([link](https://chatgpt.com/g/g-p-6a3c8dbc95448191b06b36d292074647-bazel/c/6a76b48c-1f0c-83ea-bcf0-a55157156c1b)) <br>5. Bazel - iOS ecosystem ([link](https://chatgpt.com/g/g-p-6a3c8dbc95448191b06b36d292074647-bazel/c/6a777d17-cdc8-83ea-99f5-3fc10fa2a964)) <br>Bazel iOS hands-on tutorial ([link](https://chatgpt.com/g/g-p-6a3c8dbc95448191b06b36d292074647-bazel/c/6a777e22-ad00-83ea-bd4b-cfe6efcdd005))

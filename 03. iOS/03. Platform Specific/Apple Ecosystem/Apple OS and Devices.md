@@ -1,32 +1,63 @@
 [toc]
 
-### Overall List
+### Year-wise: iOS, iPhones, iPads, macOS
 
-| iPad                                                       | macOS                       | Year | iOS/iPadOS        | iPhone                                            |
-| ---------------------------------------------------------- | --------------------------- | ---- | ----------------- | ------------------------------------------------- |
-| iPad Pro 8th Gen, Air 7th Gen, 11th Gen                    | Tahoe (macOS 26)            | 2025 | iOS 26, iPadOS 26 | iPhone 17Pro Max, **17 Pro**, Air, 17             |
-| iPad Pro 7th Gen, **Air 6th Gen**, Mini 7th Gen            | Sequoia (macOS 15)          | 2024 | iOS 18, iPadOS 18 | iPhone 16Pro Max, 16 Pro, 16 Plus, 16, 16e        |
-|                                                            | Sonoma (macOS 14)           | 2023 | iOS 17, iPadOS 17 | iPhone 15Pro Max, **15 Pro**, 15 Plus, 15         |
-| iPad Pro 6th Gen, Air 5th Gen, 10th Gen                    | Ventura (macOS 13)          | 2022 | iOS 16, iPadOS 16 | iPhone 14Pro Max, 14 Pro, 14 Plus, 14, SE 3rd Gen |
-| iPad Pro 5th Gen, 9th Gen, Mini 6th Gen                    | Monterey (macOS 12)         | 2021 | iOS 15, iPadOS 15 | iPhone 13 Pro Max, 13 Pro, 13, 13 Mini            |
-| iPad Pro 4th Gen, Air 4th Gen, 8th Gen                     | Big Sur (macOS 11)          | 2020 | iOS 14, iPadOS 14 | iPhone 12Pro Max, 12 Pro, 12, 12 Mini, 2nd Gen    |
-| iPad Air 3rd Gen, 7th Gen,  Mini 5th Gen                   | Catalina (macOS 10.15)      | 2019 | iOS 13            | iPhone 11Pro Max, **11 Pro**, 11                  |
-| iPad 6th Gen, Pro 3rd Gen                                  | Mojave (macOS 10.14)        | 2018 | iOS 12            | iPhone XSMax, XS, XR                              |
-| iPad 5th Gen, Pro 2nd Gen 12.9 inch, Pro 2nd Gen 10.5 inch | High Sierra (macOS 10.13)   | 2017 | iOS 11            | iPhone X, 8Plus, 8                                |
-| **iPad Pro 9.7 inch**                                      | Sierra (macOS 10.12)        | 2016 | iOS 10            | iPhone 7Plus, **7**, SE 1st Gen                   |
-| iPad Pro 12.9 inch, Mini 4                                 | El Capitan (OS X 10.11)     | 2015 | iOS 9             | iPhone 6SPlus, **6S**                             |
-| iPad Air 2, Mini 3                                         | Yosemite (OS X 10.10)       | 2014 | iOS 8             | iPhone 6Plus, 6                                   |
-| iPad Air, Mini 2                                           | Mavericks (OS X 10.9)       | 2013 | iOS 7             | iPhone 5S, 5C                                     |
-| iPad 4th gen, Mini, **3rd gen (new iPad)**                 | Mountain Lion (OS X 10.8)   | 2012 | iOS 6             | iPhone 5                                          |
-| iPad 2                                                     | Lion (OS X 10.7)            | 2011 | iOS 5             | **iPhone 4S**                                     |
-| **iPad**                                                   | Snow Leopard (MacOS X 10.6) | 2010 | iOS 4             | iPhone 4                                          |
-|                                                            |                             | 2009 | iPhoneOS 3        | **iPhone 3GS**                                    |
-|                                                            |                             | 2008 |                   |                                                   |
-|                                                            | Leopard (MacOS X 10.5)      | 2007 |                   |                                                   |
+| Year | iOS/iPadOS        | iPhone                                            | iPad                                                       | macOS                       |
+| ---- | ----------------- | ------------------------------------------------- | ---------------------------------------------------------- | --------------------------- |
+| 2026 | iOS 27, iPadOS 27 | iPhone Duo, iPhone 18Pro Max, 18 Pro              | iPad Air 8th Gen (M4)                                      | Golden Gate  (macOS 27)     |
+| 2025 | iOS 26, iPadOS 26 | iPhone 17Pro Max, **17 Pro**, Air, 17, 17e        | iPad Pro 8th Gen, Air 7th Gen, 11th Gen                    | Tahoe (macOS 26)            |
+| 2024 | iOS 18, iPadOS 18 | iPhone 16Pro Max, 16 Pro, 16 Plus, 16, 16e        | iPad Pro 7th Gen, **Air 6th Gen**, Mini 7th Gen            | Sequoia (macOS 15)          |
+| 2023 | iOS 17, iPadOS 17 | iPhone 15Pro Max, **15 Pro**, 15 Plus, 15         |                                                            | Sonoma (macOS 14)           |
+| 2022 | iOS 16, iPadOS 16 | iPhone 14Pro Max, 14 Pro, 14 Plus, 14, SE 3rd Gen | iPad Pro 6th Gen, Air 5th Gen, 10th Gen                    | Ventura (macOS 13)          |
+| 2021 | iOS 15, iPadOS 15 | iPhone 13 Pro Max, 13 Pro, 13, 13 Mini            | iPad Pro 5th Gen, 9th Gen, Mini 6th Gen                    | Monterey (macOS 12)         |
+| 2020 | iOS 14, iPadOS 14 | iPhone 12Pro Max, 12 Pro, 12, 12 Mini, 2nd Gen    | iPad Pro 4th Gen, Air 4th Gen, 8th Gen                     | Big Sur (macOS 11)          |
+| 2019 | iOS 13            | iPhone 11Pro Max, **11 Pro**, 11                  | iPad Air 3rd Gen, 7th Gen,  Mini 5th Gen                   | Catalina (macOS 10.15)      |
+| 2018 | iOS 12            | iPhone XSMax, XS, XR                              | iPad 6th Gen, Pro 3rd Gen                                  | Mojave (macOS 10.14)        |
+| 2017 | iOS 11            | iPhone X, 8Plus, 8                                | iPad 5th Gen, Pro 2nd Gen 12.9 inch, Pro 2nd Gen 10.5 inch | High Sierra (macOS 10.13)   |
+| 2016 | iOS 10            | iPhone 7Plus, **7**, SE 1st Gen                   | **iPad Pro 9.7 inch**                                      | Sierra (macOS 10.12)        |
+| 2015 | iOS 9             | iPhone 6SPlus, **6S**                             | iPad Pro 12.9 inch, Mini 4                                 | El Capitan (OS X 10.11)     |
+| 2014 | iOS 8             | iPhone 6Plus, 6                                   | iPad Air 2, Mini 3                                         | Yosemite (OS X 10.10)       |
+| 2013 | iOS 7             | iPhone 5S, 5C                                     | iPad Air, Mini 2                                           | Mavericks (OS X 10.9)       |
+| 2012 | iOS 6             | iPhone 5                                          | iPad 4th gen, Mini, **3rd gen (new iPad)**                 | Mountain Lion (OS X 10.8)   |
+| 2011 | iOS 5             | **iPhone 4S**                                     | iPad 2                                                     | Lion (OS X 10.7)            |
+| 2010 | iOS 4             | iPhone 4                                          | **iPad**                                                   | Snow Leopard (MacOS X 10.6) |
+| 2009 | iPhoneOS 3        | **iPhone 3GS**                                    |                                                            |                             |
+| 2008 |                   |                                                   |                                                            |                             |
+| 2007 |                   |                                                   |                                                            | Leopard (MacOS X 10.5)      |
+
+### Screen sizes: iPhone
+
+Resolution (width, height in points). In bold text - The latest flagship models
+
+| Screen size (points)    | Screen size (inches) | iPhone models                                                | Outdated models <br>(not even iOS 26 compatible ) |
+| ----------------------- | -------------------- | ------------------------------------------------------------ | ------------------------------------------------- |
+| 669 × 951 <br>466 × 678 | 7.6 in <br>5.4 in    | **iPhone Duo** (inner, unfolded) <br>iPhone Duo (outer, folded) |                                                   |
+| 440 × 956               | 6.9 in               | **iPhone 18 Pro Max**, 17 Pro Max, 16 Pro Max                |                                                   |
+| 430 × 932               | 6.7 in               | iPhone 16 Plus, 15 Pro Max, 15 Plus, 14 Pro Max              |                                                   |
+| 428 × 926               | 6.7 in               | iPhone 14 Plus, 13 Pro Max, 12 Pro Max                       |                                                   |
+| 420 × 912               | 6.5 in               | **iPhone Air**                                               |                                                   |
+| 402 × 874               | 6.3 in               | **iPhone 18 Pro**, 17 Pro, 17, 16 Pro                        |                                                   |
+| 393 × 852               | 6.1 in               | iPhone 16, 15 Pro, 15, 14 Pro                                |                                                   |
+| 390 × 844               | 6.1 in               | **iPhone 17e**, 16e, 14, 13 Pro, 13, 12 Pro, 12              |                                                   |
+| 414 × 896               | 6.5 in / 6.1 in      | iPhone 11 Pro Max, 11                                        | XS Max, XR                                        |
+| 375 × 812               | 5.8 in               | iPhone 11 Pro                                                | XS, X                                             |
+| 360 × 780               | 5.4 in               | iPhone 13 mini, 12 mini                                      |                                                   |
+| 414 × 736               | 5.5 in               |                                                              | iPhone 8 Plus, 7 Plus, 6s Plus, 6 Plus            |
+| 375 × 667               | 4.7 in               | iPhone SE (3rd gen), SE (2nd gen)                            | 8, 7, 6s, 6                                       |
+| 320 × 568               | 4.0 in               |                                                              | iPhone SE (1st gen), 5s, 5c, 5                    |
+| 320 × 480               | 3.5 in               |                                                              | iPhone 4s, 4, 3GS, 3G, original iPhone            |
+
+iPhone Duo dimensions are explained in this visual
+
+<img src="./assets/image-20261121132849855.png" alt="image-20261121132849855" style="zoom:33%;" />
+
+
+
+### Misc.
+
+#### iPhone summary
 
 `iPhone 7 Plus`  , `iPhone 7` - Static home button <br>`iPhone 6s Plus`  , `iPhone 6s`  - 3D Touch <br>`iPhone 6s Plus`  , `iPhone 6s`  - 3D Touch <br> `iPhone 6 Plus`  , `iPhone 6`  - ApplePay <br>`iPhone 5s`  , `iPhone 5c`  - Touch ID <br>`iPhone 5` - Longer screen <br> `iPhone 4s` - Siri <br>`iPhone 4` - Retina display
-
-### OS versions
 
 #### iOS versions features
 
@@ -63,9 +94,9 @@
 
 `visionOS 1 (Beta)` - 2023
 
-### Devices
+#### Devices
 
-#### Screen resolutions (width, height in points)
+##### Screen resolutions (width, height in points)
 
 [ios-resolution link](https://ios-resolution.com/)
 
@@ -77,35 +108,9 @@ Here is the conversion between points and rendered pixels. There is something ca
 `2 * No. of points (2x)` - iPhone SE 2nd Gen, XR, 6S, 6, iPhone SE, 5S, 5C, 5, iPhone 4S, 4 <br>
 `No. of points` - iPhone 3GS, 3G, 2G
 
-#### iPhone
+##### iPad
 
-##### Resolution (width, height in points)
-
-iPhone 14ProMax, iPhone 14Pro, iPhone 14Plus, iPhone 14, iPhone SE 3rd Gen ?
-
-`428, 926` - iPhone 13ProMax, iPhone 12ProMax <br>
-`414, 896` - iPhone 11ProMax, 11, XSMax, XR <br>
-`390, 844` - iPhone 13Pro, iPhone 13, iPhone 12Pro, 12 <br>
-`375, 812` - iPhone 13Mini, iPhone 12Mini, 11Pro, XS, X <br>
-`414, 736` - iPhone 8Plus, 7Plus, 6S Plus, 6 Plus <br>
-`375, 667` - iPhone SE 2nd Gen, 8, 7, 6S, 6 <br>
-`320, 568` - iPhone SE 1st Gen, 5S, 5C, 5 <br>
-`320, 480` - iPhone 4S, 4, iPhone 3GS, 3G, iPhone <br>
-
-##### Screen sizes
-
-`6.6 in` - iPhone 13ProMax, iPhone 12ProMax <br>
-`6.5 in` - iPhone 11ProMax, iPhone XSMax<br>
-`6.1 in` - iPhone 13Pro, iPhone 13, iPhone 12Pro, iPhone 11 <br>
-`5.8 in` - iPhone 11Pro, XS, X<br>
-`5.5 in` - iPhone 13Mini, ProMax iPhone 12Mini, iPhone 6Plus, 6S Plus, 7 Plus, 8 Plus <br>
-`4.7 in` - iPhone 6, 6S, 7, 8 <br>
-`4 in` - iPhone 5, 5S <br>
-`3.5 in` - Up till iPhone 4S <br>
-
-#### iPad
-
-##### Resolutions (width, height in points)
+###### Resolutions (width, height in points)
 
 iPad Pro 12.9" - 1024, 1366  <br>
 iPad Pro 9.7", iPad Air 2, iPad Air, iPad 4th gen, iPad 3rd gen, iPad 2, iPad - 768, 1024  <br>
@@ -125,13 +130,13 @@ iPad Pro 12.9" - 12.9" <br>
 iPad Pro 9.7", iPad Air 2, iPad Air, iPad 4th gen, iPad 3rd gen, iPad 2, iPad - 9.7" <br>
 iPad Mini 4, iPad Mini 3, iPad Mini 2, iPad Mini - 7.9" <br>
 
-##### Screen sizes
+###### Screen sizes
 
 `12.9 in`, `11 in`, `10.5 in`, `9.7 in` - iPad Pro <br>
 `7.9 in` - iPad mini <br>
 `9.7 in` - iPad and iPad Air <br>
 
-#### Misc.
+##### Misc.
 
 Yosemite - 2014. Handoff, Instant Hotspot (includes making calls from Mac).
 Handoff not supported in all Mac and iOS devices. Needs Bluetooth 4.0. Devices supported iPhone 5, iPad 4, MacBook 2012 onwards. Of course iOS8 too. MacBook 2011 not supported in spite of having Bluetooth 4.0. Whether Handoff supported or not could be checked from About this Mac - System Report - Bluetooth.
